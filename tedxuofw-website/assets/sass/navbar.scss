@@ -1,0 +1,88 @@
+/*
+navbar.scss
+
+Contains navbar-related code (in both the navbar proper and the footer)
+*/
+
+.nav-container {
+    background-color:$black;
+    margin-bottom:1em;
+}
+
+.nav {
+    .unit {
+        padding:0;
+        
+        a {
+            display:block;
+            position:relative;
+            width:100%;
+            min-height:3em;
+            
+            margin:0;
+            padding:.5em 0;
+            
+            background-color:$black;
+            
+            text-align:center;
+            text-decoration:none;
+            color:$white;
+            
+            transition: background-color 0.5s ease;
+            
+            span {
+                display:block;
+                padding:0;
+                margin:0;
+            }
+            
+            .page-name {
+                font-size:1.5em;
+                margin-bottom:0.5em;
+            }
+            
+            .caption {
+                display:none;
+            }
+            
+            &:hover {
+                background-color:#aaa;
+            }
+        }
+    }
+}
+
+.nav-full {
+    .unit a {
+        min-height:10em;
+        padding:1.5em 0;
+        
+        .page-name {
+            font-size:2em;
+        }
+        
+        .caption {
+            display:block;
+        }
+    }
+}
+
+
+.secondary-nav {
+    min-height:3em;
+    
+    .unit a {
+        font-size: 1.2em;
+        background-color:$white;
+        color:$red;
+        text-align:left;
+        padding:0 0 0 .5em;
+        margin:0;
+        min-height:100%;
+        
+        &:hover {
+            background-color:$white;
+            border-bottom:5px solid $red;
+        }
+    }
+}

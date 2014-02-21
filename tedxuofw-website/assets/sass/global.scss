@@ -1,0 +1,51 @@
+/*
+global.scss
+
+Contains global styles and definitions for constants.
+*/
+
+$red: #ff2b06;
+$black: #222;
+$white: #fff;
+
+$header-typeface: helvetica, arial, sans-serif;
+
+$small-breakpoint: 768px;
+$medium-breakpoint: 992px;
+$large-breakpoint: 1200px;
+
+*, *:before, *:after {  
+            box-sizing: border-box;
+       -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-family:$header-typeface;
+    height:100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    width:75%;
+    font-family: $header-typeface;
+    font-weight:700;
+}
+
+a {
+    text-decoration:underline;
+}
+
+.row {
+    margin:0;
+    padding:0;
+}
+
+.unit {
+    display:block;
+    margin:0;
+    padding:0;
+}
+
+.full {
+    width:100%;
+}
