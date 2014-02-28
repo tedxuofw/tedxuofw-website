@@ -98,13 +98,25 @@ Contains navbar-related code (in both the navbar proper and the footer)
   display: block;
   margin-top: 1em; }
 
+.picture-frame .panel {
+  border: none;
+  box-shadow: none; }
+.picture-frame .panel-heading {
+  padding: 0;
+  margin: 1em 0;
+  background: none; }
+  .picture-frame .panel-heading a {
+    text-decoration: none; }
+  .picture-frame .panel-heading h2 {
+    font-weight: 400; }
+.picture-frame .panel-body {
+  padding: 0; }
 .picture-frame .unit {
+  padding: 2px; }
+.picture-frame .target {
   position: relative;
-  overflow: hidden; }
-  .picture-frame .unit:hover .description, .picture-frame .unit .description:hover .description, .picture-frame .unit:active .description, .picture-frame .unit .description:active .description {
-    top: 0; }
-    .picture-frame .unit:hover .description .extra, .picture-frame .unit .description:hover .description .extra, .picture-frame .unit:active .description .extra, .picture-frame .unit .description:active .description .extra {
-      display: block; }
+  overflow: hidden;
+  cursor: pointer; }
 .picture-frame .description {
   position: absolute;
   z-index: 10;
@@ -112,11 +124,7 @@ Contains navbar-related code (in both the navbar proper and the footer)
   background-color: rgba(0, 0, 0, 0.65);
   color: #fff;
   width: 100%;
-  height: 20em;
-  top: 70%;
-  transition: top 0.5s ease; }
-  .picture-frame .description .extra {
-    display: none; }
+  bottom: 0; }
   .picture-frame .description h3 {
     font-size: 1.2em;
     margin: 0; }
@@ -124,7 +132,7 @@ Contains navbar-related code (in both the navbar proper and the footer)
     margin: 0; }
 
 .speaker h2 {
-  border-bottom: 5px solid #ff2b06;
+  border-bottom: 2px solid #ff2b06;
   width: 100%;
   margin-bottom: 0.5em; }
 .speaker img {
@@ -143,3 +151,14 @@ Contains navbar-related code (in both the navbar proper and the footer)
     color: white; }
     .footer a:hover {
       color: #ff2b06; }
+
+.image-header {
+  position: relative; }
+  .image-header h1 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    margin: 1em 0;
+    z-index: 10;
+    color: white; }
