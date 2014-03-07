@@ -1,375 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>TEDxUofW</title>
-    
-    <meta name="author" content="Michael Lee">
-    <meta name="description" content="Testing HTML trickery">
-    
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/styles/styles.css" type="text/css">
-    
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body role="document">
-    <div class="container-fluid nav-container">
-        <ul class="row nav">
-            <li class="col-xs-6 col-sm-3 unit active">
-                <a href="about.html">
-                    <span class="page-name">About us</span>
-                    <span class="caption">Our mission; our team</span>
-                </a>
-            </li>
-            <li class="col-xs-6 col-sm-3 unit">
-                <a href="the-event.html">
-                    <span class="page-name">The event</span>
-                    <span class="caption">Tickets, speakers, and sponsors</span>
-                </a>
-            </li>
-            <li class="col-xs-6 col-sm-3 unit">
-                <a href="news.html">
-                    <span class="page-name">News</span>
-                    <span class="caption">Latest updates and news</span>
-                </a>
-            </li>
-            <li class="col-xs-6 col-sm-3 unit">
-                <a href="past-events.html">
-                    <span class="page-name">Past events</span>
-                    <span class="caption">Our history</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="container">
-        <ul class="row nav secondary-nav">
-            <li class="col-xs-6 col-sm-3 unit">
-                <a href="about.html">
-                    About Us
-                </a>
-            </li>
-            <li class="col-xs-6 col-sm-3 unit active">
-                <a href="volunteers.html">
-                    Volunteers
-                </a>
-            </li>
-        </ul>
-    </div>
-    
-    <div class="container">
-        <div class="main-content">
-            <div class="image-header">
-                <h1>Meet your TEDx Team</h1>
-                <img class="full" height="400" src="assets/images/background.png">
-            </div>
-            
-            <div class="panel-group picture-frame" id="accordian">
-                <div class="panel panel-default">
+---
+layout: default
+title: Volunteers
+parent_id: about
+id: volunteers
+---
+
+<div class="container">
+    <ul class="row nav secondary-nav">
+        <li class="unit">
+            <a href="about.html">
+                About Us
+            </a>
+        </li>
+        <li class="unit">
+            <a href="volunteers.html" class="active">
+                Volunteers
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="container">
+    <div class="main-content">
+        <h1>Meet your TEDx Team</h1>
+        <div class="image-header">
+            <img height="400" src="assets/images/team.jpg">
+        </div>
+        
+        <div class="panel-group picture-frame" id="accordian">
+            <div class="panel panel-default">
+                {% for group in site.data.events.current.volunteers %}
+                <div class="panel-single" id="{{ group.unique_id }}">
                     <div class="panel-heading">
                         <div class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordian" href="#curators-collapse">
-                                <h2><span class="glyphicon glyphicon-plus"></span> Our Curators</h2>
+                            <a data-toggle="collapse" data-parent="#accordian" href="#{{ group.unique_id }}-collapse">
+                                <h2><span class="glyphicon glyphicon-play"></span> {{ group.group }}</h2>
+                                <img class="full" src="{{ group.image }}">
                             </a>
                         </div>
                     </div>
-                    <div class="panel-heading">
-                        <div class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordian" href="#marketing-collapse">
-                                <h2><span class="glyphicon glyphicon-plus"></span> Marketing</h2>
-                                <img class="full" src="assets/images/marketing/HS_marketing_22.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div id="marketing-collapse" class="panel-collapse collapse in">
+                    <div id="{{ group.unique_id }}-collapse" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="row">
+                                {% for person in group.volunteers %}
                                 <div class="col-sm-6 unit">
-                                    <div class="target" data-toggle="modal" data-target="#marketing-emmeline">
-                                        <img class="full" src="assets/images/marketing/HS_marketing_3.jpg">
+                                    <div class="target" data-toggle="modal" data-target="#{{ person.unique_id }}">
+                                        <img class="full" src="{{ person.image }}">
                                         <div class="description">
-                                            <h3>Emmeline Vu</h3>
-                                            <p>Team Leader</p>
-                                        </div>
-                                    </div>
-                                        
-                                    <div class="modal fade" id="marketing-emmeline" role="dialog" aria-labelledby="marketing-emmeline-title" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h3 class="modal-title" id="marketing-emmeline-title">About Emmeline</h3>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p>More info, more info, more info</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-6 unit">
-                                    <div class="target" data-toggle="modal" data-target="#marketing-madison">
-                                        <img class="full" src="assets/images/marketing/HS_marketing_4.jpg">
-                                        <div class="description">
-                                            <h3>Madison Wright</h3>
-                                            <p>Graphics Design</p>
-                                        </div>
-                                    </div>
-                                        
-                                    <div class="modal fade" id="marketing-madison" role="dialog" aria-labelledby="marketing-madison-title" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h3 class="modal-title" id="marketing-madison-title">About Madison</h3>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p>More info, more info, more info</p>
-                                                </div>
-                                            </div>
+                                            <h3>{{ person.name }}</h3>
+                                            <p>{{ person.position }}</p>
                                         </div>
                                     </div>
                                 </div>
                                 
-                                <div class="col-sm-6 unit">
-                                    <div class="target" data-toggle="modal" data-target="#marketing-stephanie">
-                                        <img class="full" src="assets/images/full-placeholder.png">
-                                        <div class="description">
-                                            <h3>Stephanie Zabala</h3>
-                                            <p>Photographer</p>
-                                        </div>
-                                    </div>
-                                        
-                                    <div class="modal fade" id="marketing-stephanie" role="dialog" aria-labelledby="marketing-stephanie-title" aria-hidden="true">
+                                <div class="modal fade" id="{{ person.unique_id }}" role="dialog" aria-labelledby="{{ person.unique_id }}-title" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h3 class="modal-title" id="marketing-stephanie-title">About Stephanie</h3>
+                                                    <h3 class="modal-title" id="{{ person.unique_id }}-title">About {{ person.name | split: ' ' | first }}</h3>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <p>More info, more info, more info</p>
+                                                    <h4>Bio</h4>
+                                                    <p><strong>Position:</strong> {{ person.position }}</p>
+                                                    <p><strong>Year:</strong> {{ person.year }}</p>
+                                                    <p><strong>Major:</strong> {{ person.major }}</p>
+                                                    
+                                                    <h4>Why do you like TED?</h4>
+                                                    <p>{{ person.ted }}</p>
+                                                    
+                                                    <h4>About</h4>
+                                                    <p>{{ person.about }}</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                
-                                
-                                <div class="col-sm-6 unit">
-                                    <div class="target" data-toggle="modal" data-target="#marketing-grace">
-                                        <img class="full" src="assets/images/marketing/HS_marketing_15.jpg">
-                                        <div class="description">
-                                            <h3>Grace Xia</h3>
-                                            <p>Social Media</p>
-                                        </div>
-                                    </div>
-                                        
-                                    <div class="modal fade" id="marketing-grace" role="dialog" aria-labelledby="marketing-grace-title" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h3 class="modal-title" id="marketing-grace-title">About Grace</h3>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p>More info, more info, more info</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-sm-6 unit">
-                                    <div class="target" data-toggle="modal" data-target="#marketing-daniel">
-                                        <img class="full" src="assets/images/marketing/HS_marketing_12.jpg">
-                                        <div class="description">
-                                            <h3>Daniel Huie</h3>
-                                            <p>Videographer</p>
-                                        </div>
-                                    </div>
-                                        
-                                    <div class="modal fade" id="marketing-daniel" role="dialog" aria-labelledby="marketing-daniel-title" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h3 class="modal-title" id="marketing-daniel-title">About Daniel</h3>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p>More info, more info, more info</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-sm-6 unit">
-                                    <div class="target" data-toggle="modal" data-target="#marketing-natalie">
-                                        <img class="full" src="assets/images/marketing/HS_marketing_18.jpg">
-                                        <div class="description">
-                                            <h3>Natalie Lew</h3>
-                                            <p>Graphics Design</p>
-                                        </div>
-                                    </div>
-                                        
-                                    <div class="modal fade" id="marketing-natalie" role="dialog" aria-labelledby="marketing-natalie-title" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h3 class="modal-title" id="marketing-natalie-title">About Natalie</h3>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p>More info, more info, more info</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-sm-6 unit">
-                                    <div class="target" data-toggle="modal" data-target="#marketing-michae,">
-                                        <img class="full" src="assets/images/marketing/HS_marketing_9.jpg">
-                                        <div class="description">
-                                            <h3>Michael</h3>
-                                            <p>Web Developer</p>
-                                        </div>
-                                    </div>
-                                        
-                                    <div class="modal fade" id="marketing-michael" role="dialog" aria-labelledby="marketing-michael-title" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h3 class="modal-title" id="marketing-michael-title">About Michael</h3>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p>More info, more info, more info</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                {% endfor %}
                             </div>
                         </div>
                     </div>
-                    <div class="panel-heading">
-                        <div class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordian" href="#swag-collapse">
-                                <h2><span class="glyphicon glyphicon-plus"></span> Swag</h2>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="panel-heading">
-                        <div class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordian" href="#sponsorship-collapse">
-                                <h2><span class="glyphicon glyphicon-plus"></span> Sponsorship</h2>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="panel-heading">
-                        <div class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordian" href="#finance-collapse">
-                                <h2><span class="glyphicon glyphicon-plus"></span> Finance</h2>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="panel-heading">
-                        <div class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordian" href="#registration-collapse">
-                                <h2><span class="glyphicon glyphicon-plus"></span> Registration</h2>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="panel-heading">
-                        <div class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordian" href="#speaker-selection-collapse">
-                                <h2><span class="glyphicon glyphicon-plus"></span> Speaker Selection</h2>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="panel-heading">
-                        <div class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordian" href="#production-collapse">
-                                <h2><span class="glyphicon glyphicon-plus"></span> Production</h2>
-                            </a>
-                        </div>
-                    </div>
                 </div>
+                {% endfor %}
             </div>
         </div>
     </div>
-    
-    <div class="container-fluid footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h2>Nav</h2>
-                    <ul class="nav footer-nav">
-                        <li>
-                            About
-                            <ul>
-                                <li>About Us</li>
-                                <li>Volunteers</li>
-                            </ul>
-                        </li>
-                        <li>
-                            The event
-                            <ul>
-                                <li>Schedule/Speakers</li>
-                                <li>Sponsors</li>
-                                <li>Attendee Application</li>
-                            </ul>
-                        </li>
-                        <li>
-                            News
-                        </li>
-                        <li>
-                            Past events
-                            <ul>
-                                <li>2012</li>
-                                <li>2011</li>
-                                <li>2010</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <h2>Where</h2>
-                    
-                    <p><a href="application.html">Apply now!</a></p>
-                        
-                    <dl>
-                        <dt>Date:</dt>
-                        <dd>Saturday, May 5, 2013</dd>
-                        <dt>Time:</dt>
-                        <dd>Noon to 9pm</dd>
-                        <dt>Location:</dt>
-                        <dd><address>
-                            UW Tower<br>
-                            4333 Brooklyn Ave NE<br>
-                            Seattle, WA 98105
-                        </address></dd>
-                    </dl>
-                </div>
-                <div class="col-sm-4">
-                    <h2>Placeholder</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js" type="text/javascript"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-</body>
-</html>
+</div>

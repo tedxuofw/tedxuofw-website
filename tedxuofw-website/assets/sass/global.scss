@@ -8,7 +8,10 @@ $red: #ff2b06;
 $black: #222;
 $white: #fff;
 
-$header-typeface: helvetica, arial, sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+
+$header-typeface: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
+$body-typeface: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
 
 $small-breakpoint: 768px;
 $medium-breakpoint: 992px;
@@ -21,18 +24,35 @@ $large-breakpoint: 1200px;
 }
 
 body {
-    font-family:$header-typeface;
     height:100%;
+    font-family: $body-typeface;
+    font-weight: 300;
 }
 
 h1,h2,h3,h4,h5,h6 {
     width:75%;
     font-family: $header-typeface;
     font-weight:700;
+    color:$red;
+}
+
+p {
 }
 
 a {
     text-decoration:underline;
+}
+
+.btn, .btn-default {
+    text-decoration:none;
+    background-color:$red;
+    background-image: none;
+    text-shadow:none;
+    color:$white;
+    
+    &:hover {
+        background-color:lighten($red, 20%);
+    }
 }
 
 .row {
@@ -48,4 +68,50 @@ a {
 
 .full {
     width:100%;
+    height:auto;
+}
+
+.full-height {
+    height:100%;
+    width:auto;
+}
+
+.constrained {
+    p {
+        max-width: 50em;
+    }
+    
+    img {
+        margin: 1em;
+        max-width:40%;
+    }
+    
+    @media all and (max-width: $small-breakpoint) {
+        img {
+            max-width:100%;
+            margin:1em 0;
+            float:none !important;  
+            /* Note: bootstrap's 'pull-right' also uses !important */
+        }
+    }
+}
+
+
+/* Google maps embed */
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

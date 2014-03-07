@@ -6,119 +6,12 @@ Contains a high-level overview of all the different styles used in this website.
 
 @import 'global';
 @import 'navbar';
-
-.picture-frame {
-    .logo {
-        display:block;
-        margin-top:1em;
-    }
-}
-
-.geo {
-    .location {
-        
-    }
-}
-
-.picture-frame {
-    .panel {
-        border:none;
-        box-shadow:none;
-    }
-    
-    .panel-heading {
-        padding:0;
-        margin:1em 0;
-        background:none;
-        
-        a {
-            text-decoration:none;
-        }
-        
-        h2 {
-            font-weight:400;
-        }
-    }
-    
-    .panel-body{
-        padding:0;
-    }
-    
-    .unit {
-        padding:2px;
-    }
-
-    .target {
-        position:relative;
-        overflow:hidden;
-        cursor: pointer;
-    }
-    
-    .description {
-        position:absolute;
-        z-index:10;
-        padding:0.5em;
-        background-color:rgba(0, 0, 0, 0.65);
-        color:#fff;
-        width:100%;
-        bottom:0;
-        
-        h3 {
-            font-size:1.2em;
-            margin:0;
-        }
-        
-        p {
-            margin:0;
-        }
-    }
-}
-
-.speaker {
-    h2 {
-        border-bottom:2px solid $red;
-        width:100%;
-        margin-bottom:0.5em;
-    }
-    
-    img {
-        margin-bottom:1em;
-    }
-    
-    .bio {
-        padding-left:1em;
-        
-        h2,h3{
-            margin-top:0;
-        }
-    }
-}
-
-.footer {
-    background-color:$black;
-    color:$white;
-    margin-top:2em;
-    padding-bottom:2em;
-    a { 
-        color: $white;
-        
-        &:hover {
-            color: $red;
-        }
-    }
-}
+@import 'footer';
+@import 'image-grid';
+@import 'speakers';
 
 
-.image-header {
-    position:relative;
-    
-    h1 {
-        position:absolute;
-        text-align:center;
-        width:100%;
-        top:0;
-        margin:1em 0;
-        z-index:10;
-        color:$white;
-    }
-}
+
+
+
+

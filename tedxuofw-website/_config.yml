@@ -1,0 +1,8 @@
+# General config
+safe: true
+markdown: redcarpet
+pygments: true
+
+# Overall site config
+name: "TEDxUofW"
+url: "http://tedxuofw.com"

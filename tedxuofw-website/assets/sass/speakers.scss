@@ -1,0 +1,25 @@
+/*
+speaker.scss
+
+CSS specifcally for speakers
+*/
+
+.speaker {
+    h2 {
+        border-bottom:2px solid $red;
+        width:100%;
+        margin-bottom:0.5em;
+    }
+    
+    img {
+        margin-bottom:1em;
+    }
+    
+    .bio {
+        padding-left:1em;
+        
+        h2,h3{
+            margin-top:0;
+        }
+    }
+}

@@ -8,22 +8,34 @@ global.scss
 
 Contains global styles and definitions for constants.
 */
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
 *, *:before, *:after {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box; }
 
 body {
-  font-family: helvetica, arial, sans-serif;
-  height: 100%; }
+  height: 100%;
+  font-family: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
+  font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6 {
   width: 75%;
-  font-family: helvetica, arial, sans-serif;
-  font-weight: 700; }
+  font-family: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #ff2b06; }
 
 a {
   text-decoration: underline; }
+
+.btn, .btn-default {
+  text-decoration: none;
+  background-color: #ff2b06;
+  background-image: none;
+  text-shadow: none;
+  color: white; }
+  .btn:hover, .btn-default:hover {
+    background-color: #ff826c; }
 
 .row {
   margin: 0;
@@ -35,7 +47,41 @@ a {
   padding: 0; }
 
 .full {
-  width: 100%; }
+  width: 100%;
+  height: auto; }
+
+.full-height {
+  height: 100%;
+  width: auto; }
+
+.constrained p {
+  max-width: 50em; }
+.constrained img {
+  margin: 1em;
+  max-width: 40%; }
+@media all and (max-width: 768px) {
+  .constrained img {
+    max-width: 100%;
+    margin: 1em 0;
+    float: none !important;
+    /* Note: bootstrap's 'pull-right' also uses !important */ } }
+
+/* Google maps embed */
+.Flexible-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+
+.Flexible-container iframe,
+.Flexible-container object,
+.Flexible-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 /*
 navbar.scss
@@ -44,79 +90,158 @@ Contains navbar-related code (in both the navbar proper and the footer)
 */
 .nav-container {
   background-color: #222222;
-  margin-bottom: 1em; }
+  margin-bottom: 2em; }
 
 .nav .unit {
-  padding: 0; }
+  display: block;
+  text-align: center; }
   .nav .unit a {
+    text-decoration: none;
+    color: white;
+    background-color: #222222;
+    transition: background-color 0.2s ease-out; }
+  .nav .unit a:hover, .nav .unit .active {
+    background-color: #888888;
+    position: relative; }
+    .nav .unit a:hover:after, .nav .unit .active:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: -0.5em;
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid white; }
+  @media all and (max-width: 768px) {
+    .nav .unit .active:after, .nav .unit:hover:after {
+      content: none; } }
+
+.primary-nav .unit {
+  padding: 0; }
+  .primary-nav .unit a {
     display: block;
     position: relative;
     width: 100%;
     min-height: 3em;
     margin: 0;
-    padding: .5em 0;
-    background-color: #222222;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    transition: background-color 0.5s ease; }
-    .nav .unit a span {
+    padding: .5em 0; }
+    .primary-nav .unit a span {
       display: block;
       padding: 0;
       margin: 0; }
-    .nav .unit a .page-name {
+    .primary-nav .unit a .page-name {
       font-size: 1.5em;
       margin-bottom: 0.5em; }
-    .nav .unit a .caption {
+    .primary-nav .unit a .caption {
       display: none; }
-    .nav .unit a:hover {
-      background-color: #aaa; }
 
-.nav-full .unit a {
-  min-height: 10em;
-  padding: 1.5em 0; }
-  .nav-full .unit a .page-name {
-    font-size: 2em; }
-  .nav-full .unit a .caption {
-    display: block; }
-
+@media all and (min-width: 768px) {
+  .nav-full .unit a {
+    min-height: 10em;
+    padding: 1.5em 0; }
+    .nav-full .unit a .page-name {
+      font-size: 2em; }
+    .nav-full .unit a .caption {
+      display: block; } }
 .secondary-nav {
-  min-height: 3em; }
-  .secondary-nav .unit a {
-    font-size: 1.2em;
-    background-color: white;
-    color: #ff2b06;
-    text-align: left;
-    padding: 0 0 0 .5em;
-    margin: 0;
-    min-height: 100%; }
-    .secondary-nav .unit a:hover {
-      background-color: white;
-      border-bottom: 5px solid #ff2b06; }
+  min-height: 3em;
+  list-style-type: none;
+  margin-bottom: 1.5em; }
+  .secondary-nav li {
+    float: left;
+    height: 3em;
+    width: 12em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    padding: 0; }
+    .secondary-nav li a {
+      display: block;
+      height: 100%;
+      padding: .5em;
+      text-decoration: none;
+      font-size: 1.2em; }
 
-.picture-frame .logo {
-  display: block;
-  margin-top: 1em; }
+/*
+footer.css
+
+Contains any code related to specifically the footer
+*/
+.footer {
+  background-color: #222222;
+  color: white;
+  margin-top: 2em;
+  padding: 2em 0; }
+  .footer a {
+    color: white; }
+    .footer a:hover {
+      color: #ff2b06; }
+  .footer h1, .footer h2, .footer h3 {
+    margin: 0;
+    color: white; }
+  .footer h3 {
+    margin-bottom: 1em; }
+  .footer .btn {
+    color: white; }
+
+/*
+image-grid.scss
+
+Code for any grid-like arrangement
+*/
+.image-header {
+  position: relative;
+  max-height: 30em;
+  overflow: hidden;
+  margin-bottom: 2em; }
+  .image-header img {
+    width: 100%;
+    height: auto; }
 
 .picture-frame .panel {
   border: none;
   box-shadow: none; }
+.picture-frame .panel-single h2 {
+  font-weight: 400;
+  color: #222222;
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out; }
+.picture-frame .panel-single .glyphicon {
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out; }
+.picture-frame .panel-single:hover .glyphicon, .picture-frame .panel-single:active .glyphicon {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg); }
+.picture-frame .panel-single:hover h2, .picture-frame .panel-single:active h2 {
+  color: #ff2b06; }
 .picture-frame .panel-heading {
   padding: 0;
   margin: 1em 0;
   background: none; }
   .picture-frame .panel-heading a {
-    text-decoration: none; }
-  .picture-frame .panel-heading h2 {
-    font-weight: 400; }
+    text-decoration: none;
+    outline: 0; }
 .picture-frame .panel-body {
   padding: 0; }
 .picture-frame .unit {
-  padding: 2px; }
+  padding: 0.8em 0.4em 0;
+  overflow: hidden; }
+@media all and (min-width: 768px) {
+  .picture-frame .fixed-unit {
+    padding: 0.8em 0.4em 0;
+    overflow: hidden;
+    height: 18em; }
+    .picture-frame .fixed-unit .cutoff {
+      overflow: hidden;
+      width: 100%;
+      height: 100%; } }
 .picture-frame .target {
   position: relative;
   overflow: hidden;
   cursor: pointer; }
+  .picture-frame .target:hover .description, .picture-frame .target:active .description {
+    min-height: 5em; }
 .picture-frame .description {
   position: absolute;
   z-index: 10;
@@ -124,13 +249,42 @@ Contains navbar-related code (in both the navbar proper and the footer)
   background-color: rgba(0, 0, 0, 0.65);
   color: #fff;
   width: 100%;
-  bottom: 0; }
+  bottom: 0;
+  -webkit-transform: min-height 0.2s ease-out;
+  transition: min-height 0.2s ease-out; }
   .picture-frame .description h3 {
     font-size: 1.2em;
     margin: 0; }
   .picture-frame .description p {
     margin: 0; }
+.picture-frame .logo {
+  display: block;
+  padding-top: 3em; }
+.picture-frame .text {
+  display: block;
+  position: relative;
+  padding: 1em;
+  background-color: #ddd;
+  min-height: 100%; }
+  .picture-frame .text h2 {
+    margin: 0; }
+  .picture-frame .text h3 {
+    color: #222222;
+    margin: 0;
+    margin-bottom: 1em; }
+  .picture-frame .text a {
+    color: #222222; }
+  .picture-frame .text .btn {
+    color: white; }
 
+.modal-body p {
+  font-weight: 400; }
+
+/*
+speaker.scss
+
+CSS specifcally for speakers
+*/
 .speaker h2 {
   border-bottom: 2px solid #ff2b06;
   width: 100%;
@@ -141,24 +295,3 @@ Contains navbar-related code (in both the navbar proper and the footer)
   padding-left: 1em; }
   .speaker .bio h2, .speaker .bio h3 {
     margin-top: 0; }
-
-.footer {
-  background-color: #222222;
-  color: white;
-  margin-top: 2em;
-  padding-bottom: 2em; }
-  .footer a {
-    color: white; }
-    .footer a:hover {
-      color: #ff2b06; }
-
-.image-header {
-  position: relative; }
-  .image-header h1 {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    top: 0;
-    margin: 1em 0;
-    z-index: 10;
-    color: white; }

@@ -1,0 +1,12 @@
+{% for link in site.data.nav %}
+{% assign current = nil %}
+{% if (page.id == link.id) or (page.parent_id == link.id) %}
+    {% assign current = ' class="active"' %}
+{% endif %}
+<li class="col-xs-6 col-sm-3 unit">
+    <a href="{{ link.url }}"{{ current }}>
+        <span class="page-name">{{ link.title }}</span>
+        <span class="caption">{{ link.caption }}</span>
+    </a>
+</li>
+{% endfor %}

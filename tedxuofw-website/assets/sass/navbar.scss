@@ -6,10 +6,47 @@ Contains navbar-related code (in both the navbar proper and the footer)
 
 .nav-container {
     background-color:$black;
-    margin-bottom:1em;
+    margin-bottom:2em;
 }
 
-.nav {
+.nav .unit {   
+    display:block;
+    text-align:center;
+    
+    a {        
+        text-decoration:none;
+        color:$white;
+        background-color:$black;
+        transition: background-color 0.2s ease-out;
+    }
+    
+    a:hover, .active {
+        background-color:lighten($black, 40%);
+    
+        position:relative;
+        &:after {
+            content:"";
+            position: absolute;
+            bottom:0;
+            left:50%;
+            margin-left:-0.5em;
+            
+            width:0;
+            height:0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid $white;
+        }
+    } 
+    
+    @media all and (max-width:$small-breakpoint) {
+        .active:after, &:hover:after {
+            content:none;
+        }
+    }
+}
+
+.primary-nav {
     .unit {
         padding:0;
         
@@ -18,17 +55,8 @@ Contains navbar-related code (in both the navbar proper and the footer)
             position:relative;
             width:100%;
             min-height:3em;
-            
             margin:0;
             padding:.5em 0;
-            
-            background-color:$black;
-            
-            text-align:center;
-            text-decoration:none;
-            color:$white;
-            
-            transition: background-color 0.5s ease;
             
             span {
                 display:block;
@@ -44,45 +72,46 @@ Contains navbar-related code (in both the navbar proper and the footer)
             .caption {
                 display:none;
             }
+        }
+    }
+}
+
+@media all and (min-width: $small-breakpoint) {
+    .nav-full {
+        .unit a {
+            min-height:10em;
+            padding:1.5em 0;
             
-            &:hover {
-                background-color:#aaa;
+            .page-name {
+                font-size:2em;
+            }
+            
+            .caption {
+                display:block;
             }
         }
     }
 }
 
-.nav-full {
-    .unit a {
-        min-height:10em;
-        padding:1.5em 0;
-        
-        .page-name {
-            font-size:2em;
-        }
-        
-        .caption {
-            display:block;
-        }
-    }
-}
-
-
 .secondary-nav {
     min-height:3em;
+    list-style-type: none;
+    margin-bottom:1.5em;
     
-    .unit a {
-        font-size: 1.2em;
-        background-color:$white;
-        color:$red;
-        text-align:left;
-        padding:0 0 0 .5em;
-        margin:0;
-        min-height:100%;
+    li {
+        float:left;
+        height:3em;
+        width:12em;
+        margin-right:1em;
+        margin-bottom:0.5em;
+        padding:0;
         
-        &:hover {
-            background-color:$white;
-            border-bottom:5px solid $red;
-        }
+        a{
+            display:block;
+            height:100%;
+            padding:.5em;
+            text-decoration:none;
+            font-size: 1.2em;   
+        }  
     }
 }

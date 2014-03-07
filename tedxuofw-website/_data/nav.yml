@@ -1,0 +1,16 @@
+- title: "Home"
+  caption: "Transcend: <em>Think. Act. Feel.</em>"
+  url: /index.html
+  id: home
+- title: "About Us"
+  caption: "Our mission; our team"
+  url: /about.html
+  id: about
+- title: "The Event"
+  caption: "Tickets, speakers, and sponsors"
+  url: /the-event.html
+  id: the-event
+- title: "Past Events"
+  caption: "Our history"
+  url: /past-events.html
+  id: past-events
