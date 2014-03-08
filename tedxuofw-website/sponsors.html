@@ -1,0 +1,38 @@
+---
+layout: default
+title: Sponsors
+parent_id: the-event
+id: sponsors
+---
+
+<div class="container">
+    
+    <div class="main-content">
+        <h1>Our sponsors</h1>
+        
+        <p>Coming soon! Check back later.</p>
+        
+        {% include picture-accent.html %}
+        
+        {% if false %}
+        {% for speaker in site.data.events.current.speakers %}
+        <div class="speaker" id="speaker-{{ speaker.unique_id }}">
+            <h2>{{ speaker.name }}</h2>
+            
+            <div class="row">
+                <div class="col-xs-4 unit">
+                    <img class="full" src="{{ speaker.image }}">
+                </div>
+                <div class="col-xs-8 unit bio">
+                    <h3>{{ speaker.talk_name }}</h3>
+                    
+                    <p>{{ speaker.talk_info }}</p>
+                    
+                    <p>{{ speaker.bio }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+</div>

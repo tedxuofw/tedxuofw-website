@@ -4,13 +4,79 @@ navbar.scss
 Contains navbar-related code (in both the navbar proper and the footer)
 */
 
-.nav-container {
-    background-color:$black;
-    margin-bottom:2em;
+.header{
+    margin:1em auto;
+    padding:0;
+}
+
+.logo {
+    width:20em;
+    -webkit-transition:width 0.2s ease-out;
+            transition:width 0.2s ease-out;
+    
+    @media all and (max-width:$small-breakpoint) {
+        width:100%;
+        margin-bottom:1em;
+    }
+}
+
+.nav {
+    -webkit-transition:width 0.2s ease-out;
+            transition:width 0.2s ease-out;
+    width:55%;
+    
+    @media all and (max-width:$small-breakpoint) {
+        width:100%;
+        .unit {
+            a{
+                height:3.5em;
+            }
+        }
+    }
+    
+    .unit {
+        a{
+            text-align:center;
+            text-decoration:none;
+            color:$black;
+            padding:0.5em;
+            padding-bottom:0;
+            border-bottom: 1px solid $black;
+            
+            -webkit-transition:background-color 0.2s ease-out;
+                    transition:background-color 0.2s ease-out;
+            
+            &:hover,&:hover,{
+                background:none;
+                font-weight:700;
+            }
+        }
+        
+        .active{
+            font-weight:700;
+        }
+            
+        ul {
+            margin:0;
+            padding:0;
+            width:100%;
+        }
+        
+        .child {
+            text-align:center;
+            margin:0;
+            width:100%;
+            height:auto;
+            
+            a{
+                border:0;
+            }
+        }
+    }
 }
 
 .nav .unit {   
-    display:block;
+    /*display:block;
     text-align:center;
     
     a {        
@@ -44,7 +110,10 @@ Contains navbar-related code (in both the navbar proper and the footer)
             content:none;
         }
     }
+    */
 }
+
+/*
 
 .primary-nav {
     .unit {
@@ -67,27 +136,6 @@ Contains navbar-related code (in both the navbar proper and the footer)
             .page-name {
                 font-size:1.5em;
                 margin-bottom:0.5em;
-            }
-            
-            .caption {
-                display:none;
-            }
-        }
-    }
-}
-
-@media all and (min-width: $small-breakpoint) {
-    .nav-full {
-        .unit a {
-            min-height:10em;
-            padding:1.5em 0;
-            
-            .page-name {
-                font-size:2em;
-            }
-            
-            .caption {
-                display:block;
             }
         }
     }
@@ -115,3 +163,5 @@ Contains navbar-related code (in both the navbar proper and the footer)
         }  
     }
 }
+
+*/

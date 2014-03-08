@@ -1,0 +1,73 @@
+/*
+homepage.scss
+
+Contains styles specifically for the homepage
+*/
+
+.homepage {
+    /* Todo: add fallback */
+    background: url(/assets/images/angular-background.png) no-repeat center center fixed;
+    background-size: auto 100%;
+    background-position: right 0;
+    display:table;
+    position:absolute;
+    height:100%;
+    width:100%;
+    
+    h2 {
+        font-weight:400;
+    }
+    
+    .fadeout{
+        margin:0 auto;
+        max-width:32em;
+        padding:1em;
+        background-color:rgba(255,255,255,0.6);
+        border-radius:1em;
+    }
+    
+    .container{
+        max-width:30em;
+    }
+    
+    .logo{
+        width:100%;
+        margin-bottom:1em;
+    }
+    
+    .nav {
+        width:100%;
+        border-bottom:0;
+        margin-bottom:3em;
+    }
+    
+    .prompt{
+        text-align:center;
+        
+        h2{
+            display:block;
+            width:auto;
+            margin-top:0;
+        }
+        
+        .btn{
+            margin-top:0;
+        }
+        
+        .register{
+            font-family:$register-typeface;
+            font-size:3em;
+            text-decoration:none;
+            color:$red;
+            
+            &:hover, &:active{
+                color:$black;
+            }
+        }
+    }
+}
+
+.vertically-center{
+    display:table-cell;
+    vertical-align:middle;
+}

@@ -10,8 +10,14 @@ $white: #fff;
 
 @import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
 
+@font-face {
+    font-family: WisdomScript;
+    src: url("/assets/fonts/WisdomScript/Wisdom-Script-AJ.otf");
+}
+
 $header-typeface: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
 $body-typeface: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
+$register-typeface: "WisdomScript", "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
 
 $small-breakpoint: 768px;
 $medium-breakpoint: 992px;
@@ -27,13 +33,16 @@ body {
     height:100%;
     font-family: $body-typeface;
     font-weight: 300;
+    padding:1em;
+    height:100%;
+    overflow-x:hidden;
 }
 
 h1,h2,h3,h4,h5,h6 {
     width:75%;
     font-family: $header-typeface;
     font-weight:700;
-    color:$red;
+    color:$black;
 }
 
 p {
@@ -93,6 +102,23 @@ a {
             float:none !important;  
             /* Note: bootstrap's 'pull-right' also uses !important */
         }
+    }
+}
+
+.right-garnish{
+    display:none;
+}
+
+@media all and (min-width: $medium-breakpoint) {
+    .constrained{
+        position:relative;
+    }
+    
+    .right-garnish{
+        display:block;
+        position:absolute;
+        top:15em;
+        margin-left:51em;
     }
 }
 

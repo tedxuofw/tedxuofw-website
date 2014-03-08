@@ -5,27 +5,14 @@ id: the-event
 ---
 
 <div class="container">
-    <ul class="row nav secondary-nav">
-        <li class="unit">
-            <a href="the-event.html" class="active">
-                Speakers
-            </a>
-        </li>
-        <li class="unit">
-            <a href="sponsors.html">
-                Sponsors
-            </a>
-        </li>
-        <li class="unit">
-            <a href="https://docs.google.com/forms/d/1zu9XcylxeppJuWfh44G7hdro0yGQOUOyM1DX_IC-Mvo/viewform">
-                Application Form
-            </a>
-        </li>
-    </ul>
-    
     <div class="main-content">
-        <h1>Meet the Speakers</h1>
+        <h1>Meet the speakers</h1>
         
+        <p>Coming soon! Check back later.</p>
+        
+        {% include picture-accent.html %}
+        
+        {% if false %}
         {% for speaker in site.data.events.current.speakers %}
         <div class="speaker" id="speaker-{{ speaker.unique_id }}">
             <h2>{{ speaker.name }}</h2>
@@ -44,5 +31,6 @@ id: the-event
             </div>
         </div>
         {% endfor %}
+        {% endif %}
     </div>
 </div>

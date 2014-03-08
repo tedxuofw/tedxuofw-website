@@ -9,6 +9,10 @@ global.scss
 Contains global styles and definitions for constants.
 */
 @import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+@font-face {
+  font-family: WisdomScript;
+  src: url("/assets/fonts/WisdomScript/Wisdom-Script-AJ.otf"); }
+
 *, *:before, *:after {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -17,13 +21,16 @@ Contains global styles and definitions for constants.
 body {
   height: 100%;
   font-family: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  padding: 1em;
+  height: 100%;
+  overflow-x: hidden; }
 
 h1, h2, h3, h4, h5, h6 {
   width: 75%;
   font-family: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
   font-weight: 700;
-  color: #ff2b06; }
+  color: #222222; }
 
 a {
   text-decoration: underline; }
@@ -66,6 +73,18 @@ a {
     float: none !important;
     /* Note: bootstrap's 'pull-right' also uses !important */ } }
 
+.right-garnish {
+  display: none; }
+
+@media all and (min-width: 992px) {
+  .constrained {
+    position: relative; }
+
+  .right-garnish {
+    display: block;
+    position: absolute;
+    top: 15em;
+    margin-left: 51em; } }
 /* Google maps embed */
 .Flexible-container {
   position: relative;
@@ -88,81 +107,143 @@ navbar.scss
 
 Contains navbar-related code (in both the navbar proper and the footer)
 */
-.nav-container {
-  background-color: #222222;
-  margin-bottom: 2em; }
+.header {
+  margin: 1em auto;
+  padding: 0; }
+
+.logo {
+  width: 20em;
+  -webkit-transition: width 0.2s ease-out;
+  transition: width 0.2s ease-out; }
+  @media all and (max-width: 768px) {
+    .logo {
+      width: 100%;
+      margin-bottom: 1em; } }
+
+.nav {
+  -webkit-transition: width 0.2s ease-out;
+  transition: width 0.2s ease-out;
+  width: 55%; }
+  @media all and (max-width: 768px) {
+    .nav {
+      width: 100%; }
+      .nav .unit a {
+        height: 3.5em; } }
+  .nav .unit a {
+    text-align: center;
+    text-decoration: none;
+    color: #222222;
+    padding: 0.5em;
+    padding-bottom: 0;
+    border-bottom: 1px solid #222222;
+    -webkit-transition: background-color 0.2s ease-out;
+    transition: background-color 0.2s ease-out; }
+    .nav .unit a:hover, .nav .unit a:hover {
+      background: none;
+      font-weight: 700; }
+  .nav .unit .active {
+    font-weight: 700; }
+  .nav .unit ul {
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+  .nav .unit .child {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: auto; }
+    .nav .unit .child a {
+      border: 0; }
 
 .nav .unit {
-  display: block;
-  text-align: center; }
-  .nav .unit a {
-    text-decoration: none;
-    color: white;
-    background-color: #222222;
-    transition: background-color 0.2s ease-out; }
-  .nav .unit a:hover, .nav .unit .active {
-    background-color: #888888;
-    position: relative; }
-    .nav .unit a:hover:after, .nav .unit .active:after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      margin-left: -0.5em;
-      width: 0;
-      height: 0;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-bottom: 10px solid white; }
-  @media all and (max-width: 768px) {
-    .nav .unit .active:after, .nav .unit:hover:after {
-      content: none; } }
+  /*display:block;
+  text-align:center;
+  
+  a {        
+      text-decoration:none;
+      color:$white;
+      background-color:$black;
+      transition: background-color 0.2s ease-out;
+  }
+  
+  a:hover, .active {
+      background-color:lighten($black, 40%);
+  
+      position:relative;
+      &:after {
+          content:"";
+          position: absolute;
+          bottom:0;
+          left:50%;
+          margin-left:-0.5em;
+          
+          width:0;
+          height:0;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-bottom: 10px solid $white;
+      }
+  } 
+  
+  @media all and (max-width:$small-breakpoint) {
+      .active:after, &:hover:after {
+          content:none;
+      }
+  }
+  */ }
 
-.primary-nav .unit {
-  padding: 0; }
-  .primary-nav .unit a {
-    display: block;
-    position: relative;
-    width: 100%;
-    min-height: 3em;
-    margin: 0;
-    padding: .5em 0; }
-    .primary-nav .unit a span {
-      display: block;
-      padding: 0;
-      margin: 0; }
-    .primary-nav .unit a .page-name {
-      font-size: 1.5em;
-      margin-bottom: 0.5em; }
-    .primary-nav .unit a .caption {
-      display: none; }
+/*
 
-@media all and (min-width: 768px) {
-  .nav-full .unit a {
-    min-height: 10em;
-    padding: 1.5em 0; }
-    .nav-full .unit a .page-name {
-      font-size: 2em; }
-    .nav-full .unit a .caption {
-      display: block; } }
+.primary-nav {
+    .unit {
+        padding:0;
+        
+        a {
+            display:block;
+            position:relative;
+            width:100%;
+            min-height:3em;
+            margin:0;
+            padding:.5em 0;
+            
+            span {
+                display:block;
+                padding:0;
+                margin:0;
+            }
+            
+            .page-name {
+                font-size:1.5em;
+                margin-bottom:0.5em;
+            }
+        }
+    }
+}
+
 .secondary-nav {
-  min-height: 3em;
-  list-style-type: none;
-  margin-bottom: 1.5em; }
-  .secondary-nav li {
-    float: left;
-    height: 3em;
-    width: 12em;
-    margin-right: 1em;
-    margin-bottom: 0.5em;
-    padding: 0; }
-    .secondary-nav li a {
-      display: block;
-      height: 100%;
-      padding: .5em;
-      text-decoration: none;
-      font-size: 1.2em; }
+    min-height:3em;
+    list-style-type: none;
+    margin-bottom:1.5em;
+    
+    li {
+        float:left;
+        height:3em;
+        width:12em;
+        margin-right:1em;
+        margin-bottom:0.5em;
+        padding:0;
+        
+        a{
+            display:block;
+            height:100%;
+            padding:.5em;
+            text-decoration:none;
+            font-size: 1.2em;   
+        }  
+    }
+}
 
+*/
 /*
 footer.css
 
@@ -184,6 +265,57 @@ Contains any code related to specifically the footer
     margin-bottom: 1em; }
   .footer .btn {
     color: white; }
+
+/*
+homepage.scss
+
+Contains styles specifically for the homepage
+*/
+.homepage {
+  /* Todo: add fallback */
+  background: url(/assets/images/angular-background.png) no-repeat center center fixed;
+  background-size: auto 100%;
+  background-position: right 0;
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%; }
+  .homepage h2 {
+    font-weight: 400; }
+  .homepage .fadeout {
+    margin: 0 auto;
+    max-width: 32em;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 1em; }
+  .homepage .container {
+    max-width: 30em; }
+  .homepage .logo {
+    width: 100%;
+    margin-bottom: 1em; }
+  .homepage .nav {
+    width: 100%;
+    border-bottom: 0;
+    margin-bottom: 3em; }
+  .homepage .prompt {
+    text-align: center; }
+    .homepage .prompt h2 {
+      display: block;
+      width: auto;
+      margin-top: 0; }
+    .homepage .prompt .btn {
+      margin-top: 0; }
+    .homepage .prompt .register {
+      font-family: "WisdomScript", "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
+      font-size: 3em;
+      text-decoration: none;
+      color: #ff2b06; }
+      .homepage .prompt .register:hover, .homepage .prompt .register:active {
+        color: #222222; }
+
+.vertically-center {
+  display: table-cell;
+  vertical-align: middle; }
 
 /*
 image-grid.scss

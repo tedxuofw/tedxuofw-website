@@ -1,16 +1,29 @@
-- title: "Home"
-  caption: "Transcend: <em>Think. Act. Feel.</em>"
+- title: "home."
   url: /index.html
   id: home
-- title: "About Us"
-  caption: "Our mission; our team"
+- title: "about us."
   url: /about.html
   id: about
-- title: "The Event"
-  caption: "Tickets, speakers, and sponsors"
+  children:
+    - title: "about ted."
+      url: /about.html
+      id: about
+    - title: "volunteers."
+      url: /volunteers.html
+      id: volunteers
+- title: "the event."
   url: /the-event.html
   id: the-event
-- title: "Past Events"
-  caption: "Our history"
+  children:
+    - title: "speakers"
+      url: /the-event.html
+      id: the-event
+    - title: "sponsors"
+      url: /sponsors.html
+      id: sponsors
+    - title: "register"
+      url: https://docs.google.com/forms/d/1zu9XcylxeppJuWfh44G7hdro0yGQOUOyM1DX_IC-Mvo/viewform
+      id: register   
+- title: "past events."
   url: /past-events.html
   id: past-events

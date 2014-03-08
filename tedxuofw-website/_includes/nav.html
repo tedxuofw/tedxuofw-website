@@ -1,12 +1,30 @@
-{% for link in site.data.nav %}
-{% assign current = nil %}
-{% if (page.id == link.id) or (page.parent_id == link.id) %}
-    {% assign current = ' class="active"' %}
-{% endif %}
-<li class="col-xs-6 col-sm-3 unit">
-    <a href="{{ link.url }}"{{ current }}>
-        <span class="page-name">{{ link.title }}</span>
-        <span class="caption">{{ link.caption }}</span>
-    </a>
-</li>
-{% endfor %}
+<ul class="row nav primary-nav pull-right">
+    {% for link in site.data.nav %}
+    {% assign current = nil %}
+    {% if (page.id == link.id) or (page.parent_id == link.id) %}
+        {% assign current = ' class="active"' %}
+    {% endif %}
+    <li class="col-xs-3 unit">
+        <a href="{{ link.url }}"{{ current }}>
+            <span class="page-name">{{ link.title }}</span>
+        </a>
+        {% if current != nil %}
+            <ul>
+                {% for child in link.children %}
+                {% assign currentchild = nil %}
+                {% if (page.id == child.id) %}
+                    {% assign currentchild = ' class="active"' %}
+                {% endif %}
+                
+                <li class="unit child">
+                    <a href="{{ child.url }}"{{ currentchild }}>
+                        <span class="page-name">{{ child.title }}</span>
+                    </a>
+                </li>
+                
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
