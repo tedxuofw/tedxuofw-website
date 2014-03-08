@@ -10,14 +10,8 @@ $white: #fff;
 
 @import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
 
-@font-face {
-    font-family: WisdomScript;
-    src: url("/assets/fonts/WisdomScript/Wisdom-Script-AJ.otf");
-}
-
 $header-typeface: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
 $body-typeface: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
-$register-typeface: "WisdomScript", "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
 
 $small-breakpoint: 768px;
 $medium-breakpoint: 992px;
@@ -85,23 +79,8 @@ a {
 }
 
 .constrained {
-    p {
-        max-width: 50em;
-    }
-    
-    img {
-        margin: 1em;
-        max-width:40%;
-    }
-    
-    @media all and (max-width: $small-breakpoint) {
-        img {
-            max-width:100%;
-            margin:1em 0;
-            float:none !important;  
-            /* Note: bootstrap's 'pull-right' also uses !important */
-        }
-    }
+    max-width: 43em;
+    margin:auto;
 }
 
 .right-garnish{
@@ -111,16 +90,35 @@ a {
 @media all and (min-width: $medium-breakpoint) {
     .constrained{
         position:relative;
+        margin:0;
     }
     
     .right-garnish{
         display:block;
         position:absolute;
         top:15em;
-        margin-left:51em;
+        margin-left:44em;
     }
 }
 
+.social-media{
+    text-align:center;
+    
+    p{
+        margin:0;
+        padding:0;
+    }
+    
+    a {
+        margin:0 0.75em;
+        color:$black;
+        text-decoration:none;
+        
+        &:hover, &:active{
+            color:$red;
+        }
+    }
+}
 
 /* Google maps embed */
 .Flexible-container {

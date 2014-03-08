@@ -20,12 +20,12 @@ Our code is hosted on [Github][git] -- check it out!
 We used the following technologies, frameworks, fonts, and assets:
 
 -   Frameworks
-    -   [Twitter Bootstrap](http://getbootstrap.com/)
+    -   [Twitter Bootstrap](http://getbootstrap.com/) with [Glyphicons](http://glyphicons.com(
     -   [Jekyll](http://jekyllrb.com/)
     -   [Sass](http://sass-lang.com/)
 -   Fonts
     -   Wisdom Script, a font from [Lost Type](http://www.losttype.com/wisdom_script/)
-    -   Arimo, a font from [Google Fonts](http://www.google.com/fonts/specimen/Arimo)
+    -   [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
 -   Scripts
     -   [Hyphenator.js](http://code.google.com/p/hyphenator/)
     -   [jQuery](http://jquery.com/) and [jQuery UI](https://jqueryui.com/)

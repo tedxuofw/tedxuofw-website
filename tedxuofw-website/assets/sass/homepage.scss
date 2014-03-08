@@ -35,10 +35,19 @@ Contains styles specifically for the homepage
         margin-bottom:1em;
     }
     
+    .links{
+        width:100%;
+    }
+    
+    .social-media {
+        display:block;
+        text-align:center;
+    }
+    
     .nav {
         width:100%;
         border-bottom:0;
-        margin-bottom:3em;
+        margin-bottom:0em;
     }
     
     .prompt{
@@ -47,21 +56,28 @@ Contains styles specifically for the homepage
         h2{
             display:block;
             width:auto;
-            margin-top:0;
+            margin:0;
         }
         
-        .btn{
-            margin-top:0;
-        }
-        
-        .register{
-            font-family:$register-typeface;
-            font-size:3em;
-            text-decoration:none;
+        a{
             color:$red;
             
             &:hover, &:active{
                 color:$black;
+            }
+        }
+    }
+    
+    .social-media{
+        position:absolute;
+        right:1em;
+        top:1em;
+        
+        a{
+            color:$black;
+            
+            &:hover, &:active{
+                color:$red;
             }
         }
     }

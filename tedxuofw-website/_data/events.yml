@@ -1,6 +1,38 @@
 current:
     year: "2014"
     volunteers:
+        - group: Uncertain
+          unique_id: unknown
+          image: "assets/images/team-slide.png"
+          volunteers:
+            - name: Image 1
+              unique_id: image_1
+              position: Production?
+              image: "assets/images/production/connie.jpg"
+            - name: Image 2
+              unique_id: image_2
+              position: Production?
+              image: "assets/images/production/HS_production_2.jpg"
+            - name: Image 3
+              unique_id: image_3
+              position: Production?
+              image: "assets/images/production/HS_production_3.jpg"
+            - name: Image 4
+              unique_id: image_4
+              position: Production?
+              image: "assets/images/production/HS_production_5.jpg"
+            - name: Image 5
+              unique_id: image_5
+              position: Production?
+              image: "assets/images/production/HS_production_8.jpg"
+            - name: Image 6
+              unique_id: image_6
+              position: Speaker Selection?
+              image: "assets/images/speaker-selection/HS_speakerselection_6.jpg"
+            - name: Image 7
+              unique_id: image_7
+              position: Sponsorship?
+              image: "assets/images/sponsorship/HS_sponsorship_10.jpg"
         - group: Curators
           unique_id: curators
           image: "assets/images/team-slide.png"
@@ -14,7 +46,7 @@ current:
                 "TED has verbalized ideas that I often contemplate on my own. It has brought clarity to my thoughts and has also inspired me to continue in lifelong learning."
               about: |
                 Austin is involved in the engineering departments here at UW and works at Boeing. In his free time, he practices tricking and martial arts. He volunteers actively for the Seattle Vietnamese Community, loves playing sports, and traveling. In fact, Austin has traveled across Europe on his own before!
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/curators/austin.jpg"
             - name: Jamie Tan
               unique_id: jamie_tan
               position: Registration and Speaker Selection Curator
@@ -35,7 +67,7 @@ current:
                 My favorite TED talk is called "The Power of Vulnerability", presented by Brene Brown. She discusses human connection and interaction, which I find fascinating and extremely relevant in my own life. This is what I think is so great about TED- the ability to inspire and motivate people to take what they've learned, and apply it to their own lives to transcend in the way that people think, feel and act."
               about: |
                 Yifan works as a Peer Advisor in the UW Career Center, is a part of the business fraternity Alpha Kappa Psi, and joined the student run consulting firm called Rho Consulting. During her free time, Yifan loves to cook as a stress reliever. Her life motto can be summed up by the quote "Love people. Cook them tasty food." Interestingly, Yifan's elbows are double-jointed!
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/curators/yifan.jpg"
         - group: Volunteer Managers
           unique_id: volunteer_managers
           image: "assets/images/team-slide.png"
@@ -59,7 +91,7 @@ current:
                 "The most amazing thing about TED is that it brings people together and encourages critical reflection and creative problem solving across diverse disciplines. There are so many incredible people with an inspiring story to tell or an "idea worth spreading" and it has been so rewarding to help give these voices a stage at our UW campus."
               about: |
                 Nicole enjoys napping, baking kale chips, and doing yoga in her spare time. She is also attempting to learn conversational Portuguese outside of her two majors! With any spare funds, Nicole likes going to concerts and buying floral print everything. Fun fact, she was an eyeball for Halloween! 
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/speaker-selection/nicole.jpg"
             - name: Sam Hamilton
               unique_id: sam_hamilton
               position: Sponsorship, Finance, and Swag Volunteer Manager
@@ -194,7 +226,7 @@ current:
                 "Ted talks inspire me to become the best version of myself in all aspects. One of my favorite speakers is Meg Jay who is well-known for her "Why 30 is not the new 20" speech. In short, Meg describes how the time in your twenties have a big impact on the rest of your life. TED talks are relatable, motivational, and life-changing and that is why I love them."
               about: |
                 Heather is a part of the UW Relay for Life committee and a few business clubs on campus. In the summer, she plans on interning in Hong Kong and wishes to study abroad in Italy in the future. In her spare time, she enjoys hiking, skiing, camping, fashion, and watching rom-coms. An interesting fact about Heather is that she woke up during her wisdom teeth extraction!
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/production/heather.jpg"
             - name: Stephanie Chan
               unique_id: stephanie_chan
               position: Creative
@@ -226,7 +258,7 @@ current:
               major: ???
               ted: ???
               about: ???
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/registration/wendy.jpg"
         - group: Speaker Selection
           unique_id: speaker_Selection
           image: "assets/images/team-slide.png"
@@ -249,7 +281,7 @@ current:
                 A talk that that I recently watched that changed my perspective on human/environment relationships is titled My Mushroom Burial Suit, given by Jae Rhim Lee. I think that it is remarkably inventive!"
               about: |
                 Ellie grew up on Capitol Hill in Seattle and enjoys keeping up with the city's diverse food, music, and art scene. She enjoys the outdoors through running and hiking. Ellie is also an avid podcast listener, enjoys drawing animals, and listening to hip hop. When she is not enjoying nature, Ellie works at Seattle Biomed in a lab that studies Tuberculosis. She has traveled to 18 foreign countries as well!
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/speaker-selection/ellie.jpg"
             - name: Michelle Auster
               unique_id: michelle_auster
               position: Speaker Selection
@@ -259,7 +291,7 @@ current:
                 "TED is an amazing wealth of knowledge which is available to all people around the world. TED is the epitome of an invaluable global commons resource, and the kind of inspiration it brings to people everywhere is unmatched. There is nothing else which continues to demonstrate, time and time again, the extraordinary capacity of humankind."
               about: |
                 Michelle is an intern with NARAL Pro-Choice Washington because of her passion for women's health and rights. She is also a part of GlobeMed, a campus-wide and national student run non-profit group that is committed to promoting health as an essential human right. She studied abroad in Bristol, England last year. An interesting fact about Michelle is she is the only vegetarian to have ever appeared on "United States of Bacon". In her spare time, Michelle enjoys hiking, singing, and staying up to date on her favorite television shows.
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/speaker-selection/michelle.jpg"
             - name: Kyle Nelson
               unique_id: kyle_nelson
               position: Speaker Selection
@@ -269,7 +301,7 @@ current:
                 "I was introduced to TED my junior year of high school by a teacher, and since then it's changed the way I look at a lot of things. From how to attain happiness and more productive work (Shawn Achor, "The Happy Secret To Better Work"), to how to properly and efficiently use a paper towel (Joe Smith, "How To Use A Paper Towel"). The reason I love TED is simply because it gives people a platform to share what they're passionate about and why they believe it's so important."
               about: |
                 Kyle was on the UW football team last season as a walk-on! He enjoys hiking, climbing, watching movies, and trying new things. One unique thing about Kyle is he has an extra bone in his left foot!
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/speaker-selection/kyle-nelson.jpg"
         - group: Finance
           unique_id: finance
           image: "assets/images/finance/finance-group.jpg"
@@ -319,7 +351,7 @@ current:
               image: "assets/images/swag/brandon.jpg"
         - group: Sponsorship
           unique_id: sponsorship
-          image: "assets/images/team-slide.png"
+          image: "assets/images/sponsorship/sponsorship-group.jpg"
           volunteers:
             - name: Emily Chen
               unique_id: emily_chen
@@ -330,7 +362,7 @@ current:
                 "I love TED because it is a way to genuinely inspire, enlighten and connect with people - all in a time frame as little as 10 minutes, which I think is pretty amazing. One of my favorite TED talks is Amy Cuddy's "Power Posing," since a lot of it speaks to me on a personal level and gave some insight on where I want to go in life."
               about: |
                 Emily enjoys outdoor activities such as hiking, biking, and camping. She also enjoys photography, crafts, cooking, and discovering new cafes/restaurants. At school, Emily is involved in the business fraternity Alpha Kappa Psi. Emily also danced in the Nutcracker when she performed with the Pacific Northwest Ballet.
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/sponsorship/emily.jpg"
             - name: Tsz Ling Pinky Li
               unique_id: tsz_ling_pinky_li
               position: Sponsorship
@@ -340,7 +372,7 @@ current:
                 "I just love the fact that it's another place that I can learn new things and connect with everyone. TED talks have the potential to awaken me in some ways that I've never realized and motivate me in ways that I've never been before. TED talks are the best for study breaks!"
               about: |
                 Pinky is an active member of the business fraternity, Delta Sigma Pi, and an Economic Undergraduate Board member. In her spare time outside of school, Pinky likes dancing, sleeping, and munching. A fun fact about her is that she has a birthmark on her stomach!
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/sponsorship/tsz-ling.jpg"
             - name: Xin Xin
               unique_id: xin_xin
               position: Sponsorship
@@ -350,7 +382,7 @@ current:
                 "My favorite TED talk is about the power pose. It makes me feel really confident about myself and what I can achieve."
               about: |
                 Xin has interned at two different companies in China as a marketing intern as well as at a non-profit organization as an event intern. She is on the Professional Development Committee in Alpha Kappa Psi, is the COO of Market Driven Investors, and is the activities manager for the Global Business Case Competition. She enjoys art, photography, baking and cooking in her spare time.
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/sponsorship/xin.jpg"
             - name: Johnson Nguyen
               unique_id: johnson_nguyen
               position: Sponsorship
@@ -360,7 +392,7 @@ current:
                 "I'm able to get a lot out of TED talks and apply their ideas to other realms of my life."
               about: |
                 Johnson is a part of the Vietnamese Student Association and volunteers at the Denise Louie Preschool in the International District. He enjoys watching mixed martial arts, exercising, volunteering, and eating. Once, Johnson accidentally ate hamster food!
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/sponsorship/johnson.jpg"
     speakers:
         - name: "Speaker name"
           unique_id: speaker_1
