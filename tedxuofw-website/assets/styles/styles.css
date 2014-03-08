@@ -27,7 +27,6 @@ body {
   overflow-x: hidden; }
 
 h1, h2, h3, h4, h5, h6 {
-  width: 75%;
   font-family: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #222222; }
@@ -386,7 +385,8 @@ Code for any grid-like arrangement
   transition: min-height 0.2s ease-out; }
   .picture-frame .description h3 {
     font-size: 1.2em;
-    margin: 0; }
+    margin: 0;
+    color: #ff2b06; }
   .picture-frame .description p {
     margin: 0; }
 .picture-frame .logo {

@@ -1,0 +1,40 @@
+# HUMANS.TXT
+
+## Team
+
+TEDxUofW is a joint effort by a number of talented individuals -- check out 
+the [volunteers][vol] page for full details! 
+
+You can also download a YAML file containing full details of our team from 
+our [Github page][voly] page, if you want information in an easier-to-parse 
+format.
+
+[vol]: http://tedxuofw.com/volunteers
+[voly]: https://github.com/Michael0x2a/tedxuofw-website/blob/master/tedxuofw-website/_data/events.yml
+
+
+## Technologies used
+
+Our code is hosted on [Github][git] -- check it out!
+
+We used the following technologies, frameworks, fonts, and assets:
+
+-   Frameworks
+    -   [Twitter Bootstrap](http://getbootstrap.com/)
+    -   [Jekyll](http://jekyllrb.com/)
+    -   [Sass](http://sass-lang.com/)
+-   Fonts
+    -   Wisdom Script, a font from [Lost Type](http://www.losttype.com/wisdom_script/)
+    -   Arimo, a font from [Google Fonts](http://www.google.com/fonts/specimen/Arimo)
+-   Scripts
+    -   [Hyphenator.js](http://code.google.com/p/hyphenator/)
+    -   [jQuery](http://jquery.com/) and [jQuery UI](https://jqueryui.com/)
+    -   [Modernizr](http://modernizr.com/)
+-   Images and media assets
+    -   UW Student Life
+-   Misc
+    -   Hosting from [Bluehost](http://www.bluehost.com/)
+    -   Domain registration from [Godaddy](http://www.godaddy.com)
+    
+[git]: https://github.com/Michael0x2a/tedxuofw-website
+
