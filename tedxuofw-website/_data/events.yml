@@ -306,6 +306,16 @@ current:
           unique_id: finance
           image: "assets/images/finance/finance-group.jpg"
           volunteers:
+            - name: Austin Miller
+              unique_id: austin_miller
+              position: Finance
+              year: Junior
+              major: "Business: Finance and Marketing"
+              ted: |
+                "I love TED because it inspires me to inspire others and take action in my life."
+              about: |
+                Austin is very involved with many UW organizations. He is the Lavin Entrepreneurship Program Vice President, Business Plan Competition Undergraduate Rep., Delta Sigma Phi Vice President and Founding Father, and AMA member. His hobbies include traveling (he'll be studying abroad in Rome this summer!), skiing, and spending time outdoors with family and friends.
+              image: "assets/images/finance/sam.jpg"
             - name: Sarah Lin
               unique_id: sarah_lin
               position: Finance
@@ -316,16 +326,6 @@ current:
               about: |
                 Sarah is a member of the business fraternity, Alpha Kappa Psi. In a past summer, she studied abroad in Brazil on a business exploration seminar. During her free time, Sarah enjoys hiking, cheering for Seattle sports teams, and learning new languages. Once, Sarah swam with beluga whales at SeaWorld!
               image: "assets/images/finance/sarah.jpg"
-            - name: Austin Miller
-              unique_id: austin_miller
-              position: Finance
-              year: Junior
-              major: "Business: Finance and Marketing"
-              ted: |
-                "I love TED because it inspires me to inspire others and take action in my life."
-              about: |
-                Austin is very involved in many UW organizations: he is a Lavin Entrepreneurship Program Social committee member, UW Business Plan Competition Undergraduate Rep., AMA member, Startup UW Marketing committee member, and a Delta Sigma Phi founding father. His hobbies include traveling (he'll be studying abroad in Rome this summer!), skiing, eating, and playing tennis.
-              image: "assets/images/finance/sam.jpg"
         - group: Swag
           unique_id: swag
           image: "assets/images/swag/swag-group.jpg"
