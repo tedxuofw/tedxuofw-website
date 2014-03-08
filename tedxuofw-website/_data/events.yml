@@ -1,38 +1,6 @@
 current:
     year: "2014"
     volunteers:
-        - group: Uncertain
-          unique_id: unknown
-          image: "assets/images/team-slide.png"
-          volunteers:
-            - name: Image 1
-              unique_id: image_1
-              position: Production?
-              image: "assets/images/production/connie.jpg"
-            - name: Image 2
-              unique_id: image_2
-              position: Production?
-              image: "assets/images/production/HS_production_2.jpg"
-            - name: Image 3
-              unique_id: image_3
-              position: Production?
-              image: "assets/images/production/HS_production_3.jpg"
-            - name: Image 4
-              unique_id: image_4
-              position: Production?
-              image: "assets/images/production/HS_production_5.jpg"
-            - name: Image 5
-              unique_id: image_5
-              position: Production?
-              image: "assets/images/production/HS_production_8.jpg"
-            - name: Image 6
-              unique_id: image_6
-              position: Speaker Selection?
-              image: "assets/images/speaker-selection/HS_speakerselection_6.jpg"
-            - name: Image 7
-              unique_id: image_7
-              position: Sponsorship?
-              image: "assets/images/sponsorship/HS_sponsorship_10.jpg"
         - group: Curators
           unique_id: curators
           image: "assets/images/team-slide.png"
@@ -56,7 +24,7 @@ current:
                 "I love TED because it can make an impact and I can be a part of such a globally admired brand!"
               about: |
                 In her spare time, Jamie enjoys teaching Zumba at the IMA, playing piano, and is a total foodie! Jamie is an Accounting Intern at the University of Washington and she is a part of the Marketing committee for the business fraternity Alpha Kappa Psi. A fun fact about her is that growing up, she danced with people from the popular television shows "So You Think You Can Dance" and "Dancing with the Stars".
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/curators/jamie.jpg"
             - name: Yifan Xiao
               unique_id: yifan_xiao
               position: Swag, Sponsorship, and Finance Curator
@@ -81,17 +49,17 @@ current:
                 "My favorite TED talk would have to be "If I should have a daughter" by Sarah Kay. It was the very first TED talk I ever watched and it was definitely what got me hooked on TED in general! My experience with TEDxUofW so far has been nothing short of amazing. I was an Event Day Manager last year for the swag committee and had the time of my life working with my friends to plan for the event. I think what I love most about TEDxUofW is seeing such a diverse group of like-minded students come together to work towards a common goal - putting on the best TEDxUofW conference we can! TED represents innovation and a love and desire for learning, so it's inspiring to me to see so many students want to be apart of something bigger like that."
               about: |
                 Emmeline is a business community Resident Advisor and campus tour guide at UW. She also interns at Concur Technologies, is a founding father and executive officer of Delta Sigma Pi, a YEOC mentor in training, and the Lavin Entrepreneurship Program Marketing chair.  In her free time, Emmeline enjoys zumba and is a foodie who loves trying new restaurants. She has recently been trying to pick up photography, guitar, and coding. Fun fact, Emmeline is the 28th Husky in her family!
-              image: "assets/images/marketing/emmeline.jpg"
+              image: "assets/images/managers/emmeline.jpg"
             - name: Nicole Mattson
               unique_id: nicole_mattson
               position: Registration and Speaker Selection Volunteer Manager
               year: Junior
-              Major: "Neurobiology & Global Health Minor"
+              Major: "Neurobiology Major & Global Health Minor"
               ted: |
                 "The most amazing thing about TED is that it brings people together and encourages critical reflection and creative problem solving across diverse disciplines. There are so many incredible people with an inspiring story to tell or an "idea worth spreading" and it has been so rewarding to help give these voices a stage at our UW campus."
               about: |
                 Nicole enjoys napping, baking kale chips, and doing yoga in her spare time. She is also attempting to learn conversational Portuguese outside of her two majors! With any spare funds, Nicole likes going to concerts and buying floral print everything. Fun fact, she was an eyeball for Halloween! 
-              image: "assets/images/speaker-selection/nicole.jpg"
+              image: "assets/images/managers/nicole.jpg"
             - name: Sam Hamilton
               unique_id: sam_hamilton
               position: Sponsorship, Finance, and Swag Volunteer Manager
@@ -102,7 +70,7 @@ current:
                 I am extremely excited to help bring an awesome TEDx conference to UW this year!”
               about: |
                 Sam currently interns at UBS for a Wealth Management Group and teaches a 24 student Freshman Business course on campus. He is in the process of founding the UW Real Estate Club and is a member of Startup UW. This is Sam’s first winter quarter at UW since his Freshman year! Previously, he has backpacked in Thailand and volunteered in Cambodia and studied abroad in Granada, Spain during his winter quarters. In his spare time, Sam enjoys traveling (he’s been to six continents), hiking, playing basketball, coding, and learning. 
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/managers/sam.jpg"
             - name: Jessica Cheng
               unique_id: jessica_cheng
               position: Production and Logistics Volunteer Manager
@@ -112,7 +80,7 @@ current:
                 "I love TED's ability to inspire. I've walked away from so many talks with a new outlook on people, places and life in general. I also love the community that is TED. So many inspiring, passionate and bight networks have been created because of TED."
               about: |
                 Jessica is a UW Marketing events team intern and plans events on behalf of the University's president and donors. She is also a part of the team that runs the UW Student Life Facebook page and is very involved in Asian-American Intervarsity, a college fellowship on campus. In her spare time, she likes eating and catching up with friends in cafes. Once, Jessica lost a tooth while performing on stage in PNB's Nutcracker!
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/managers/jessica.jpg"
         - group: Marketing
           unique_id: marketing
           image: "assets/images/marketing/marketing-group.jpg"
@@ -198,7 +166,7 @@ current:
                 "I love TED because it keeps people on their toes and constantly excited about learning."
               about: |
                 Jennifer enjoys rock climbing and dancing to Beyonce.
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/production/jennifer.jpg"
             - name: Malie Fuji
               unique_id: malie_fuji
               position: Technical
@@ -206,7 +174,7 @@ current:
               major: ???
               ted: ???
               about: ???
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/production/malie.jpg"
             - name: Connie Lim
               unique_id: connie_lim
               position: Creative
@@ -216,7 +184,7 @@ current:
                 "I loved serving with TED last year and the community it builds. I had to do it again this year!"
               about: |
                 Connie enjoys traveling, trying new food, and going to concerts. She is also a huge fan of TV and her favorite show is "Mad Men". Her favorite food is tofu!
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/production/connie.jpg"
             - name: Heather Chan
               unique_id: heather_chan
               position: Creative
@@ -236,7 +204,7 @@ current:
                 "I am an enthusiast of stories. TED inspires a new way of thinking through shared experiences. It reminds us that we are all facing the same struggles and that we are not alone. TED is an outlet to express individuality. My all time favorite TED talk is Sarah Kay: If I should have a daughter. I love the rawness of spoken word poetry!"
               about: |
                 Stephanie is a corps member of Scholarship Junkies, a barista at Tully's Coffee, and a volunteer at the Seattle Art Museum. She likes to sing, play tennis, and go on adventures around the Seattle area. Stephanie has a unique talent - she can lick her elbow!
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/production/stephanie.jpg"
         - group: Registration
           unique_id: registration
           image: "assets/images/team-slide.png"
@@ -258,7 +226,7 @@ current:
               major: ???
               ted: ???
               about: ???
-              image: "assets/images/registration/wendy.jpg"
+              image: "assets/images/full-placeholder.png"
         - group: Speaker Selection
           unique_id: speaker_Selection
           image: "assets/images/team-slide.png"
@@ -270,7 +238,7 @@ current:
               major: ???
               ted: ???
               about: ???
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/speaker-selection/kyle-morasse.jpg"
             - name: Ellie Taagen
               unique_id: ellie_taagen
               position: Speaker Selection
