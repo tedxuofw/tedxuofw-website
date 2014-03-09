@@ -8,7 +8,6 @@
         <a href="{{ link.url }}"{{ current }}>
             <span class="page-name">{{ link.title }}</span>
         </a>
-        {% if current != nil %}
             <ul>
                 {% for child in link.children %}
                 {% assign currentchild = nil %}
@@ -24,7 +23,6 @@
                 
                 {% endfor %}
             </ul>
-        {% endif %}
     </li>
     {% endfor %}
 </ul>

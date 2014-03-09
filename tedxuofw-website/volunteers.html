@@ -15,20 +15,38 @@ id: volunteers
         <div class="panel-group picture-frame" id="accordian">
             <div class="panel panel-default">
                 {% for group in site.data.events.current.volunteers %}
+                {% if group.hidden == true %}
+                    {% continue %}
+                {% endif %}
                 <div class="panel-single" id="{{ group.unique_id }}">
                     <div class="panel-heading">
                         <div class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordian" href="#{{ group.unique_id }}-collapse">
                                 <h2><span class="glyphicon glyphicon-play"></span> {{ group.group }}</h2>
-                                <img class="full" src="{{ group.image }}">
+                                <!--<img class="full" src="{{ group.image }}">-->
                             </a>
                         </div>
                     </div>
-                    <div id="{{ group.unique_id }}-collapse" class="panel-collapse collapse">
+                    {% if group.larger == true %}
+                        {% assign open = " in" %}
+                    {% else %}
+                        {% assign open = "" %}
+                    {% endif %}
+                    <div id="{{ group.unique_id }}-collapse" class="panel-collapse collapse{{ open }}">
                         <div class="panel-body">
                             <div class="row">
                                 {% for person in group.volunteers %}
-                                <div class="col-sm-6 unit">
+                                {% if person.hidden == true %}
+                                    {% continue %}
+                                {% endif %}
+                                
+                                {% if group.larger == true %}
+                                    {% assign sizing = ' col-md-4' %}
+                                {% else %}
+                                    {% assign sizing = ' col-md-4' %}
+                                {% endif %}
+                                
+                                <div class="col-sm-6{{ sizing }} unit">
                                     <div class="target" data-toggle="modal" data-target="#{{ person.unique_id }}">
                                         <img class="full" src="{{ person.image }}">
                                         <div class="description">
@@ -39,27 +57,37 @@ id: volunteers
                                 </div>
                                 
                                 <div class="modal fade" id="{{ person.unique_id }}" role="dialog" aria-labelledby="{{ person.unique_id }}-title" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h3 class="modal-title" id="{{ person.unique_id }}-title">About {{ person.name | split: ' ' | first }}</h3>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <h4>Bio</h4>
-                                                    <p><strong>Position:</strong> {{ person.position }}</p>
-                                                    <p><strong>Year:</strong> {{ person.year }}</p>
-                                                    <p><strong>Major:</strong> {{ person.major }}</p>
-                                                    
-                                                    <h4>Why do you like TED?</h4>
-                                                    <p>{{ person.ted }}</p>
-                                                    
-                                                    <h4>About</h4>
-                                                    <p>{{ person.about }}</p>
-                                                </div>
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                <h3 class="modal-title" id="{{ person.unique_id }}-title">About {{ person.name | split: ' ' | first }}</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h4>Bio</h4>
+                                                {% if person.ted == "???" %}
+                                                <p>Coming soon!</p>
+                                                {% else %}
+                                                <p><strong>Position:</strong> {{ person.position }}</p>
+                                                <p><strong>Year:</strong> {{ person.year }}</p>
+                                                <p><strong>Major:</strong> {{ person.major }}</p>
+                                                
+                                                <h4>Why do you like TED?</h4>
+                                                <p>{{ person.ted }}</p>
+                                                
+                                                <h4>About</h4>
+                                                <p>{{ person.about }}</p>
+                                                {% endif %}
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                
+                                {% if person.bump == true %}
+                                    </div>
+                                    <div class="row">
+                                {% endif %}
+                                
                                 {% endfor %}
                             </div>
                         </div>

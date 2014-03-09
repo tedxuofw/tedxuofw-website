@@ -4,6 +4,7 @@ current:
         - group: Curators
           unique_id: curators
           image: "assets/images/team-slide.png"
+          larger: true
           volunteers:
             - name: Austin Vu
               unique_id: austin_vu
@@ -17,7 +18,7 @@ current:
               image: "assets/images/curators/austin.jpg"
             - name: Jamie Tan
               unique_id: jamie_tan
-              position: Registration and Speaker Selection Curator
+              position: Registration and Speaker Selection
               year: Junior
               major: Accounting
               ted: |
@@ -27,7 +28,7 @@ current:
               image: "assets/images/curators/jamie.jpg"
             - name: Yifan Xiao
               unique_id: yifan_xiao
-              position: Swag, Sponsorship, and Finance Curator
+              position: Swag, Sponsorship, and Finance
               year: Senior
               major: Finance
               ted: |
@@ -38,11 +39,12 @@ current:
               image: "assets/images/curators/yifan.jpg"
         - group: Volunteer Managers
           unique_id: volunteer_managers
+          larger: true
           image: "assets/images/team-slide.png"
           volunteers:
             - name: Emmeline Vu
               unique_id: emmeline_vu
-              position: "Marketing Volunteer Manager"
+              position: Marketing
               year: Sophomore
               major: Business (Marketing & Information Systems)
               ted: |
@@ -52,9 +54,10 @@ current:
               image: "assets/images/managers/emmeline.jpg"
             - name: Nicole Mattson
               unique_id: nicole_mattson
-              position: Registration and Speaker Selection Volunteer Manager
+              position: Registration and Speaker Selection
               year: Junior
-              Major: "Neurobiology Major & Global Health Minor"
+              bump: true
+              major: "Neurobiology Major & Global Health Minor"
               ted: |
                 "The most amazing thing about TED is that it brings people together and encourages critical reflection and creative problem solving across diverse disciplines. There are so many incredible people with an inspiring story to tell or an "idea worth spreading" and it has been so rewarding to help give these voices a stage at our UW campus."
               about: |
@@ -62,7 +65,7 @@ current:
               image: "assets/images/managers/nicole.jpg"
             - name: Sam Hamilton
               unique_id: sam_hamilton
-              position: Sponsorship, Finance, and Swag Volunteer Manager
+              position: Sponsorship, Finance, and Swag
               year: Senior
               major: "Business (Finance and Entrepreneurship)"
               ted: |
@@ -73,7 +76,7 @@ current:
               image: "assets/images/managers/sam.jpg"
             - name: Jessica Cheng
               unique_id: jessica_cheng
-              position: Production and Logistics Volunteer Manager
+              position: Production
               year: Sophomore
               major: "Business (Operations Management & Information Systems)"
               ted: |
@@ -157,6 +160,7 @@ current:
               ted: ???
               about: ???
               image: "assets/images/full-placeholder.png"
+              hidden: true
             - name: Jennifer Cheng
               unique_id: jennifer_cheng
               position: Graphic Designer
@@ -231,6 +235,27 @@ current:
           unique_id: speaker_Selection
           image: "assets/images/team-slide.png"
           volunteers:
+            - name: Michelle Auster
+              unique_id: michelle_auster
+              position: Speaker Selection
+              year: Senior
+              major: International Studies and Global Health
+              ted: |
+                "TED is an amazing wealth of knowledge which is available to all people around the world. TED is the epitome of an invaluable global commons resource, and the kind of inspiration it brings to people everywhere is unmatched. There is nothing else which continues to demonstrate, time and time again, the extraordinary capacity of humankind."
+              about: |
+                Michelle is an intern with NARAL Pro-Choice Washington because of her passion for women's health and rights. She is also a part of GlobeMed, a campus-wide and national student run non-profit group that is committed to promoting health as an essential human right. She studied abroad in Bristol, England last year. An interesting fact about Michelle is she is the only vegetarian to have ever appeared on "United States of Bacon". In her spare time, Michelle enjoys hiking, singing, and staying up to date on her favorite television shows.
+              image: "assets/images/speaker-selection/michelle.jpg"
+            - name: Kyle Nelson
+              unique_id: kyle_nelson
+              position: Speaker Selection
+              year: Freshman
+              bump: true
+              major: Neurobiology
+              ted: |
+                "I was introduced to TED my junior year of high school by a teacher, and since then it's changed the way I look at a lot of things. From how to attain happiness and more productive work (Shawn Achor, "The Happy Secret To Better Work"), to how to properly and efficiently use a paper towel (Joe Smith, "How To Use A Paper Towel"). The reason I love TED is simply because it gives people a platform to share what they're passionate about and why they believe it's so important."
+              about: |
+                Kyle was on the UW football team last season as a walk-on! He enjoys hiking, climbing, watching movies, and trying new things. One unique thing about Kyle is he has an extra bone in his left foot!
+              image: "assets/images/speaker-selection/kyle-nelson.jpg"
             - name: Kyle Morasse
               unique_id: kyle_morasse
               position: Speaker Selection
@@ -250,26 +275,6 @@ current:
               about: |
                 Ellie grew up on Capitol Hill in Seattle and enjoys keeping up with the city's diverse food, music, and art scene. She enjoys the outdoors through running and hiking. Ellie is also an avid podcast listener, enjoys drawing animals, and listening to hip hop. When she is not enjoying nature, Ellie works at Seattle Biomed in a lab that studies Tuberculosis. She has traveled to 18 foreign countries as well!
               image: "assets/images/speaker-selection/ellie.jpg"
-            - name: Michelle Auster
-              unique_id: michelle_auster
-              position: Speaker Selection
-              year: Senior
-              major: International Studies and Global Health
-              ted: |
-                "TED is an amazing wealth of knowledge which is available to all people around the world. TED is the epitome of an invaluable global commons resource, and the kind of inspiration it brings to people everywhere is unmatched. There is nothing else which continues to demonstrate, time and time again, the extraordinary capacity of humankind."
-              about: |
-                Michelle is an intern with NARAL Pro-Choice Washington because of her passion for women's health and rights. She is also a part of GlobeMed, a campus-wide and national student run non-profit group that is committed to promoting health as an essential human right. She studied abroad in Bristol, England last year. An interesting fact about Michelle is she is the only vegetarian to have ever appeared on "United States of Bacon". In her spare time, Michelle enjoys hiking, singing, and staying up to date on her favorite television shows.
-              image: "assets/images/speaker-selection/michelle.jpg"
-            - name: Kyle Nelson
-              unique_id: kyle_nelson
-              position: Speaker Selection
-              year: Freshman
-              major: Neurobiology
-              ted: |
-                "I was introduced to TED my junior year of high school by a teacher, and since then it's changed the way I look at a lot of things. From how to attain happiness and more productive work (Shawn Achor, "The Happy Secret To Better Work"), to how to properly and efficiently use a paper towel (Joe Smith, "How To Use A Paper Towel"). The reason I love TED is simply because it gives people a platform to share what they're passionate about and why they believe it's so important."
-              about: |
-                Kyle was on the UW football team last season as a walk-on! He enjoys hiking, climbing, watching movies, and trying new things. One unique thing about Kyle is he has an extra bone in his left foot!
-              image: "assets/images/speaker-selection/kyle-nelson.jpg"
         - group: Finance
           unique_id: finance
           image: "assets/images/finance/finance-group.jpg"
@@ -334,12 +339,13 @@ current:
             - name: Tsz Ling Pinky Li
               unique_id: tsz_ling_pinky_li
               position: Sponsorship
+              bump: true
               year: Junior
               major: Economics and Statistics
               ted: |
                 "I just love the fact that it's another place that I can learn new things and connect with everyone. TED talks have the potential to awaken me in some ways that I've never realized and motivate me in ways that I've never been before. TED talks are the best for study breaks!"
               about: |
-                Pinky is an active member of the business fraternity, Delta Sigma Pi, and an Economic Undergraduate Board member. In her spare time outside of school, Pinky likes dancing, sleeping, and munching. A fun fact about her is that she has a birthmark on her stomach!
+                Pinky is an active member of the business fraternity, Alpha Kappa Psi, and an Economic Undergraduate Board member. In her spare time outside of school, Pinky likes dancing, sleeping, and munching. A fun fact about her is that she has a birthmark on her stomach!
               image: "assets/images/sponsorship/tsz-ling.jpg"
             - name: Xin Xin
               unique_id: xin_xin

@@ -9,81 +9,97 @@ Contains styles specifically for the homepage
     background: url(/assets/images/angular-background.png) no-repeat center center fixed;
     background-size: auto 100%;
     background-position: right 0;
-    display:table;
-    position:absolute;
-    height:100%;
-    width:100%;
     
-    h2 {
-        font-weight:400;
+    h1 {
+        font-weight: 400;
+        font-size: 6em;
+        color:$black;
+        letter-spacing:.3em;
     }
     
-    .fadeout{
-        margin:0 auto;
-        max-width:32em;
-        padding:1em;
-        background-color:rgba(255,255,255,0.6);
-        border-radius:1em;
+    .prompt{
+        p{
+            font-size:1.5em;
+            color:$red;
+        }
+        
+        .fadeout{
+            background-color:rgba(255,255,255,0.6);
+            padding:.3em;
+            border-radius:3px;
+            display:block;
+            max-width:30em;
+            margin:0 auto;
+        }
+        
+        .subtitle{
+            font-size:2em;
+            color:$black;
+            background-color:none;
+            padding:0;
+        }
+        
+        span{
+            white-space:nowrap;
+        }
+    }
+    
+    a{
+        color:$red;
     }
     
     .container{
-        max-width:30em;
-    }
-    
-    .logo{
-        width:100%;
-        margin-bottom:1em;
-    }
-    
-    .links{
-        width:100%;
-    }
-    
-    .social-media {
-        display:block;
-        text-align:center;
-    }
-    
-    .nav {
-        width:100%;
-        border-bottom:0;
-        margin-bottom:0em;
+        margin: inherit auto;
     }
     
     .prompt{
         text-align:center;
-        
-        h2{
-            display:block;
-            width:auto;
-            margin:0;
-        }
-        
-        a{
-            color:$red;
-            
-            &:hover, &:active{
-                color:$black;
-            }
+        .row{
+            margin:0 0 2em;
+            padding:0;
         }
     }
     
-    .social-media{
-        position:absolute;
-        right:1em;
-        top:1em;
+    .header{
+        position:relative;
+        z-index:5;
+    }
+    
+    
+    
+    @media all and (max-width:$small-breakpoint) {
+        h1 {
+            letter-spacing:0.1em;
+            font-size:2.8em;
+            padding:0;
+        }
         
-        a{
-            color:$black;
-            
-            &:hover, &:active{
-                color:$red;
-            }
+        .vertical-container{
+            padding:0;
+        }
+        
+        .vertically-center{
+            margin:0;
+        }
+    } 
+    
+    @media all and (min-width:$small-breakpoint) {
+        .vertical-container {
+            display:table;
+            position:absolute;
+            top:0;
+            left:0;
+            height:100%;
+            width:100%;
+        }
+
+        .vertically-center{
+            display:table-cell;
+            vertical-align:middle;
+            margin:inherit auto;
+            z-index:1;
         }
     }
 }
 
-.vertically-center{
-    display:table-cell;
-    vertical-align:middle;
-}
+

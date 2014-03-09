@@ -3,13 +3,17 @@
 ## Team
 
 TEDxUofW is a joint effort by a number of talented individuals -- check out 
-the [volunteers][vol] page for full details! 
+our [volunteers][vol] page for full details and our [contact][con] page 
+if you have any questions or concerns! 
 
 You can also download a YAML file containing full details of our team from 
 our [Github page][voly] page, if you want information in an easier-to-parse 
 format.
 
+
+
 [vol]: http://tedxuofw.com/volunteers
+[con]: http://tedxuofw.com/contact
 [voly]: https://github.com/Michael0x2a/tedxuofw-website/blob/master/tedxuofw-website/_data/events.yml
 
 
@@ -35,6 +39,8 @@ We used the following technologies, frameworks, fonts, and assets:
 -   Misc
     -   Hosting from [Bluehost](http://www.bluehost.com/)
     -   Domain registration from [Godaddy](http://www.godaddy.com)
+    -   Analytics from [Google Analytics](http://www.google.com/analytics/)
+    -   Forms processing via [Simpleform](http://getsimpleform.com)
     
 [git]: https://github.com/Michael0x2a/tedxuofw-website
 

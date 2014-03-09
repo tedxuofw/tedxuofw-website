@@ -14,6 +14,10 @@ Contains global styles and definitions for constants.
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box; }
 
+html {
+  height: 100%;
+  overflow-x: hidden; }
+
 body {
   height: 100%;
   font-family: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
@@ -24,11 +28,20 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  color: #222222; }
+  font-weight: 700; }
+
+h1 {
+  color: #ff2b06; }
+
+ul {
+  padding: 0;
+  list-style-position: inside; }
 
 a {
   text-decoration: underline; }
+
+a[href^="mailto"] {
+  white-space: nowrap; }
 
 .btn, .btn-default {
   text-decoration: none;
@@ -60,6 +73,10 @@ a {
   max-width: 43em;
   margin: auto; }
 
+.map-push {
+  margin-right: 2em;
+  margin-bottom: 2em; }
+
 .right-garnish {
   display: none; }
 
@@ -85,23 +102,60 @@ a {
     .social-media a:hover, .social-media a:active {
       color: #ff2b06; }
 
-/* Google maps embed */
-.Flexible-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden; }
+.register {
+  display: block;
+  width: auto;
+  margin: 0; }
+  .register a {
+    color: #ff2b06; }
+    .register a:hover, .register a:active {
+      color: #222222; }
 
-.Flexible-container iframe,
-.Flexible-container object,
-.Flexible-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
+.registration-form {
+  height: 200em;
+  margin: 0;
+  padding: 0;
+  margin-left: -.5em; }
 
+.expand + .register {
+  margin-top: 1em; }
+
+@media all and (max-width: 768px) {
+  .map-push {
+    float: none !important; }
+
+  .map {
+    float: none !important;
+    width: 100%; } }
+#gmap_canvas {
+  width: 400px;
+  height: 400px; }
+
+@media all and (min-width: 1200px) {
+  .expand + .register {
+    margin-top: 2em; }
+
+  .expand {
+    position: relative;
+    margin-top: 1em;
+    border-top: 1px solid #eee; }
+    .expand h2 {
+      position: relative;
+      float: left;
+      width: 12em;
+      position: relative;
+      margin: 0; }
+    .expand .expand-right {
+      position: relative;
+      float: left;
+      margin-top: 1em;
+      margin: 0;
+      padding: 0; }
+    .expand:before, .expand:after {
+      content: " ";
+      display: table; }
+    .expand:after {
+      clear: both; } }
 /*
 navbar.scss
 
@@ -109,7 +163,8 @@ Contains navbar-related code (in both the navbar proper and the footer)
 */
 .header {
   margin: 1em auto;
-  padding: 0; }
+  padding: 0;
+  position: relative; }
 
 .logo {
   width: 22em;
@@ -117,7 +172,7 @@ Contains navbar-related code (in both the navbar proper and the footer)
   transition: width 0.2s ease-out; }
   @media all and (max-width: 768px) {
     .logo {
-      width: 100%;
+      width: 50%;
       margin-bottom: 1em; } }
 
 .links {
@@ -125,44 +180,70 @@ Contains navbar-related code (in both the navbar proper and the footer)
   .links .social-media {
     text-align: right;
     margin-right: 1em; }
+  @media all and (max-width: 768px) {
+    .links {
+      width: 100%;
+      float: right;
+      padding-top: 0; }
+      .links .nav {
+        margin-top: 0; }
+      .links .social-media {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0;
+        text-align: center; }
+        .links .social-media a {
+          margin: 0;
+          padding: .5em; }
+          .links .social-media a i {
+            font-size: 1.5em; } }
 
-.nav {
+.primary-nav {
   width: 100%;
   display: block;
   margin-top: 0.75em;
+  height: 4em;
   -webkit-transition: width 0.2s ease-out;
   transition: width 0.2s ease-out; }
   @media all and (max-width: 768px) {
-    .nav {
-      width: 100%; }
-      .nav .unit a {
+    .primary-nav {
+      height: 6em; }
+      .primary-nav .unit a {
         height: 3.5em; } }
-  .nav .unit a {
-    text-align: center;
-    text-decoration: none;
-    color: #222222;
-    padding: 0.5em;
-    padding-bottom: 0;
-    border-bottom: 1px solid #222222;
-    -webkit-transition: background-color 0.2s ease-out;
-    transition: background-color 0.2s ease-out; }
-    .nav .unit a:hover, .nav .unit a:active {
-      background: none;
-      font-weight: 700; }
-  .nav .unit .active {
-    font-weight: 700;
-    color: #ff2b06; }
-  .nav .unit ul {
-    margin: 0;
-    padding: 0;
-    width: 100%; }
-  .nav .unit .child {
-    text-align: center;
-    margin: 0;
-    width: 100%;
-    height: auto; }
-    .nav .unit .child a {
-      border: 0; }
+  .primary-nav .unit {
+    width: 25%; }
+    .primary-nav .unit a {
+      text-align: center;
+      text-decoration: none;
+      color: #222222;
+      padding: 0.5em;
+      padding-bottom: 0;
+      border-bottom: 1px solid #222222;
+      -webkit-transition: background-color 0.2s ease-out;
+      transition: background-color 0.2s ease-out; }
+      .primary-nav .unit a:hover, .primary-nav .unit a:active {
+        background: none;
+        font-weight: 700; }
+      .primary-nav .unit a span {
+        font-size: 1.1em; }
+    .primary-nav .unit ul {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      display: none; }
+    .primary-nav .unit .active {
+      font-weight: 700;
+      color: #ff2b06; }
+    .primary-nav .unit .active + ul, .primary-nav .unit a:hover + ul, .primary-nav .unit ul:hover {
+      display: block; }
+    .primary-nav .unit .child {
+      text-align: center;
+      margin: 0;
+      width: 100%;
+      height: auto; }
+      .primary-nav .unit .child a {
+        border: 0; }
 
 /*
 footer.css
@@ -195,55 +276,63 @@ Contains styles specifically for the homepage
   /* Todo: add fallback */
   background: url(/assets/images/angular-background.png) no-repeat center center fixed;
   background-size: auto 100%;
-  background-position: right 0;
-  display: table;
-  position: absolute;
-  height: 100%;
-  width: 100%; }
-  .homepage h2 {
-    font-weight: 400; }
-  .homepage .fadeout {
-    margin: 0 auto;
-    max-width: 32em;
-    padding: 1em;
+  background-position: right 0; }
+  .homepage h1 {
+    font-weight: 400;
+    font-size: 6em;
+    color: #222222;
+    letter-spacing: .3em; }
+  .homepage .prompt p {
+    font-size: 1.5em;
+    color: #ff2b06; }
+  .homepage .prompt .fadeout {
     background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 1em; }
-  .homepage .container {
-    max-width: 30em; }
-  .homepage .logo {
-    width: 100%;
-    margin-bottom: 1em; }
-  .homepage .links {
-    width: 100%; }
-  .homepage .social-media {
+    padding: .3em;
+    border-radius: 3px;
     display: block;
-    text-align: center; }
-  .homepage .nav {
-    width: 100%;
-    border-bottom: 0;
-    margin-bottom: 0em; }
+    max-width: 30em;
+    margin: 0 auto; }
+  .homepage .prompt .subtitle {
+    font-size: 2em;
+    color: #222222;
+    background-color: none;
+    padding: 0; }
+  .homepage .prompt span {
+    white-space: nowrap; }
+  .homepage a {
+    color: #ff2b06; }
+  .homepage .container {
+    margin: inherit auto; }
   .homepage .prompt {
     text-align: center; }
-    .homepage .prompt h2 {
-      display: block;
-      width: auto;
-      margin: 0; }
-    .homepage .prompt a {
-      color: #ff2b06; }
-      .homepage .prompt a:hover, .homepage .prompt a:active {
-        color: #222222; }
-  .homepage .social-media {
-    position: absolute;
-    right: 1em;
-    top: 1em; }
-    .homepage .social-media a {
-      color: #222222; }
-      .homepage .social-media a:hover, .homepage .social-media a:active {
-        color: #ff2b06; }
-
-.vertically-center {
-  display: table-cell;
-  vertical-align: middle; }
+    .homepage .prompt .row {
+      margin: 0 0 2em;
+      padding: 0; }
+  .homepage .header {
+    position: relative;
+    z-index: 5; }
+  @media all and (max-width: 768px) {
+    .homepage h1 {
+      letter-spacing: 0.1em;
+      font-size: 2.8em;
+      padding: 0; }
+    .homepage .vertical-container {
+      padding: 0; }
+    .homepage .vertically-center {
+      margin: 0; } }
+  @media all and (min-width: 768px) {
+    .homepage .vertical-container {
+      display: table;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%; }
+    .homepage .vertically-center {
+      display: table-cell;
+      vertical-align: middle;
+      margin: inherit auto;
+      z-index: 1; } }
 
 /*
 image-grid.scss
@@ -283,6 +372,8 @@ Code for any grid-like arrangement
 .picture-frame .unit {
   padding: 0.8em 0.4em 0;
   overflow: hidden; }
+.picture-frame .bump {
+  margin-right: 1em; }
 .picture-frame .target {
   position: relative;
   overflow: hidden;
@@ -327,3 +418,38 @@ CSS specifcally for speakers
   padding-left: 1em; }
   .speaker .bio h2, .speaker .bio h3 {
     margin-top: 0; }
+
+/*
+forms.scss
+
+Contains CSS to format forms
+*/
+form {
+  margin: 1em 0; }
+
+label {
+  display: block; }
+
+input {
+  display: block;
+  margin-bottom: 1em; }
+
+textarea {
+  width: 100%;
+  min-height: 10em;
+  margin-bottom: 1em; }
+
+.response {
+  display: none;
+  padding: 1em;
+  margin: 2em 0;
+  width: 100%; }
+
+.no-garnish-constrained {
+  margin: 0 auto; }
+
+#success {
+  border: 5px solid #00a651; }
+
+#failure {
+  border: 5px solid #ff2b06; }

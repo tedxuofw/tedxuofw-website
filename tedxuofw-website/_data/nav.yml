@@ -1,29 +1,29 @@
 - title: "home."
-  url: /index.html
+  url: /
   id: home
 - title: "about us."
-  url: /about.html
+  url: /about
   id: about
   children:
-    - title: "about ted."
-      url: /about.html
-      id: about
     - title: "volunteers."
-      url: /volunteers.html
+      url: /volunteers
       id: volunteers
+    - title: "contact."
+      url: /contact
+      id: contact
 - title: "the event."
-  url: /the-event.html
+  url: /the-event
   id: the-event
   children:
     - title: "speakers"
-      url: /the-event.html
-      id: the-event
+      url: /speakers
+      id: speakers
     - title: "sponsors"
-      url: /sponsors.html
+      url: /sponsors
       id: sponsors
     - title: "register"
-      url: https://docs.google.com/forms/d/1zu9XcylxeppJuWfh44G7hdro0yGQOUOyM1DX_IC-Mvo/viewform
+      url: /register
       id: register   
 - title: "past events."
-  url: /past-events.html
+  url: /past-events
   id: past-events

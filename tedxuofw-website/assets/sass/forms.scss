@@ -1,0 +1,43 @@
+/*
+forms.scss
+
+Contains CSS to format forms
+*/
+
+form{
+    margin:1em 0;
+}
+
+label{
+    display:block;
+}
+
+input{
+    display: block;
+    margin-bottom:1em;
+}
+
+textarea{
+    width:100%;
+    min-height:10em;
+    margin-bottom:1em;
+}
+
+.response{
+    display:none;
+    padding:1em;
+    margin:2em 0;
+    width:100%;
+}
+
+.no-garnish-constrained{
+    margin:0 auto;
+}
+
+#success{
+    border:5px solid #00a651;
+}
+
+#failure{
+    border:5px solid $red;
+}
