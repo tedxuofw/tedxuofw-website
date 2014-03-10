@@ -65,7 +65,43 @@ Contains styles specifically for the homepage
         z-index:5;
     }
     
+    .social-media a{
+        color:$black;
+        &:hover{
+            color:$red;
+        }
+    }
     
+    .youtube{
+        display:block;
+        position:relative;
+        margin: 1em auto;
+        width:20em;
+        
+        img{
+            display:block;
+            width:100%;
+            height:auto;
+        }
+        
+        .glyphicon{
+            display:block;
+            position:absolute;
+            top:50%;
+            left:50%;
+            margin-top:-.5em;
+            margin-left:-.5em;
+            
+            font-size:3em;
+            color:$black;
+        }
+        
+        &:hover{
+            .glyphicon{
+                color:$red;
+            }
+        }
+    }
     
     @media all and (max-width:$small-breakpoint) {
         h1 {

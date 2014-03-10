@@ -56,7 +56,6 @@ current:
               unique_id: nicole_mattson
               position: Registration and Speaker Selection
               year: Junior
-              bump: true
               major: "Neurobiology Major & Global Health Minor"
               ted: |
                 "The most amazing thing about TED is that it brings people together and encourages critical reflection and creative problem solving across diverse disciplines. There are so many incredible people with an inspiring story to tell or an "idea worth spreading" and it has been so rewarding to help give these voices a stage at our UW campus."
@@ -126,7 +125,7 @@ current:
               ted: |
                 "I find TED fascinating because it's one of the more effective venues for communicating and fostering interesting ideas. Nearly everybody I know has at least some idea of what TED is, or has watched a TED talk -- TED's mission of promoting "ideas worth spreading" seems to be very effective."
               about: |
-                Michael is a TA for a CSE course and enjoys reading and folding origami. He is involved in the DUBotics club and the Historical Fencing club. Michael has held previous positions as a private tutor and an intern at Microsoft Research.
+                Michael is a TA for a CSE course at UW and enjoys reading and folding origami. He is involved in the DUBotics club and the Historical Fencing club. Michael has held previous positions as a private tutor and an intern at Microsoft Research.
               image: "assets/images/marketing/michael.jpg"
             - name: Daniel Huie
               unique_id: daniel_huie
@@ -147,7 +146,7 @@ current:
                 "I love stories, especially stories that inspire me or teach me something new or allow me to think about something in a different way. TED talks always seem to do almost all of those things."
               about: |
                 Stephanie enjoys reading good books, listening to music and going to concerts, eating good food, and enjoying the outdoors by hiking and camping. Not surprisingly, Stephanie loves photography. She also knows a lot about astrology!
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/marketing/stephanie.jpg"
         - group: Production
           unique_id: production
           image: "assets/images/team-slide.png"
@@ -222,7 +221,7 @@ current:
                 "I love TED talks because they are inspiring and diverse. The atmosphere at TEDx events is also super inspiring."
               about: |
                 Gaku organized a TEDx event in his home country, Japan, so he is no stranger to TEDx conferences! He enjoys traveling and playing soccer in his free time.
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/registration/gaku.jpg"
             - name: Wendy An-Jo Wang
               unique_id: wendy_an-jo_wang
               position: Registration
@@ -230,7 +229,7 @@ current:
               major: ???
               ted: ???
               about: ???
-              image: "assets/images/full-placeholder.png"
+              image: "assets/images/registration/wendy.jpg"
         - group: Speaker Selection
           unique_id: speaker_Selection
           image: "assets/images/team-slide.png"
@@ -249,7 +248,6 @@ current:
               unique_id: kyle_nelson
               position: Speaker Selection
               year: Freshman
-              bump: true
               major: Neurobiology
               ted: |
                 "I was introduced to TED my junior year of high school by a teacher, and since then it's changed the way I look at a lot of things. From how to attain happiness and more productive work (Shawn Achor, "The Happy Secret To Better Work"), to how to properly and efficiently use a paper towel (Joe Smith, "How To Use A Paper Towel"). The reason I love TED is simply because it gives people a platform to share what they're passionate about and why they believe it's so important."
@@ -259,10 +257,12 @@ current:
             - name: Kyle Morasse
               unique_id: kyle_morasse
               position: Speaker Selection
-              year: ???
-              major: ???
-              ted: ???
-              about: ???
+              year: Freshman
+              major: Psychology
+              ted: |
+                "I always enjoy watching TED Talks due to the innovative, positive, and transformative messages they share with the public. Their "Ideas Worth Spreading" have influenced my life in several ways and I am amazed at their ability to spread powerful ideas that change people's lives, communities, and the world as a whole. My favorite TED talk is by Sociologist Brené Brown, in which she discusses the importance of vulnerability in living a whole-hearted life. Her TED Talk as well as her book, Daring Greatly, have both deeply inspired me to take risks and be vulnerable in my everyday life. I am truly grateful for her powerfully life-changing message."
+              about: |
+                Kyle enjoys reading books about psychology and Buddhism. When he isn’t reading, he also likes to go running and hiking in the outdoors. Fun fact about Kyle, he sleepwalks or talks in his sleep almost every single night!
               image: "assets/images/speaker-selection/kyle-morasse.jpg"
             - name: Ellie Taagen
               unique_id: ellie_taagen
@@ -339,7 +339,6 @@ current:
             - name: Tsz Ling Pinky Li
               unique_id: tsz_ling_pinky_li
               position: Sponsorship
-              bump: true
               year: Junior
               major: Economics and Statistics
               ted: |

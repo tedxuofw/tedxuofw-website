@@ -15,13 +15,13 @@
   url: /the-event
   id: the-event
   children:
-    - title: "speakers"
+    - title: "speakers."
       url: /speakers
       id: speakers
-    - title: "sponsors"
+    - title: "sponsors."
       url: /sponsors
       id: sponsors
-    - title: "register"
+    - title: "register."
       url: /register
       id: register   
 - title: "past events."

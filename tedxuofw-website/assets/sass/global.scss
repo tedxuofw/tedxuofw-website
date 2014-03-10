@@ -59,6 +59,10 @@ a[href^="mailto"] {
     white-space:nowrap;
 }
 
+.emphasis{
+    color:$red;
+}
+
 .btn, .btn-default {
     text-decoration:none;
     background-color:$red;
@@ -154,7 +158,7 @@ a[href^="mailto"] {
 }
 
 .registration-form{
-    height:200em;
+    height:150em;
     margin:0;
     padding:0;
     margin-left:-.5em;
@@ -218,3 +222,25 @@ a[href^="mailto"] {
     }
 }
 
+.kludge-add-spacing{
+    height:3em;
+}
+
+.stats{
+    display:block;
+    max-width:25em;
+    margin:inherit auto;
+}
+
+@media all and (max-width:$large-breakpoint) {
+    .stats{
+        display:block;
+        margin-top:1em;
+        
+        img{
+            display:block;
+            max-width:25em;
+            margin:0 auto;
+        }
+    }
+}

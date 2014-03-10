@@ -43,6 +43,9 @@ a {
 a[href^="mailto"] {
   white-space: nowrap; }
 
+.emphasis {
+  color: #ff2b06; }
+
 .btn, .btn-default {
   text-decoration: none;
   background-color: #ff2b06;
@@ -112,7 +115,7 @@ a[href^="mailto"] {
       color: #222222; }
 
 .registration-form {
-  height: 200em;
+  height: 150em;
   margin: 0;
   padding: 0;
   margin-left: -.5em; }
@@ -156,6 +159,22 @@ a[href^="mailto"] {
       display: table; }
     .expand:after {
       clear: both; } }
+.kludge-add-spacing {
+  height: 3em; }
+
+.stats {
+  display: block;
+  max-width: 25em;
+  margin: inherit auto; }
+
+@media all and (max-width: 1200px) {
+  .stats {
+    display: block;
+    margin-top: 1em; }
+    .stats img {
+      display: block;
+      max-width: 25em;
+      margin: 0 auto; } }
 /*
 navbar.scss
 
@@ -311,6 +330,30 @@ Contains styles specifically for the homepage
   .homepage .header {
     position: relative;
     z-index: 5; }
+  .homepage .social-media a {
+    color: #222222; }
+    .homepage .social-media a:hover {
+      color: #ff2b06; }
+  .homepage .youtube {
+    display: block;
+    position: relative;
+    margin: 1em auto;
+    width: 20em; }
+    .homepage .youtube img {
+      display: block;
+      width: 100%;
+      height: auto; }
+    .homepage .youtube .glyphicon {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -.5em;
+      margin-left: -.5em;
+      font-size: 3em;
+      color: #222222; }
+    .homepage .youtube:hover .glyphicon {
+      color: #ff2b06; }
   @media all and (max-width: 768px) {
     .homepage h1 {
       letter-spacing: 0.1em;

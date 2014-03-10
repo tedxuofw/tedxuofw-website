@@ -8,9 +8,6 @@ id: volunteers
 <div class="container">
     <div class="main-content">
         <h1>Meet your TEDx Team</h1>
-        <div class="image-header">
-            <img class="full" src="assets/images/team.jpg">
-        </div>
         
         <div class="panel-group picture-frame" id="accordian">
             <div class="panel panel-default">
@@ -32,7 +29,7 @@ id: volunteers
                     {% else %}
                         {% assign open = "" %}
                     {% endif %}
-                    <div id="{{ group.unique_id }}-collapse" class="panel-collapse collapse{{ open }}">
+                    <div id="{{ group.unique_id }}-collapse" class="panel-collapse collapse in">
                         <div class="panel-body">
                             <div class="row">
                                 {% for person in group.volunteers %}
