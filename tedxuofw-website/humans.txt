@@ -34,13 +34,15 @@ We used the following technologies, frameworks, fonts, and assets:
     -   [Hyphenator.js](http://code.google.com/p/hyphenator/)
     -   [jQuery](http://jquery.com/) and [jQuery UI](https://jqueryui.com/)
     -   [Modernizr](http://modernizr.com/)
+    -   [FancyBox 2](fancyapps.com/fancybox/)
 -   Images and media assets
     -   UW Student Life
 -   Misc
     -   Hosting from [Bluehost](http://www.bluehost.com/)
     -   Domain registration from [Godaddy](http://www.godaddy.com)
     -   Analytics from [Google Analytics](http://www.google.com/analytics/)
-    -   Forms processing via [Simpleform](http://getsimpleform.com)
+    -   Contact form processing via [Simpleform](http://getsimpleform.com)
+    -   Registration form via [Google Forms](http://drive.google.com)
     
 [git]: https://github.com/Michael0x2a/tedxuofw-website
 

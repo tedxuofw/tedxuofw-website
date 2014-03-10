@@ -3,6 +3,21 @@ layout: default
 title: Contact
 parent_id: about
 id: contact
+scripts: | 
+    <script type="text/javascript">
+        $('#contact-form').submit(function() {
+            $.ajax({
+                dataType:'jsonp',
+                url: "http://getsimpleform.com/messages/ajax?form_api_token=f1b51b2d3cd55bc25885c8df6ff41a8e",
+                data: $('#contact-form').serialize()
+            }).done(function() {
+                $('#success').show(500);
+            }).fail(function() {
+                $('#failure').show(200);
+            });
+            return false;
+        });
+    </script>
 ---
 
 <div class="container">
@@ -41,18 +56,3 @@ id: contact
         </form>
     </div>
 </div>
-
-<script type="text/javascript">
-    $('#contact-form').submit(function() {
-        $.ajax({
-            dataType:'jsonp',
-            url: "http://getsimpleform.com/messages/ajax?form_api_token=f1b51b2d3cd55bc25885c8df6ff41a8e",
-            data: $('#contact-form').serialize()
-        }).done(function() {
-            $('#success').show(500);
-        }).fail(function() {
-            $('#failure').show(200);
-        });
-        return false;
-    });
-</script>
