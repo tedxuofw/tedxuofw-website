@@ -1,8 +1,25 @@
 # General config
-safe: true
+safe: false
 markdown: redcarpet
 pygments: true
 
 # Overall site config
 name: "TEDxUofW"
 url: "http://tedxuofw.com"
+
+gems: [jekyll-assets]
+
+# Plugin: jekyll-assets
+assets:
+    dirname: assets
+    baseurl: /assets/
+    sources:
+        -   assets/fancybox2
+        -   assets/bootstrap/css
+        -   assets/bootstrap/js
+        -   assets/bootstrap/fonts
+        -   assets/sass
+        -   assets/js
+    cachebust: hard
+    gzip: [ text/css, application/javascript ]
+    

@@ -4,6 +4,9 @@ main-styles.scss
 Contains a high-level overview of all the different styles used in this website.
 */
 
+//= require bootstrap.min
+//= require bootstrap-theme.min
+
 @import 'global';
 @import 'navbar';
 @import 'footer';
