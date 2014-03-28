@@ -4,7 +4,13 @@ speaker.scss
 CSS specifcally for speakers
 */
 
+.speakers{
+    margin-bottom:5em;
+}
+
 .speaker {
+    margin-bottom:1em;
+    
     h2 {
         border-bottom:2px solid $red;
         width:100%;
@@ -12,7 +18,9 @@ CSS specifcally for speakers
     }
     
     img {
-        margin-bottom:1em;
+        display:block;
+        margin:0 auto;
+        max-width:20em;
     }
     
     .bio {
@@ -20,6 +28,12 @@ CSS specifcally for speakers
         
         h2,h3{
             margin-top:0;
+        }
+    }
+    
+    @media all and (max-width:$small-breakpoint) {
+        img{
+            margin-bottom:1em;
         }
     }
 }

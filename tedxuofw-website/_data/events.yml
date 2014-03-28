@@ -367,20 +367,22 @@ current:
                 Johnson is a part of the Vietnamese Student Association and volunteers at the Denise Louie Preschool in the International District. He enjoys watching mixed martial arts, exercising, volunteering, and eating. Once, Johnson accidentally ate hamster food!
               image: "assets/images/sponsorship/johnson.jpg"
     speakers:
-        - name: "Speaker name"
-          unique_id: speaker_1
-          talk_name: "Name of talk"
+        - name: "Ben Gilbert"
+          unique_id: ben_gilbert
+          talk_name: "Event Emcee"
           bio: |
-            Speaker bio
-          talk_info: |
-            Info about talk
-          image: "/assets/images/full-placeholder.png"
-        - name: "Speaker 2"
-          unique_id: speaker_2
-          talk_name: "Name of talk"
+            We could not be more excited to have Ben Gilbert as our Emcee for TEDxUofW! Ben runs <a href="http://www.microsoft.com/en-us/news/stories/garage/index.html">The Garage</a>, Microsoft’s Grassroots Innovation Program to facilitate hackathons and support side projects. He was previously the UX Program Manager on Microsoft Office for Mac, and has started multiple technology companies, with over a million app downloads on the App Store. Ben is an international facilitator for <a href="http://startupweekend.org/">Startup Weekend</a>, an organization running entrepreneurial events in over 100 cities around the world. He's been a long-time admirer of TED, attending four previous TEDx events, and a part of the organizing team for <a href="http://tedxseattle.org/">TEDxSeattle</a>. More information can be found at <a href="http://benjamingilbert.net">benjamingilbert.net</a> or on Twitter at <a href="http://twitter.com/gilbert">twitter.com/gilbert</a>
+          image: "/assets/images/speakers/ben-gilbert.jpg"
+        - name: "Che Sehyun"
+          unique_id: che_sehyun
+          talk_name: "" #"Change Yourself to Change the System &ndash; because the system lives inside you"
           bio: |
-            Speaker bio
-          talk_info: |
-            Info about talk
-          image: "/assets/images/full-placeholder.png"
+            Che graduated from the UW in 2011 with degrees in English, Physiology and Comparative History of Ideas. Mired in poverty and violence as a child, homeless in the womb with no cultural roots &ndash; he has come a long way and founded a life-coaching and educational consulting organization, <a href="http://experienceease.com/">Experience Ease</a>. Education transformed his life and his life’s work. During his 6 years at the UW, he continued to notice a jarring reality &ndash; people who devoted their lives to dismantling or reforming systems (racism, capitalism, imperialism, sexism, etc.) were the very ones perpetuating and reproducing them by always moving relative to them. After unsuccessful attempts at broader social change, he focused on self-development and has completely transformed his life through good thoughts, practices and ways of living based in ancient traditions such as meditation, yoga, Tai Chi, Qi Gong, Shaolin Kung Fu and Capoiera Angola. Experience Ease helps students and families use the school experience to develop more fundamental life skills. Their motto: "we live the life we teach" &ndash; so you know it's real.
+          image: "/assets/images/speakers/che-sehyun.jpg"
+        - name: "Jaimee Garbacik"
+          unique_id: jaimee_garbacik
+          talk_name: ""
+          bio: |
+            Jaimee Garbacik is the author of <a href="http://www.randomhouse.com/book/221173/gender-and-sexuality-for-beginners-by-jaimee-garbacik"><em>Gender and Sexuality For Beginners</em></a> (For Beginners/Random House, illustrated by Jeffrey Lewis), a groundbreaking critical examination of the sex-gender system and the evolution of gender roles, currently on curriculum at more than a dozen universities. A book editor, writer, and publishing consultant, Jaimee is also the owner and founder of <a href="http://www.footnoteeditorial.com/">Footnote Editorial</a>. She cut her teeth in publishing as the acquisitions editor for a major literary agency in Manhattan, handling editorial development for the agency’s more than 200 clients world-wide. Jaimee is an active youth empowerment advocate, and a former programming chair of <a href="http://www.theveraproject.org/">The Vera Project</a>, an all-ages youth-led music and arts venue. In her spare time, she spraypaints on found windows, and is currently working on a collection of short stories about the malleable nature of the body, maturation, and how familial relationships assert power over both physical and metaphorical bodies. Jaimee’s TEDx talk on transcending gender and the transformative power of dialogue is already far too long and she’s only halfway through writing it. Please send reinforcements and pizza to the Central District.
+          image: "/assets/images/speakers/jaimee-garbacik.jpg"
     sponsors:

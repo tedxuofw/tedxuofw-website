@@ -76,10 +76,6 @@ a[href^="mailto"] {
   max-width: 43em;
   margin: auto; }
 
-.map-push {
-  margin-right: 2em;
-  margin-bottom: 2em; }
-
 .right-garnish {
   display: none; }
 
@@ -122,6 +118,9 @@ a[href^="mailto"] {
 
 .expand + .register {
   margin-top: 1em; }
+
+.map-push {
+  margin-bottom: 2em; }
 
 @media all and (max-width: 768px) {
   .map-push {
@@ -166,6 +165,9 @@ a[href^="mailto"] {
   display: block;
   max-width: 25em;
   margin: inherit auto; }
+
+.picture-accent {
+  margin-bottom: 3em; }
 
 @media all and (max-width: 1200px) {
   .stats {
@@ -451,16 +453,26 @@ speaker.scss
 
 CSS specifcally for speakers
 */
-.speaker h2 {
-  border-bottom: 2px solid #ff2b06;
-  width: 100%;
-  margin-bottom: 0.5em; }
-.speaker img {
+.speakers {
+  margin-bottom: 5em; }
+
+.speaker {
   margin-bottom: 1em; }
-.speaker .bio {
-  padding-left: 1em; }
-  .speaker .bio h2, .speaker .bio h3 {
-    margin-top: 0; }
+  .speaker h2 {
+    border-bottom: 2px solid #ff2b06;
+    width: 100%;
+    margin-bottom: 0.5em; }
+  .speaker img {
+    display: block;
+    margin: 0 auto;
+    max-width: 20em; }
+  .speaker .bio {
+    padding-left: 1em; }
+    .speaker .bio h2, .speaker .bio h3 {
+      margin-top: 0; }
+  @media all and (max-width: 768px) {
+    .speaker img {
+      margin-bottom: 1em; } }
 
 /*
 forms.scss
