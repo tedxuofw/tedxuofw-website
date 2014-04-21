@@ -378,6 +378,17 @@ Contains styles specifically for the homepage
       vertical-align: middle;
       margin: inherit auto;
       z-index: 1; } }
+  @media all and (max-height: 700px) {
+    .homepage .vertical-container {
+      padding: 0;
+      margin: 0;
+      height: auto;
+      vertical-align: none;
+      position: relative; }
+    .homepage .vertically-center {
+      margin: 0;
+      padding: 0;
+      vertical-align: none; } }
 
 /*
 image-grid.scss

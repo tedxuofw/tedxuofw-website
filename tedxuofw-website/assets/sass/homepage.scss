@@ -136,6 +136,22 @@ Contains styles specifically for the homepage
             z-index:1;
         }
     }
+    
+    @media all and (max-height: 700px) {
+        .vertical-container{
+            padding: 0;
+            margin: 0;
+            height: auto;
+            vertical-align: none;
+            position: relative;
+        }
+        
+        .vertically-center{
+            margin:0;
+            padding: 0;
+            vertical-align: none;
+        }
+    }
 }
 
 

@@ -395,4 +395,18 @@ current:
           bio: |
             Sarah Olson is a sophomore at the University of Washington and a Comparative History of Ideas major with a tri-focus in critical human-animal, gender and environmental studies. A lifelong interest in animal ethics has led her to explore the systems of oppression through which humans and animals interact. Sarah is especially passionate about and interested in biotechnology strategies that are superior to animal testing in predicting efficacy or toxicity of drugs or cosmetics. She believes it is crucial to develop and fund effective and affordable alternatives to animal testing in order for system-wide progress to be made. Rather than pointing blame or working against one another, researchers and animal rights activists can work together to make alternatives to animal research possible, creating a win-win solution in which more effective models can be used and fewer animals harmed.
           image: "/assets/images/speakers/sarah-olson.jpg"
+        - name: "Simon Tam"
+          unique_id: simon_tam
+          talk_name: ""
+          category: act
+          bio: |
+            Simon Tam is an award-winning musician, best-selling author, entrepreneur, and social justice activist. He is best known as the founder and bassist of <a href="http://www.theslants.com/">The Slants</a>, the world’s first and only all-Asian American dance rock band. His inspiring and unique approach to activism through the arts has been highlighted in thousands of media features across 82 countries, including: BBC World News, NPR, TIME Magazine, MTV, CBS, and the Wall Street Journal. Since 2000, he has been a performer, presenter, and keynote at events and organizations such as SXSW, Comic-Con, The Department of Defense, Stanford University, Rotary International, and over 1,200 others across North America, Europe, and Asia. You can find Simon's appearance schedule, writing, and current projects at: <a href="http://www.simontam.biz">www.simontam.biz</a>
+          image: "/assets/images/speakers/simon-tam.jpg"
+        - name: "Troy Osaki"
+          unique_id: troy_osaki
+          talk_name: ""
+          category: act
+          bio: |
+            Troy Osaki is a writer, performer and spoken word artist from Seattle, WA. Inspired by creative storytelling, his heritage, and movements for equality, Troy approaches his art in hopes of supporting and building his community. He commits to cultivating safe space for honesty and understanding, liberation of self, and having as much fun as possible while writing and sharing poems. After discovering spoken word poetry during his time at Garfield High School, Troy began centering his focus on creative writing. He attended open mics, writing circles, and poetry slams eventually becoming the 2012 Youth Speaks Seattle and University of Washington Grand Slam Champion representing Seattle at Brave New Voices in Berkeley, CA and the College Unions Poetry Slam Invitational in New York City. In 2013 he represented Seattle as a poet and performer in Pasadena, CA for Kollaboration Star, the largest Asian American talent show in the nation. Since graduating from the University of Washington, Troy now works as a teaching artist facilitating poetry workshops at Cleveland High School and a transitional housing unit for youth known as Spruce Street Crisis Residential Center. Troy writes poetry to honor his family’s legacy, and to work in solidarity with all groups of marginalized people. He recognizes poetry as a tool for healing, empowerment, and revolution.
+          image: "/assets/images/speakers/troy-osaki.jpg"
     sponsors:
