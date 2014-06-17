@@ -1,0 +1,157 @@
+/*
+homepage.scss
+
+Contains styles specifically for the homepage
+*/
+
+.homepage {
+    /* Todo: add fallback */
+    background: image-url("2014/misc/angular-background.png") no-repeat center center fixed;
+    background-size: auto 100%;
+    background-position: right 0;
+    
+    h1 {
+        font-weight: 400;
+        font-size: 6em;
+        color:$black;
+        letter-spacing:.3em;
+    }
+    
+    .prompt{
+        p{
+            font-size:1.5em;
+            color:$red;
+        }
+        
+        .fadeout{
+            background-color:rgba(255,255,255,0.6);
+            padding:.3em;
+            border-radius:3px;
+            display:block;
+            max-width:30em;
+            margin:0 auto;
+        }
+        
+        .subtitle{
+            font-size:2em;
+            color:$black;
+            background-color:none;
+            padding:0;
+        }
+        
+        span{
+            white-space:nowrap;
+        }
+    }
+    
+    a{
+        color:$red;
+    }
+    
+    .container{
+        margin: inherit auto;
+    }
+    
+    .prompt{
+        text-align:center;
+        .row{
+            margin:0 0 2em;
+            padding:0;
+        }
+    }
+    
+    .header{
+        position:relative;
+        z-index:5;
+    }
+    
+    .social-media a{
+        color:$black;
+        &:hover{
+            color:$red;
+        }
+    }
+    
+    .youtube{
+        display:block;
+        position:relative;
+        margin: 1em auto;
+        width:20em;
+        
+        img{
+            display:block;
+            width:100%;
+            height:auto;
+        }
+        
+        .glyphicon{
+            display:block;
+            position:absolute;
+            top:50%;
+            left:50%;
+            margin-top:-.5em;
+            margin-left:-.5em;
+            
+            font-size:3em;
+            color:$black;
+        }
+        
+        &:hover{
+            .glyphicon{
+                color:$red;
+            }
+        }
+    }
+    
+    @media all and (max-width:$small-breakpoint) {
+        h1 {
+            letter-spacing:0.1em;
+            font-size:2.8em;
+            padding:0;
+        }
+        
+        .vertical-container{
+            padding:0;
+        }
+        
+        .vertically-center{
+            margin:0;
+        }
+    } 
+    
+    @media all and (min-width:$small-breakpoint) {
+        .vertical-container {
+            display:table;
+            position:absolute;
+            top:0;
+            left:0;
+            height:100%;
+            width:100%;
+        }
+
+        .vertically-center{
+            display:table-cell;
+            vertical-align:middle;
+            margin:inherit auto;
+            z-index:1;
+        }
+    }
+    
+    @media all and (max-height: 700px) {
+        .vertical-container{
+            padding: 0;
+            margin: 0;
+            height: auto;
+            vertical-align: none;
+            position: relative;
+        }
+        
+        .vertically-center{
+            margin:0;
+            padding: 0;
+            vertical-align: none;
+        }
+    }
+}
+
+

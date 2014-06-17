@@ -23,7 +23,7 @@ id: sponsors
                     {% for sponsor in level.sponsors %}
                         <div class="sponsor col-xs-6 col-sm-3 col-lg-2 unit" id="sponsor-{{ sponsor.unique_id }}">
                             <a href="{{ sponsor.link }}">
-                                <img class="full" src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />                        
+                                <img class="full" src="{{ sponsor.image | asset_path }}" alt="{{ sponsor.name }}" />                        
                             </a>
                         </div>
                     {% endfor %}
@@ -33,7 +33,7 @@ id: sponsors
                     {% for sponsor in level.sponsors %}
                         <div class="sponsor col-xs-12 col-sm-6 col-lg-4 unit" id="sponsor-{{ sponsor.unique_id }}">
                             <a href="{{ sponsor.link }}">
-                                <img class="full" src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />                        
+                                <img class="full" src="{{ sponsor.image | asset_path }}" alt="{{ sponsor.name }}" />                        
                             </a>
                         </div>
                     {% endfor %}
@@ -43,7 +43,7 @@ id: sponsors
                     {% for sponsor in level.sponsors %}
                         <div class="sponsor col-xs-12 col-sm-10 col-md-8 col-lg-7 unit" id="sponsor-{{ sponsor.unique_id }}">
                             <a href="{{ sponsor.link }}">
-                                <img class="full" src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />                        
+                                <img class="full" src="{{ sponsor.image | asset_path }}" alt="{{ sponsor.name }}" />                        
                             </a>
                         </div>
                     {% endfor %}

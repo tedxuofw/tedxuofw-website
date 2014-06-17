@@ -10,16 +10,24 @@ url: "http://tedxuofw.com"
 gems: [jekyll-assets]
 
 # Plugin: jekyll-assets
-assets:
-    dirname: assets
-    baseurl: /assets/
-    sources:
-        -   assets/fancybox2
-        -   assets/bootstrap/css
-        -   assets/bootstrap/js
-        -   assets/bootstrap/fonts
-        -   assets/sass
-        -   assets/js
-    cachebust: hard
-    gzip: [ text/css, application/javascript ]
+#assets:
+#    dirname: assets
+#    baseurl: /assets/
+#    sources:
+#        -   assets/fancybox2
+#        -   assets/bootstrap/css
+#        -   assets/bootstrap/js
+#        -   assets/bootstrap/fonts
+#        -   assets/sass
+#        -   assets/js
     
+assets:
+    cache: true
+    cachebust: hard
+    sources:
+        - _assets/fonts
+        - _assets/javascripts
+        - _assets/media
+        - _assets/stylesheets
+        - _assets/vendors/fancybox2
+    gzip: [ text/css, application/javascript ]

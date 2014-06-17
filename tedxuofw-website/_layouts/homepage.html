@@ -1,6 +1,6 @@
     {% include meta.html %}
     
-    <link rel="stylesheet" href="/assets/fancybox2/jquery.fancybox.css" type="text/css"/>
+    {% stylesheet jquery.fancybox.css %}
 </head>
 <body role="document" class="homepage">
     {% include old-ie.html %}
@@ -13,8 +13,8 @@
     <!--{% javascript minimum.js %}-->
     
     <!-- Fancybox -->
-    <script type="text/javascript" src="/assets/fancybox2/jquery.mousewheel-3.0.6.pack.js"></script>
-    <script type="text/javascript" src="/assets/fancybox2/jquery.fancybox.pack.js"></script>
+    {% javascript jquery.mousewheel-3.0.6.pack %}
+    {% javascript jquery.fancybox.pack %}
     
     <script type="text/javascript">
         $(document).ready(function() {

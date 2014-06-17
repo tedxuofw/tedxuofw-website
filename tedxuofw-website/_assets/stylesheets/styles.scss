@@ -1,0 +1,18 @@
+/*
+main-styles.scss
+
+Contains a high-level overview of all the different styles used in this website.
+*/
+
+@import 'bootstrap.scss';
+@import 'syntax.scss';
+
+@import 'custom/global';
+@import 'custom/navbar';
+@import 'custom/footer';
+@import 'custom/homepage';
+@import 'custom/image-grid';
+@import 'custom/speakers';
+@import 'custom/sponsors';
+@import 'custom/forms';
+@import 'custom/live';

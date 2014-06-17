@@ -17,7 +17,7 @@ id: speakers
             
             <div class="row">
                 <div class="col-sm-4 col-md-3 unit">
-                    <img class="full" src="{{ speaker.image }}" alt="{{ speaker.name }}" />
+                    <img class="full" src="{{ speaker.image | asset_path }}" alt="{{ speaker.name }}" />
                 </div>
                 <div class="col-sm-8 col-md-9 unit bio">
                     {% if speaker.talk_name != "" %}

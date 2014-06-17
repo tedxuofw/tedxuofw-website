@@ -45,7 +45,7 @@ id: volunteers
                                 
                                 <div class="col-sm-6{{ sizing }} unit">
                                     <div class="target" data-toggle="modal" data-target="#{{ person.unique_id }}">
-                                        <img class="full" src="{{ person.image }}" alt="{{ person.name }}" />
+                                        <img class="full" src="{{person.image | asset_path }}" alt="{{ person.name }}" />
                                         <div class="description">
                                             <h3>{{ person.name }}</h3>
                                             <p>{{ person.position }}</p>
