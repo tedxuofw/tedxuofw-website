@@ -21,9 +21,9 @@
     - title: "sponsors."
       url: /sponsors
       id: sponsors
-    - title: "register."
-      url: /register
-      id: register   
+    - title: "live."
+      url: /live
+      id: live
 - title: "past events."
   url: /past-events
   id: past-events

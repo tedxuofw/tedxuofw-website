@@ -1,7 +1,7 @@
 /*
 speaker.scss
 
-CSS specifcally for speakers
+CSS specifically for speakers
 */
 
 .speakers{
@@ -28,6 +28,10 @@ CSS specifcally for speakers
         
         h2,h3{
             margin-top:0;
+        }
+        
+        h3 {
+            font-size: 1.5em;
         }
     }
     

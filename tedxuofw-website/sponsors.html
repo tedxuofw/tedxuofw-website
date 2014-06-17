@@ -10,29 +10,49 @@ id: sponsors
     <div class="main-content">
         <h1>Our sponsors</h1>
         
-        <p>Coming soon! Check back later.</p>
+        {% for level in site.data.sponsors %}
+            <h2>{{ level.level }}</h2>
+            {% if level.display == "husky" %}
+                <ul class="all-sponsors">
+                    {% for sponsor in level.sponsors %}
+                        <li id="{{ sponsor.unique_id }}">{{ sponsor.name }}</li>
+                    {% endfor %}
+                </ul>
+            {% elsif level.display == "snack" %}
+                <div class="row all-sponsors sponsor-logos">
+                    {% for sponsor in level.sponsors %}
+                        <div class="sponsor col-xs-6 col-sm-3 col-lg-2 unit" id="sponsor-{{ sponsor.unique_id }}">
+                            <a href="{{ sponsor.link }}">
+                                <img class="full" src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />                        
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% elsif level.display == "gold" %}
+                <div class="row all-sponsors sponsor-logos">
+                    {% for sponsor in level.sponsors %}
+                        <div class="sponsor col-xs-12 col-sm-6 col-lg-4 unit" id="sponsor-{{ sponsor.unique_id }}">
+                            <a href="{{ sponsor.link }}">
+                                <img class="full" src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />                        
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% elsif level.display == "platinum" %}
+                <div class="row all-sponsors sponsor-logos">
+                    {% for sponsor in level.sponsors %}
+                        <div class="sponsor col-xs-12 col-sm-10 col-md-8 col-lg-7 unit" id="sponsor-{{ sponsor.unique_id }}">
+                            <a href="{{ sponsor.link }}">
+                                <img class="full" src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />                        
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endfor %}
+        
+        <p><strong>More sponsors coming soon! Check back later.</strong></p>
         
         {% include picture-accent.html %}
-        
-        {% if false %}
-        {% for speaker in site.data.events.current.speakers %}
-        <div class="speaker" id="speaker-{{ speaker.unique_id }}">
-            <h2>{{ speaker.name }}</h2>
-            
-            <div class="row">
-                <div class="col-xs-4 unit">
-                    <img class="full" src="{{ speaker.image }}">
-                </div>
-                <div class="col-xs-8 unit bio">
-                    <h3>{{ speaker.talk_name }}</h3>
-                    
-                    <p>{{ speaker.talk_info }}</p>
-                    
-                    <p>{{ speaker.bio }}</p>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-        {% endif %}
     </div>
 </div>

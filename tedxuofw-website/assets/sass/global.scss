@@ -166,11 +166,17 @@ a[href^="mailto"] {
 
 .map-push {
     margin-bottom:2em;
+    max-width: 22em;
+    
+    h2:first-of-type {
+        margin-top: 0;
+    }
 }
 
 @media all and (max-width:$small-breakpoint) {
     .map-push{
         float:none !important;
+        max-width: 100%;
     }
     
     .map{
@@ -185,13 +191,17 @@ a[href^="mailto"] {
 }
 
 @media all and (min-width:$large-breakpoint) {
+    .map-push {
+        max-width: none;
+    }
+    
     .expand + .register{
         margin-top:2em;
     }
     
     .expand {
         position:relative;
-        margin-top:1em;
+        margin-bottom:1em;
         border-top:1px solid #eee;
         
         h2{

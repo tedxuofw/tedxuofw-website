@@ -1,0 +1,50 @@
+/*
+sponsors.scss
+
+CSS specifically for speakers
+*/
+
+
+.sponsor-header {
+    border-bottom:2px solid $red;
+    width:100%;
+    margin-bottom:0.5em;
+}
+
+.sponsor {
+    padding: 1em;
+    
+    a:after {
+        content: "";
+        transition: background-color 0.2s ease-out;
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+
+.all-sponsors {
+    margin-bottom: 3em;
+}
+
+.sponsor-logos {   
+    &:hover {
+        .sponsor a {
+            &:after {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background-color: rgba(255, 255, 255, 0.5);
+            }
+        }
+        
+        .sponsor a:hover {
+            &:after {
+                content: "";
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+---
+layout: default
+title: Livestream
+parent_id: the-event
+id: livestream
+---
+
+<div class="container">
+    <h1>Livestream</h1>
+    
+    <p>We'll be livestreaming the audio on <a href="http://uwave.fm">uwave.fm</a> on May 3rd! You can tune in either directly below, or on their <a href="http://uwave.fm/live">website</a>.</p>
+    
+    <p>For best results, use either Google Chrome or Firefox.</p>
+    
+    <audio controls class="livestream">
+        <source src="http://live.uwave.fm:8000/listen-128.ogg" type="audio/ogg" />
+        <source src="http://live.uwave.fm:8000/listen-128.mp3" type="audio/mpeg" />
+        <source src="http://live.uwave.fm:8000/listen-64.m4a" type='audio/mp4; codecs="mp4a.40.5"' />
+    </audio>
+    
+    <h2>Schedule</h2>
+    
+    <div class="schedule">
+        {% for arc in site.data.schedule %}
+            <h3 class="clearfix">
+                {% if arc.time %}
+                    <div class="time">{{ arc.time }}:</div>
+                {% endif %}
+                <div class="title-block">
+                    {{ arc.arc_title }}
+                </div>
+            </h3>
+            
+            {% if arc.events %}
+                <ul class="events">
+                    {% for event in arc.events %}
+                        <li class="{{ event.type }} clearfix">
+                            <div class="time">{{ event.time }}:</div>
+                            <div class="title-block">
+                                <span class="title">{{ event.title }}</span>
+                                <span class="subtitle">{{ event.subtitle }}</span>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </li>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

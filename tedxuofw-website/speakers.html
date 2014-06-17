@@ -8,8 +8,10 @@ id: speakers
 <div class="container">
     <h1>Meet the speakers</h1>
     
+    <p>Looking for more information on who's speaking when? Check out our <a href="/live">event schedule</a> for more details!</p>
+    
     <div class="speakers">
-        {% for speaker in site.data.events.current.speakers %}
+        {% for speaker in site.data.speakers %}
         <div class="speaker" id="speaker-{{ speaker.unique_id }}">
             <h2>{{ speaker.name }}</h2>
             
@@ -22,14 +24,10 @@ id: speakers
                     <h3>{{ speaker.talk_name }}</h3>
                     {% endif %}
                     
-                    <p>{{ speaker.bio }}</p>
+                    {{ speaker.bio | markdownify }}
                 </div>
             </div>
         </div>
         {% endfor %}
     </div>
-    
-    <h2>More speakers coming soon! Check back later.</h2>
-    
-    {% include picture-accent.html %}
 </div>

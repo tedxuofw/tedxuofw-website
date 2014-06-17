@@ -120,11 +120,15 @@ a[href^="mailto"] {
   margin-top: 1em; }
 
 .map-push {
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  max-width: 22em; }
+  .map-push h2:first-of-type {
+    margin-top: 0; }
 
 @media all and (max-width: 768px) {
   .map-push {
-    float: none !important; }
+    float: none !important;
+    max-width: 100%; }
 
   .map {
     float: none !important;
@@ -134,12 +138,15 @@ a[href^="mailto"] {
   height: 400px; }
 
 @media all and (min-width: 1200px) {
+  .map-push {
+    max-width: none; }
+
   .expand + .register {
     margin-top: 2em; }
 
   .expand {
     position: relative;
-    margin-top: 1em;
+    margin-bottom: 1em;
     border-top: 1px solid #eee; }
     .expand h2 {
       position: relative;
@@ -462,7 +469,7 @@ Code for any grid-like arrangement
 /*
 speaker.scss
 
-CSS specifcally for speakers
+CSS specifically for speakers
 */
 .speakers {
   margin-bottom: 5em; }
@@ -481,9 +488,44 @@ CSS specifcally for speakers
     padding-left: 1em; }
     .speaker .bio h2, .speaker .bio h3 {
       margin-top: 0; }
+    .speaker .bio h3 {
+      font-size: 1.5em; }
   @media all and (max-width: 768px) {
     .speaker img {
       margin-bottom: 1em; } }
+
+/*
+sponsors.scss
+
+CSS specifically for speakers
+*/
+.sponsor-header {
+  border-bottom: 2px solid #ff2b06;
+  width: 100%;
+  margin-bottom: 0.5em; }
+
+.sponsor {
+  padding: 1em; }
+  .sponsor a:after {
+    content: "";
+    transition: background-color 0.2s ease-out;
+    background-color: rgba(255, 255, 255, 0); }
+
+.all-sponsors {
+  margin-bottom: 3em; }
+
+.sponsor-logos:hover .sponsor a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.5); }
+.sponsor-logos:hover .sponsor a:hover:after {
+  content: "";
+  background-color: rgba(255, 255, 255, 0); }
 
 /*
 forms.scss
@@ -519,3 +561,42 @@ textarea {
 
 #failure {
   border: 5px solid #ff2b06; }
+
+/*
+live.scss
+
+All styles for the livestream and schedule.
+*/
+.livestream {
+  display: block;
+  margin-bottom: 3em; }
+
+.schedule {
+  margin-bottom: 3em; }
+  .schedule h3 {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+    margin-top: 0; }
+  .schedule ul {
+    list-style-type: none; }
+  .schedule li {
+    display: block;
+    margin-left: 0;
+    margin-bottom: .5em; }
+  .schedule .time {
+    display: block;
+    color: #ff2b06;
+    width: 8rem;
+    float: left;
+    text-align: right;
+    padding: 0;
+    padding-right: 12px; }
+  .schedule .title-block {
+    display: block;
+    position: relative;
+    margin-left: 8rem; }
+  .schedule .title {
+    display: block;
+    font-weight: 700; }
+  .schedule .subtitle {
+    display: block; }

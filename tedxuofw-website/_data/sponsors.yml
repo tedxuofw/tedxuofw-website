@@ -1,0 +1,56 @@
+- level: "Platinum sponsors ($1000+)"
+  display: platinum
+  sponsors: 
+    - name: "UW Marketing and Communications"
+      unique_id: uw_marketing_and_communications
+      image: /assets/images/sponsors/uw-marketing-and-communications-large.jpg?v=2
+      link: http://www.washington.edu/marketing/
+- level: "Gold sponsors ($500+)"
+  display: gold
+  sponsors:
+    - name: "UW Alumni Association"
+      unique_id: uw_alumni_association
+      image: /assets/images/sponsors/uw-alumni-association-large.jpg
+      link: https://www.washington.edu/alumni/
+    - name: "Computer Science &amp; Engineering at UW"
+      unique_id: cse_uw
+      image: /assets/images/sponsors/cse-uw-large.jpg
+      link: http://www.cs.washington.edu/
+    - name: "DigiPen"
+      unique_id: digipen
+      image: /assets/images/sponsors/digipen-large.jpg
+      link: https://www.digipen.edu/?utm_source=tedxuofw%20website%20&utm_medium=banner&utm_content=logo&utm_campaign=General%20Awareness
+- level: "Snack sponsors ($250+)"
+  display: snack
+  sponsors:
+    - name: "Caffe Vita"
+      unique_id: caffe_vita
+      image: /assets/images/sponsors/caffe-vita.jpg
+      link: https://www.caffevita.com/
+    - name: "Cascade Advertising"
+      unique_id: cascade_advertising
+      image: /assets/images/sponsors/cascade-advertising.jpg
+      link: http://www.cascadeadvertising.com/        
+    - name: "Dry Soda"
+      unique_id: dry_soda
+      image: /assets/images/sponsors/dry-soda.jpg
+      link: http://www.drysoda.com/
+    - name: "Einstein Bros Bagels"
+      unique_id: einstein_bros
+      image: /assets/images/sponsors/einstein-bros.jpg
+      link: http://www.einsteinbros.com/
+    - name: "Ingallina's"
+      unique_id: ingallinas
+      image: /assets/images/sponsors/ingallinas.jpg
+      link: http://www.ingallina.net/
+    - name: "Kind Snacks"
+      unique_id: kind_snacks
+      image: /assets/images/sponsors/kind-snacks.jpg
+      link: http://www.kindsnacks.com/
+- level: "Husky sponsors ($100+)"
+  display: husky
+  sponsors:
+    - name: "Jeff Lewis"
+      unique_id: jeff_lewis
+      image: ""
+      link: ""
