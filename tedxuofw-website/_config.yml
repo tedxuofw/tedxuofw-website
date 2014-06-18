@@ -1,5 +1,6 @@
 # General config
 safe: false
+markdown: kramdown
 
 # Overall site config 
 name: "TEDxUofW"
