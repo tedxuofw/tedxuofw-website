@@ -1,12 +1,11 @@
 # General config
 safe: false
-markdown: redcarpet
-pygments: true
 
-# Overall site config
+# Overall site config 
 name: "TEDxUofW"
 url: "http://tedxuofw.com"
 
+# Plugins 
 gems: [jekyll-assets]
 
 # Plugin: jekyll-assets

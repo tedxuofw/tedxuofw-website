@@ -4,18 +4,12 @@ global.scss
 Contains global styles and definitions for constants.
 */
 
-$red: #ff2b06;
-$black: #222;
-$white: #fff;
+
 
 @import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
 
 $header-typeface: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
 $body-typeface: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
-
-$small-breakpoint: 768px;
-$medium-breakpoint: 992px;
-$large-breakpoint: 1200px;
 
 *, *:before, *:after {  
             box-sizing: border-box;
