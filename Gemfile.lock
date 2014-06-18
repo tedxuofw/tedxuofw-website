@@ -65,6 +65,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  jekyll
   jekyll-assets
   sass
   uglifier

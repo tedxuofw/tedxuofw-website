@@ -30,7 +30,33 @@ Currently, we use [jekyll-assets][ja] as our build system. Run the following com
     
 The command `jekyll serve --watch` will create a process that automatically watches our files for changes and rebuilds the website when any file is changed. The actual website can then be found inside `tedxuofw-website/_site` and can be copied via ftp to production. 
 
+## Project structure 
 
+Our project is organized into the following folders and files :
+
+    tedxuofw-website 
+        _assets 
+            fonts 
+            javascripts 
+            media 
+            stylesheets 
+            vendors 
+        _data 
+        _includes 
+        _layouts 
+        _plugins 
+        _posts 
+        _site 
+        
+        .gitignore 
+        .htaccess 
+        _config.yml 
+        
+        [html files]
+
+Out of these files, you can safely ignore the `_plugins` and `_posts` folders, and the `.gitignore` file. The `_plugins` folder contains some minimal configuration for the few plugins that we use, and should not need modification on a day-to-date basis. The `_posts` folder is meant to contain blog posts. Because at present, we don't have a blog post and therefore no blogs, this folder will remain empty.
+
+TODO: complete 
 
   [tedxuofw]: http://tedxuofw.com
   [ruby]: https://www.ruby-lang.org/
