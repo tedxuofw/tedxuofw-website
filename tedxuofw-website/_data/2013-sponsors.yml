@@ -1,0 +1,53 @@
+- level: "Title Sponsor"
+  display: platinum
+  sponsors: 
+    - name: "UW Foundation"
+      unique_id: uw_foundation
+      image: 2013/sponsors/uw-foundation.jpg 
+      link: "https://www.washington.edu/giving/"
+    - name: "iSchool"
+      unique_id: ischool 
+      image: 2013/sponsors/ischool.jpg
+      link: "https://ischool.uw.edu/"
+- level: "Production and Service"
+  display: gold
+  sponsors:
+    - name: "Undergraduate Theater Society"
+      unique_id: undergraduate_theater_society
+      image: general/full-placeholder.png
+      link: "#"
+    - name: "Ad Club" 
+      unique_id: ad_club 
+      image: general/full-placeholder.png
+      link: "#"
+    - name: "Tapln TV"
+      unique_id: tapln_tv 
+      image: general/full-placeholder.png
+      link: "#"
+    - name: "Swim-ly"
+      unique_id: "swim_ly"
+      image: general/full-placeholder.png
+      link: "#"
+- level: "Reception Partners and In-kind Donations"
+  display: snack
+  sponsors:
+    - name: "ZAGAT" 
+      unique_id: zagat 
+      image: general/full-placeholder.png
+      link: "#"
+    - name: "Kind Snacks"
+      unique_id: kind_snacks
+      image: 2013/sponsors/kind-snacks.jpg
+      link: http://www.kindsnacks.com/
+    - name: "Pop Chips"
+      unique_id: pop_chips
+      image: general/full-placeholder.png
+      link: "#"
+    - name: "Dry Soda"
+      unique_id: dry_soda
+      image: 2013/sponsors/dry-soda.jpg
+      link: http://www.drysoda.com/
+    - name: "IPA" 
+      unique_id: ipa 
+      image: general/full-placeholder.png
+      link: "#"
