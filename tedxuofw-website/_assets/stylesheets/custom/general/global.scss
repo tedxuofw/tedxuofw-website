@@ -4,114 +4,11 @@ global.scss
 Contains global styles and definitions for constants.
 */
 
-
-
-@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
-
-$header-typeface: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
-$body-typeface: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
-
-*, *:before, *:after {  
-            box-sizing: border-box;
-       -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-
-html{
-    height:100%;
-    overflow-x:hidden;
-}
-
-body {
-    height:100%;
-    font-family: $body-typeface;
-    font-weight: 300;
-    padding:1em;
-    height:100%;
-    overflow-x:hidden;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-family: $header-typeface;
-    font-weight:700;
-}
-
-h1{
-    color:$red;
-}
-
-ul{
-    padding:0;
-    list-style-position:inside;
-}
-
-a {
-    text-decoration:underline;
-}
-
-a[href^="mailto"] {
-    white-space:nowrap;
-}
-
 .emphasis{
     color:$red;
 }
 
-.btn, .btn-default {
-    text-decoration:none;
-    background-color:$red;
-    background-image: none;
-    text-shadow:none;
-    color:$white;
-    
-    &:hover {
-        background-color:lighten($red, 20%);
-    }
-}
 
-.row {
-    margin:0;
-    padding:0;
-}
-
-.unit {
-    display:block;
-    margin:0;
-    padding:0;
-}
-
-.full {
-    width:100%;
-    height:auto;
-}
-
-.full-height {
-    height:100%;
-    width:auto;
-}
-
-.constrained {
-    max-width: 43em;
-    margin:auto;
-}
-
-.right-garnish{
-    display:none;
-}
-
-@media all and (min-width: $medium-breakpoint) {
-    .constrained{
-        position:relative;
-        margin:0;
-    }
-    
-    .right-garnish{
-        display:block;
-        position:absolute;
-        top:15em;
-        margin-left:44em;
-    }
-}
 
 .social-media{
     text-align:center;

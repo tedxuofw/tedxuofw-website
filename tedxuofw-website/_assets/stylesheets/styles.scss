@@ -7,13 +7,23 @@ Contains a high-level overview of all the different styles used in this website.
 @import 'bootstrap.scss';
 @import 'syntax.scss';
 
-@import 'custom/constants';
-@import 'custom/global';
+// general 
+@import 'custom/general/constants';
+@import 'custom/general/reset';
+@import 'custom/general/global';
+@import 'custom/general/typography';
+@import 'custom/general/grid';
+
+// common components
 @import 'custom/navbar';
-@import 'custom/footer';
+
+// specific pages
 @import 'custom/homepage';
 @import 'custom/image-grid';
 @import 'custom/speakers';
 @import 'custom/sponsors';
 @import 'custom/forms';
 @import 'custom/live';
+
+// misc 
+@import 'custom/decorative';

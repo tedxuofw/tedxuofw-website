@@ -12,7 +12,7 @@ gems: [jekyll-assets]
 # Plugin: jekyll-assets
 assets:
     cache: true
-    cachebust: hard
+    cachebust: none
     sources:
         - _assets/fonts
         - _assets/javascripts

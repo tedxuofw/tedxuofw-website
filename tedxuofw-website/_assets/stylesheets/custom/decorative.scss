@@ -1,0 +1,19 @@
+/*
+decorative.scss
+
+CSS for specific, small pieces which aren't large enough to be components,
+but are too specific or small to merit having their own file.
+*/
+
+.right-garnish{
+    display:none;
+
+    @media all and (min-width: $medium-breakpoint) {   
+        &{
+            display:block;
+            position:absolute;
+            top:15em;
+            margin-left:44em;
+        }
+    }
+}

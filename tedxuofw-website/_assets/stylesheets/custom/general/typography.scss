@@ -1,0 +1,24 @@
+/*
+typography.scss
+
+All code related to the fonts, font sizing, and other typography
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+
+$header-typeface: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
+$body-typeface: "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $header-typeface;
+    font-weight:700;
+}
+
+h1{
+    color:$red;
+}
+
+body {
+    font-family: $body-typeface;
+    font-weight: 300;
+}

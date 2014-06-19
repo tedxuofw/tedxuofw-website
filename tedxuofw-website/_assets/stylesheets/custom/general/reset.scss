@@ -1,0 +1,24 @@
+/*
+reset.scss
+
+Resets/customizes styles for basic elements such as p, ul, etc.
+*/
+
+*, *:before, *:after {  
+            box-sizing: border-box;
+       -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+ul{
+    padding:0;
+    list-style-position:inside;
+}
+
+a {
+    text-decoration:underline;
+}
+
+a[href^="mailto"] {
+    white-space:nowrap;
+}

@@ -11,19 +11,19 @@
     - title: "contact."
       url: /contact
       id: contact
-- title: "the event."
-  url: /the-event
-  id: the-event
-  children:
-    - title: "speakers."
-      url: /speakers
-      id: speakers
-    - title: "sponsors."
-      url: /sponsors
-      id: sponsors
-    - title: "live."
-      url: /live
-      id: live
 - title: "past events."
-  url: /past-events
-  id: past-events
+  url: /past-events 
+  id: past-events 
+  children:
+    - title: "2014" 
+      url: /past-events/2014
+      id: summary-2014
+    - title: "2013" 
+      url: /past-events/2013 
+      id: summary-2013 
+    - title: "2012" 
+      url: /past-events/2012 
+      id: summary-2012 
+- title: "2015."
+  url: /upcoming 
+  id: upcoming-2015
