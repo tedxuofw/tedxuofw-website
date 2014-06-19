@@ -10,7 +10,11 @@ RewriteBase /
 
 # Removing html extensions
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteRule ^([^\.]+?)\/?$ $1.html [NC,L]
+
+# Map folders to filenames 
+RewriteCond %{REQUEST_URI} -d 
+RewriteRule ^([^\.]+)/$ $1.html [NC,L]
 
 # Mapping /live to /the-event
 #RewriteCond %{REQUEST_URI} /live [NC]
