@@ -1,4 +1,7 @@
-{% include meta.html %}
+    {% include meta.html %}
+    {% if page.contains_video %}
+        {% stylesheet jquery.fancybox.css %}
+    {% endif %}
 </head>
 <body role="document" class="hyphenate">
     {% include old-ie.html %}
@@ -9,6 +12,24 @@
     {% include default-scripts.html %}
     <script src="/assets/js/hyphenate.js" type="text/javascript"></script>
     {{ page.scripts }}
+    
+    {% if page.contains_video %}
+        <!-- Fancybox -->
+        {% javascript jquery.mousewheel-3.0.6.pack %}
+        {% javascript jquery.fancybox.pack %}
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".fancybox").fancybox({
+                    maxWidth: 853,
+                    maxHeight: 480,
+                    fitToView: true,
+                    autoSize: true
+                });
+            });
+        </script>
+    {% endif %}
+    
     {% include tracking.html %}
     <!--{% javascript minimum %}-->
 </body>

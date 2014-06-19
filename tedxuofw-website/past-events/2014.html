@@ -1,0 +1,71 @@
+---
+layout: default
+title: 2014
+id: summary-2014
+parent_id: past-events
+contains_video: true
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 unit">
+            <h1 class="loud">TEDxUofW 2014</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+            <h2>Transcend with TED</h2>
+            
+            <p>Transcend (v): be or go beyond the range or limits of.</p>
+            
+            <p>Our theme this year is Transcend with TED. We're centering it around the idea of how TED talks can drive change in all facets of your life. Particularly, taking the way you think, feel, and act to the next level. How can TED talks inspire change in your perspective, emotions, and actions? How can you take what you've learned and apply it to your everyday life?</p>
+
+            <p>TEDxUofW 2014: Transcend with TED.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <h2>Synopsis</h2>
+            <dl>
+                <dt>Location:</dt>
+                <dd>
+                    <address>
+                        UW Tower<br />
+                        4333 Brooklyn Ave NE<br />
+                        Seattle WA
+                    </address>
+                </dd>
+                <dt>Date:</dt>
+                <dd>
+                    Saturday, May 3rd 2014<br />
+                    11:00 am to 5:00 pm
+                </dd>
+            </dl>
+            <p><a href="/past-events/2014/schedule">Full schedule</a></p>
+        </div>
+    </div>
+    
+    <div class="row">
+        <!-- Nav tabs -->
+        <ul class="nav-summary nav nav-tabs">
+            <li class="active"><a href="#speakers" data-toggle="tab">Speakers</a></li>
+            <li><a href="#sponsors" data-toggle="tab">Sponsors</a></li>
+            <li><a href="#volunteers" data-toggle="tab">Volunteers</a></li>
+        </ul>
+    </div>
+    
+    <!-- Tab panes -->
+    <div class="row">
+        <div class="tab-content">
+            <div class="tab-pane fade in active" id="speakers">
+                {% include summary-speakers.html speakers=site.data.2014-speakers %}
+            </div>
+            <div class="tab-pane fade" id="sponsors">
+                {% include summary-sponsors.html sponsors=site.data.2014-sponsors %}
+            </div>
+            <div class="tab-pane fade" id="volunteers">
+                {% include summary-volunteers.html volunteers=site.data.2014-volunteers %}
+            </div>
+        </div>
+    </div>
+
+</div>

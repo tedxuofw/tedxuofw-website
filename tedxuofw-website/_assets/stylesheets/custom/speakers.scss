@@ -6,6 +6,10 @@ CSS specifically for speakers
 
 .speakers{
     margin-bottom:5em;
+    
+    .video {
+        margin: 1em 0;
+    }
 }
 
 .speaker {
@@ -21,6 +25,10 @@ CSS specifically for speakers
         display:block;
         margin:0 auto;
         max-width:20em;
+    }
+    
+    .video {
+        margin-top: 0;
     }
     
     .bio {

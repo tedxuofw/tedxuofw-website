@@ -1,0 +1,31 @@
+<div class="speakers">
+    {% if include.speakers.playlist != "" %}
+        <div class="video">
+            <a class="btn btn-default" href="{{ include.speakers.playlist }}"><span class="glyphicon glyphicon-play"></span> Watch all videos</a>
+        </div>
+    {% endif %}
+    {% for speaker in include.speakers.speakers %}
+    <div class="speaker" id="speaker-{{ speaker.unique_id }}">
+        <h2>{{ speaker.name }}</h2>
+        
+        <div class="row">
+            <div class="col-sm-4 col-md-3 unit">
+                <img class="full" src="{{ speaker.image | asset_path }}" alt="{{ speaker.name }}" />
+            </div>
+            <div class="col-sm-8 col-md-9 unit bio">
+                {% if speaker.talk_name != "" %}
+                    <h3>{{ speaker.talk_name }}</h3>
+                {% endif %}
+                
+                {% if speaker.video != "" %}
+                    <div class="video">
+                        <a class="btn btn-default fancybox fancybox.iframe youtube" href="{{ speaker.video }}"><span class="glyphicon glyphicon-play"></span> Watch now</a>
+                    </div>
+                {% endif %}
+                
+                {{ speaker.bio | markdownify }}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

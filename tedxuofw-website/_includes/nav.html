@@ -1,9 +1,10 @@
 <ul class="row nav primary-nav pull-right">
     {% for link in site.data.nav %}
     {% assign current = nil %}
-    {% if (page.id == link.id) or (page.parent_id == link.id) %}
+    {% if (page.id == link.id) or (page.parent_id == link.id) or (page.parent_id contains link.id) %}
         {% assign current = ' class="active"' %}
     {% endif %}
+    
     <li class="col-xs-3 unit">
         <a href="{{ link.url }}"{{ current }}>
             <span class="page-name">{{ link.title }}</span>
@@ -11,7 +12,7 @@
             <ul>
                 {% for child in link.children %}
                 {% assign currentchild = nil %}
-                {% if (page.id == child.id) %}
+                {% if (page.id == child.id) or (page.parent_id == child.id) or (page.parent_id contains child.id) %}
                     {% assign currentchild = ' class="active"' %}
                 {% endif %}
                 

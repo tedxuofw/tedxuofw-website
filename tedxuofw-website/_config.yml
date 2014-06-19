@@ -5,6 +5,7 @@ markdown: kramdown
 # Overall site config 
 name: "TEDxUofW"
 url: "http://tedxuofw.com"
+relative_permalinks: false
 
 # Plugins 
 gems: [jekyll-assets]

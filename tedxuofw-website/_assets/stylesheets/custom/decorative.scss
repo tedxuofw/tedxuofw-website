@@ -17,3 +17,16 @@ but are too specific or small to merit having their own file.
         }
     }
 }
+
+.btn, .btn-default {
+    text-decoration:none;
+    background-color:$red;
+    background-image: none;
+    text-shadow:none;
+    color: $white;
+    
+    &:hover, &:active {
+        color: $white;
+        background-color:lighten($red, 20%);
+    }
+}

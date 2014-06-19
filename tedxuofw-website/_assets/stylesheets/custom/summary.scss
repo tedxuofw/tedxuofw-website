@@ -1,0 +1,17 @@
+/*
+summary.scss
+
+Contains CSS for the yearly summary pages (past events)
+*/
+
+.nav-summary {
+    a {
+        color: $black;
+        font-size: 1.2em;
+    }
+    
+    li.active > a {
+        color: $red;
+        font-weight: 700;
+    }
+}
