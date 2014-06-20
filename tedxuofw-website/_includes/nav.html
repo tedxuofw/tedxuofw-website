@@ -1,29 +1,36 @@
-<ul class="row nav primary-nav pull-right" role="navigation">
-    {% for link in site.data.nav %}
-    {% assign current = nil %}
-    {% if (page.id == link.id) or (page.parent_id == link.id) or (page.parent_id contains link.id) %}
-        {% assign current = ' class="active"' %}
-    {% endif %}
-    
-    <li class="col-xs-3 unit">
-        <a href="{{ link.url }}"{{ current }}>
-            <span class="page-name">{{ link.title }}</span>
-        </a>
-            <ul>
-                {% for child in link.children %}
-                {% assign currentchild = nil %}
-                {% if (page.id == child.id) or (page.parent_id == child.id) or (page.parent_id contains child.id) %}
-                    {% assign currentchild = ' class="active"' %}
+<div role="navigation">
+    <ul class="row nav primary-nav pull-right" role="menubar">
+        {% for link in site.data.nav %}
+            {% assign current = nil %}
+            {% if (page.id == link.id) or (page.parent_id == link.id) or (page.parent_id contains link.id) %}
+                {% assign current = ' class="active"' %}
+            {% endif %}
+        
+            <li class="col-xs-3 unit" role="presentation">
+                {% assign popup = nil %}
+                {% if link.children != nil %} 
+                    {% assign popup = ' aria-haspopup="true"' %}
                 {% endif %}
-                
-                <li class="unit child">
-                    <a href="{{ child.url }}"{{ currentchild }}>
-                        <span class="page-name">{{ child.title }}</span>
-                    </a>
-                </li>
-                
-                {% endfor %}
-            </ul>
-    </li>
-    {% endfor %}
-</ul>
+                <a id="{{ link.id }}" href="{{ link.url }}"{{ current }} role="menuitem"{{ popup }}>
+                    <span class="page-name">{{ link.title }}</span>
+                </a>
+                {% if link.children != nil %}
+                    <ul role="menu" aria-labeledby="{{ link.id }}">
+                        {% for child in link.children %}
+                            {% assign currentchild = nil %}
+                            {% if (page.id == child.id) or (page.parent_id == child.id) or (page.parent_id contains child.id) %}
+                                {% assign currentchild = ' class="active"' %}
+                            {% endif %}
+                            
+                            <li class="unit child" role="presentation">
+                                <a href="{{ child.url }}"{{ currentchild }} role="menuitem">
+                                    <span class="page-name">{{ child.title }}</span>
+                                </a>
+                            </li>                    
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</div>
