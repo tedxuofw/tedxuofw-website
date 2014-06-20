@@ -21,6 +21,9 @@
     - title: "2013"
       url: /past-events/2013 
       id: summary-2013 
+    - title: "2012"
+      url: /past-events/2012 
+      id: summary-2012 
 - title: "2015."
   url: /upcoming 
   id: upcoming-2015
