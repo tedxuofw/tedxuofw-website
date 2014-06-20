@@ -14,7 +14,7 @@ format.
 
 [vol]: http://tedxuofw.com/volunteers
 [con]: http://tedxuofw.com/contact
-[voly]: https://github.com/Michael0x2a/tedxuofw-website/blob/master/tedxuofw-website/_data/events.yml
+[voly]: https://github.com/Michael0x2a/tedxuofw-website/blob/master/tedxuofw-website/_data/2014-volunteers.yml
 
 
 ## Technologies used
@@ -24,11 +24,10 @@ Our code is hosted on [Github][git] -- check it out!
 We used the following technologies, frameworks, fonts, and assets:
 
 -   Frameworks
-    -   [Twitter Bootstrap](http://getbootstrap.com/) with [Glyphicons](http://glyphicons.com(
-    -   [Jekyll](http://jekyllrb.com/)
+    -   [Twitter Bootstrap](http://getbootstrap.com/) with [Glyphicons](http://glyphicons.com)
+    -   [Jekyll](http://jekyllrb.com/) (with [jekyll-assets](https://github.com/ixti/jekyll-assets))
     -   [Sass](http://sass-lang.com/)
 -   Fonts
-    -   Wisdom Script, a font from [Lost Type](http://www.losttype.com/wisdom_script/)
     -   [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
 -   Scripts
     -   [Hyphenator.js](http://code.google.com/p/hyphenator/)
