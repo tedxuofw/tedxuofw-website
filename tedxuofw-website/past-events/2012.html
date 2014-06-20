@@ -1,0 +1,63 @@
+---
+layout: default
+title: 2012
+id: summary-2012
+parent_id: past-events
+contains_video: true
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 unit">
+            <h1 class="loud">TEDxUofW 2012</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+            <h2>The Next Generation</h2>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <h2>Synopsis</h2>
+            <dl>
+                <dt>Location:</dt>
+                <dd>
+                    <address>
+                        UW Tower<br />
+                        4333 Brooklyn Ave NE<br />
+                        Seattle WA
+                    </address>
+                </dd>
+                <dt>Date:</dt>
+                <dd>
+                    April 21th, 2012<br />
+                    1:00 pm to 6:00 pm 
+                </dd>
+            </dl>
+        </div>
+    </div>
+    
+    <div class="row">
+        <!-- Nav tabs -->
+        <ul class="nav-summary nav nav-tabs">
+            <li class="active"><a href="#speakers" data-toggle="tab">Speakers</a></li>
+            <!--<li><a href="#sponsors" data-toggle="tab">Sponsors</a></li>
+            <li><a href="#volunteers" data-toggle="tab">Volunteers</a></li>-->
+        </ul>
+    </div>
+    
+    <!-- Tab panes -->
+    <div class="row">
+        <div class="tab-content">
+            <div class="tab-pane fade in active" id="speakers">
+                {% include summary-speakers.html speakers=site.data.2012-speakers %}
+            </div>
+            <!--<div class="tab-pane fade" id="sponsors">
+                {% include summary-sponsors.html sponsors=site.data.2012-sponsors %}
+            </div>
+            <div class="tab-pane fade" id="volunteers">
+                {% include summary-volunteers.html volunteers=site.data.2012-volunteers %}
+            </div>-->
+        </div>
+    </div>
+</div>
