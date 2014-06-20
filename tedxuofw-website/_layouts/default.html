@@ -7,7 +7,9 @@
     {% include old-ie.html %}
     {% include standard-header.html %}
 
-    {{ content }}
+    <div role="main">
+        {{ content }}
+    </div>
     
     {% include default-scripts.html %}
     <script src="/assets/js/hyphenate.js" type="text/javascript"></script>

@@ -1,4 +1,4 @@
-<ul class="row nav primary-nav pull-right">
+<ul class="row nav primary-nav pull-right" role="navigation">
     {% for link in site.data.nav %}
     {% assign current = nil %}
     {% if (page.id == link.id) or (page.parent_id == link.id) or (page.parent_id contains link.id) %}
