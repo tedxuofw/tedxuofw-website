@@ -26,3 +26,17 @@ Header set X-UA-Compatible "IE=Edge,chrome=1"
 # Mapping urls
 #Redirect 302 /live /the-event
 Redirect 302 /schedule /live
+
+# Caching files 
+<IfModule mod_headers.c>
+# YEAR
+# Note: Jekyll-assets adds hard-caching to the files, so we're free to 
+# cache anything apart from html files as aggressively as we want.
+<FilesMatch ".(ico|gif|jpg|jpeg|png|flv|pdf|js|css)$">
+ Header set Cache-Control "max-age=29030400"
+</FilesMatch>
+# 24 HOURS
+<FilesMatch ".(html|txt)$">
+ Header set Cache-Control "max-age=86400"
+</FilesMatch>
+</IfModule>

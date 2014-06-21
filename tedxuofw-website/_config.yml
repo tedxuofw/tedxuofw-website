@@ -8,7 +8,7 @@ url: "http://tedxuofw.com"
 relative_permalinks: false
 
 # Plugins 
-gems: [jekyll-assets]
+gems: [jekyll-assets, jekyll-minify-html]
 
 # Plugin: jekyll-assets
 assets:
@@ -21,3 +21,8 @@ assets:
         - _assets/stylesheets
         - _assets/vendors/fancybox2
     gzip: [ text/css, application/javascript ]
+    js_compressor: uglifier 
+    css_compressor: sass 
+    
+# Plugin: jekyll-minify-html 
+minify_html: true 
