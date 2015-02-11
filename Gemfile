@@ -1,6 +1,6 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-gem "jekyll", "= 1.5.1"
+gem "jekyll", "= 2.5.3"
 gem "jekyll-assets"
 gem "kramdown"
 gem "wdm"
