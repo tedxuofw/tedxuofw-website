@@ -1,0 +1,55 @@
+/**
+ * nav.scss
+ *
+ * This file contains CSS specifically for the primary navbar.
+ */
+ 
+@import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
+@import "variables.scss";
+
+.navbar-custom {
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: $default-color-light;
+    border-radius: 0;
+    
+    background-color: #fff;
+    
+    li a {
+        color: #000;
+    }
+    
+    .navbar-toggle {
+        border-color: $default-color;
+        display: block;
+        
+        .icon-bar {
+            background-color: $default-color;
+        }
+        
+        &:hover {
+            background-color: $default-color;
+            .icon-bar {
+                background-color: #fff;
+            }
+        }
+    }
+
+    // Active for large screens only
+    @media (min-width: $screen-xs-max) {
+        .navbar-brand, .navbar-toggle {
+            display: none;
+        }
+    
+        .active a {
+            background-color: $default-color;
+            color: #fff;
+            font-weight: bold;
+        }
+    
+        a:hover, a:active {
+            background-color: $default-color-light;
+            color: #000;
+        }
+    }
+}

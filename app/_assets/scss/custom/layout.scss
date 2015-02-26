@@ -1,0 +1,17 @@
+/**
+ * layout.scss
+ *
+ * This file primarily describes CSS elements that applies to either large portions of 
+ * the website or to multiple components/slices. 
+ */
+
+@import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
+@import "variables.scss";
+ 
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: $default-color-light;
+}

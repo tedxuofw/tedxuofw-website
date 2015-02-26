@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="{{ page.page_id }} {{ page.parent_id }}" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- build:css(app) /_assets/css/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:css({app,.tmp}) /_assets/css/main.css -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/_assets/css/main.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <div class="container">
+        {% include header.html %}
+        {% include nav.html %}
+        <div class="content slice">
+            {{ content }}
+        </div>
+        {% include footer.html %}
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>

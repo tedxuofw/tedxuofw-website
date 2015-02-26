@@ -1,0 +1,15 @@
+-   title: "Home"
+    id: home
+    url: /
+-   title: "Attend"
+    id: attend
+    url: /attend.html
+-   title: "Event"
+    id: event
+    url: /event.html
+-   title: "Past events"
+    id: past-events
+    url: /past-events.html
+-   title: "About"
+    id: about
+    url: /about.html

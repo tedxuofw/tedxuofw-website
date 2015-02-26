@@ -1,0 +1,34 @@
+# Use PHP5.4 as default
+AddHandler application/x-httpd-php54 .php
+
+# Error-handling
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+
+RewriteEngine On
+RewriteBase /
+
+# Removing html extensions
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+?)\/?$ $1.html [NC,L]
+
+# Map folders to filenames 
+RewriteCond %{REQUEST_URI} -d 
+RewriteRule ^([^\.]+)/$ $1.html [NC,L]
+
+# Helping bludgeon IE into compliance
+Header set X-UA-Compatible "IE=Edge,chrome=1"
+
+# Caching files 
+<IfModule mod_headers.c>
+# YEAR
+# Note: Jekyll-assets adds hard-caching to the files, so we're free to 
+# cache anything apart from html files as aggressively as we want.
+<FilesMatch ".(ico|gif|jpg|jpeg|png|flv|pdf|js|css)$">
+ Header set Cache-Control "max-age=29030400"
+</FilesMatch>
+# 24 HOURS
+<FilesMatch ".(html|txt)$">
+ Header set Cache-Control "max-age=86400"
+</FilesMatch>
+</IfModule>

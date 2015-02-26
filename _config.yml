@@ -1,0 +1,42 @@
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
+
+# Metadata 
+name: TEDxUofW
+description: Tedx description
+url: http://tedxuofw.com
+  
+# Links
+# Note: Always use the `clean_url` filter when using internal urls to 
+# strip off the '.html'
+permalink: /blog/:title.html
+
+# Grunt handles images and assets.
+exclude: ['media', 'css', 'javascript', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+
+include: ['.htaccess']
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+# Markdown and syntax highlighting
+markdown: KramdownPygments
+kramdown:
+    input: GFM
+highlighter: pygments
+
+# Sitemap
+sitemap:
+    file: "/sitemap.xml"
+    exclude: "/feed.xml"
+    include_posts:
+    -   "/index.html"
+    -   "/blog.html"
+    
+# Humanize
+humanize:
+    date_format: "%B %d, %Y"
