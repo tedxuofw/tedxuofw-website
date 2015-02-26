@@ -5,10 +5,11 @@
 You must have both Ruby and Node installed. Be sure to install Ruby 2.x (64-bit) 
 using RubyInstaller if you're using Windows.
 
-Run the following inside the `michael0x2a-website` folder to install dependencies:
+Run the following inside the `tedxuofw-website` folder to install dependencies:
 
     gem install bundle
-    npm install bower
+    npm install -g bower
+    npm install -g grunt-cli
     
     bundle install
     bower install 
