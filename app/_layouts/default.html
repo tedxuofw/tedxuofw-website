@@ -19,12 +19,10 @@
   </head>
   <body>
     <div class="container">
-        {% include header.html %}
-        {% include nav.html %}
-        <div class="content slice">
-            {{ content }}
-        </div>
-        {% include footer.html %}
+      {% include header.html %}
+      {% include nav.html %}
+      {{ content }}
+      {% include footer.html %}
     </div>
 
     {% include scripts.html %}

@@ -1,0 +1,21 @@
+/**
+ * glow.scss
+ *
+ * Contains any CSS related to glow effects and such
+ */ 
+ 
+.glowbox {
+    padding: 2em;
+    border: 2px solid #fff;
+    text-align: center;
+    box-shadow: 
+        0 0 10px 5px #888,
+        inset 0 0 10px 5px #888;
+    transition: box-shadow 1s;
+}
+
+.glowbox:hover {
+    box-shadow:
+        0 0 20px 10px #aaa,
+        inset 0 0 20px 5px #aaa;
+}

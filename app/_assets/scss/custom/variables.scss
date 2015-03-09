@@ -4,8 +4,15 @@
  * Config values
  */
 
-$default-color: #999;
-$default-color-light: #ddd;
+$background-color: #000;
+$text-color: #eee;  // Deliberately not perfect white
 
-$serif-fonts: Cambria, Georgia, serif;
-$sans-serif-fonts: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+// TODO: Replace with Helvetica-light
+$body-font: Helvetica, Arial, sans-serif; 
+
+// TODO: Replace with Helvetica-bold
+$header-font: Helvetica, Arial, sans-serif;
+
+// TODO: Replace with Futura std
+$button-font: Helvetica, Arial, sans-serif;
+
