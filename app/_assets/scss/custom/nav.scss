@@ -12,3 +12,9 @@
     border-color: #fff;
     background-color: #fff;
 }
+
+.navbar-nav a{
+	text-transform: uppercase;
+	font-family: $header-font;
+	color: $text-color;
+}

@@ -1,6 +1,3 @@
--   title: "Home"
-    id: home
-    url: /
 -   title: "Attend"
     id: attend
     url: /attend.html
@@ -13,3 +10,6 @@
 -   title: "About"
     id: about
     url: /about.html
+-   title: "Contact"
+    id: contact
+    url: /contact.html
