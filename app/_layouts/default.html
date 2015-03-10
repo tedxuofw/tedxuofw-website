@@ -18,12 +18,9 @@
     <!-- endbuild -->
   </head>
   <body>
-    <div class="container">
-      {% include header.html %}
-      {% include nav.html %}
-      {{ content }}
-      {% include footer.html %}
-    </div>
+    {% include header.html %}
+    {{ content }}
+    {% include footer.html %}
 
     {% include scripts.html %}
   </body>

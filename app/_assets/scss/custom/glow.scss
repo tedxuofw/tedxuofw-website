@@ -4,18 +4,44 @@
  * Contains any CSS related to glow effects and such
  */ 
  
-.glowbox {
+.glowbox-large {
     padding: 2em;
+}
+ 
+.glowbox {
     border: 2px solid #fff;
     text-align: center;
     box-shadow: 
         0 0 10px 5px #888,
         inset 0 0 10px 5px #888;
     transition: box-shadow 1s;
+    
+    &:hover {
+        box-shadow:
+            0 0 10px 5px #999,
+            inset 0 0 10px 5px #999;
+    }
 }
 
-.glowbox:hover {
-    box-shadow:
-        0 0 12px 8px #aaa,
-        inset 0 0 12px 8px #aaa;
+.glow {
+    text-shadow: 
+        0 0 10px rgba(255,255,255,1), 
+        0 0 20px rgba(255,255,255,1), 
+        0 0 30px rgba(255,255,255,1);
+        //0 0 40px #fff, 
+        //0 0 70px #fff, 
+        //0 0 80px #fff, 
+        //0 0 100px #fff;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  
+    &:hover {
+        text-shadow: 
+            0 0 10px rgba(255,255,255,1), 
+            0 0 20px rgba(255,255,255,1), 
+            0 0 30px rgba(255,255,255,1), 
+            0 0 40px #fff, 
+            0 0 70px #fff, 
+            0 0 80px #fff, 
+            0 0 100px #fff;
+    }
 }
