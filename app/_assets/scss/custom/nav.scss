@@ -6,3 +6,9 @@
  
 @import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
 @import "variables.scss";
+
+.navbar-toggle .icon-bar {
+    color: #fff;
+    border-color: #fff;
+    background-color: #fff;
+}
