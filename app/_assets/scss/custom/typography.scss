@@ -21,20 +21,6 @@ h6 {
     font-family: $header-font;
 }
 
-#contact{
-	text-transform: uppercase;
-	font-family: $header-font;
-	color: gray;
-	font-size: 20px;
-	font-weight: bold;
-}
-
-/* Font awesome colors for footer icons */
-
-.fa{
-	color:gray;
-}
-
-.fa:hover{
-	color:red;
+a .glowbox{
+    color: $text-color;
 }

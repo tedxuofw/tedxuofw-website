@@ -1,5 +1,4 @@
-//$icon-font-path: "/_bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
-$icon-font-path: "/_bower_components/components-font-awesome/fonts";
+$icon-font-path: "/_bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 
 // bower:scss
 @import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
@@ -11,13 +10,13 @@ $icon-font-path: "/_bower_components/components-font-awesome/fonts";
 // Text
 @import "syntax.scss";
 @import "custom/typography.scss";
-//@import "../../_bower_components/components-font-awesome/scss/font-awesome.scss";
 
 // Layout
 @import "custom/layout.scss";
 
 // Components
 @import "custom/nav.scss";
+@import "custom/footer.scss";
 @import "custom/home.scss";
 
 // Special effects
