@@ -1,15 +1,39 @@
--   title: "ATTEND"
-    id: attend
-    url: /attend
 -   title: "TEDxUofW 2015"
-    id: event
-    url: /event
+    id: 2015
+    url: /2015
+    children:
+    -   title: "ATTEND"
+        id: 2015_attend
+        url: /2015/attend
+    -   title: "SPEAKERS"
+        id: 2015_speakers
+        url: /2015/speakers
+    -   title: "SPONSORS"
+        id: 2015_sponsors
+        url: /2015/sponsors
 -   title: "PAST EVENTS"
     id: past-events
     url: /past-events
+    children:
+    -   title: "2014"
+        id: 2014
+        url: /2014
+    -   title: "2013"
+        id: 2013
+        url: /2013
+    -   title: "2012"
+        id: 2014
+        url: /2014
 -   title: "ABOUT"
     id: about
     url: /about
+    children:
+    -   title: "THE TEAM"
+        id: team
+        url: /about/team
+    -   title: "TEDx"
+        id: tedx
+        url: /about/tedx
 -   title: "CONTACT"
     id: contact
     url: /contact

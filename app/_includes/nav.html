@@ -19,6 +19,19 @@
                   <a href="{{ link.url | clean_url }}" class="glow-on-hover">
                       {{ link.title }}
                   </a>
+                  <ul class="nav-children">
+                    {% assign current_child = nil %}
+                    {% if (page.page_id == link.id) %}
+                      {% assign current_child = ' class="active"' %}
+                    {% endif %}
+                    {% for child in link.children %}
+                      <li{{ current_child }}>
+                        <a href="{{ child.url | clean_url }}" class="glow-on-hover">
+                          {{ child.title }}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
               </li>
           {% endfor %}
       </ul>
