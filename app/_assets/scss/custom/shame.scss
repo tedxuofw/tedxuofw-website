@@ -3,5 +3,34 @@
  *
  * A space for all dirty hacks
  */
+
+@import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
+@import "variables.scss"; 
  
- 
+hr {
+    width: 85%;
+    color: $faded-color;
+}
+
+body {
+    /*
+    // Small devices (default)
+    border-top: 10px solid red;
+    
+    // Small devices (tablets and up) 
+    @media (min-width: $screen-sm-min) {
+        border-color: yellow;
+    }
+    
+    // Medium devices (desktops) 
+    @media (min-width: $screen-md-min) {
+        border-color: green;
+    }
+    
+    // Large devices (large desktops) 
+    @media (min-width: $screen-lg-min) {
+        border-color: cyan;
+    }
+    */
+}
+

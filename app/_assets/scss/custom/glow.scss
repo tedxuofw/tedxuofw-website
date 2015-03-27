@@ -7,14 +7,41 @@
 .glowbox-large {
     padding: 2em;
 }
+
+@mixin glow-text-subtle() {
+    text-shadow:
+        0 0 10px rgba(255,255,255,1), 
+        0 0 20px rgba(255,255,255,1), 
+        0 0 30px rgba(255,255,255,1);
+        //0 0 40px #fff, 
+        //0 0 70px #fff, 
+        //0 0 80px #fff, 
+        //0 0 100px #fff;
+}
+
+@mixin glow-text-bold() {
+    text-shadow: 
+        0 0 10px rgba(255,255,255,1), 
+        0 0 20px rgba(255,255,255,1), 
+        0 0 30px rgba(255,255,255,1), 
+        0 0 40px #888, 
+        //0 0 70px #fff, 
+        //0 0 80px #fff, 
+        //0 0 100px #fff;
+}
+
+@mixin glow-transition() {
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
  
 .glowbox {
     border: 2px solid #fff;
     text-align: center;
     box-shadow: 
-        0 0 10px 5px #888,
-        inset 0 0 10px 5px #888;
-    transition: box-shadow 1s;
+        0 0 10px 10px #444,
+        inset 0 0 10px 10px #444;
+        
+    @include glow-transition();
     
     &:hover {
         box-shadow:
@@ -24,24 +51,18 @@
 }
 
 .glow {
-    text-shadow: 
-        0 0 10px rgba(255,255,255,1), 
-        0 0 20px rgba(255,255,255,1), 
-        0 0 30px rgba(255,255,255,1);
-        //0 0 40px #fff, 
-        //0 0 70px #fff, 
-        //0 0 80px #fff, 
-        //0 0 100px #fff;
-    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-  
+    @include glow-text-subtle();
+    @include glow-transition();
+    
     &:hover {
-        text-shadow: 
-            0 0 10px rgba(255,255,255,1), 
-            0 0 20px rgba(255,255,255,1), 
-            0 0 30px rgba(255,255,255,1), 
-            0 0 40px #fff, 
-            0 0 70px #fff, 
-            0 0 80px #fff, 
-            0 0 100px #fff;
+        @include glow-text-bold();
+    }
+}
+
+.glow-on-hover {
+    @include glow-transition();
+    
+    &:hover {
+        @include glow-text-subtle();
     }
 }

@@ -8,8 +8,13 @@
 
 body {
     font-family: $body-font;
-    font-size: 16px;
-    line-height: 1.5em;
+    font-weight: 300;
+    font-size: 11px;
+    font-stretch:normal;
+}
+
+p {
+    line-height: 2.3em;
 }
 
 h1,
@@ -19,6 +24,8 @@ h4,
 h5,
 h6 {
     font-family: $header-font;
+    font-weight:600; 
+    font-stretch:normal;
 }
 
 a .glowbox{

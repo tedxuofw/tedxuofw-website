@@ -4,10 +4,25 @@
  * Contains CSS that appears specifically only on the homepage.
  */
  
+@import "variables.scss";
+ 
 .centerpiece {
-    margin-top: 5em;
-    margin-bottom: 5em;
+    margin-top: 12em;
+    margin-bottom: 12em;
     text-align: justify;
+    
+    width: 43em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerpiece .glowbox-large span {
+    font-family: $button-font;
+    font-size: 24pt;
+}
+
+.centerpiece .glowbox-large {
+    margin-bottom: 2em;
 }
 
 .summary {
@@ -18,10 +33,10 @@
 }
 
 a .glowbox{
-	padding: .5em 2.5em .5em 2.5em;
-	text-align: center;
-	margin-top: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	text-decoration: none;
+    padding: .5em 2.5em .5em 2.5em;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
 }

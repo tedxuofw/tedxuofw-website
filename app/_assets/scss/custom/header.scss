@@ -1,0 +1,33 @@
+/**
+ * header.scss
+ *
+ * This file contains CSS specifically for the primary header and navbar.
+ */
+ 
+@import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
+@import "variables.scss";
+
+.navbar-custom {
+}
+
+// We have to get this absurdly specific to override bootstrap's default
+.navbar-custom .navbar-nav > li > a,
+.navbar-custom .navbar-nav > li > a {
+    font-family: $header-font;
+    font-weight: 600;
+    color: $text-color;
+    
+    &:hover, 
+    &:active {
+        background-color: transparent;
+    }
+}
+
+
+
+.navbar-custom .icon-bar {
+    color: #fff;
+    border-color: #fff;
+    background-color: #fff;
+}
+

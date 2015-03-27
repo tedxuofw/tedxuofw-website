@@ -1,8 +1,8 @@
 {
-  "name": "michael0x2a-website-temp",
+  "name": "tedxuofw-website",
   "private": true,
   "version": "0.0.0",
-  "description": "Yeoman workflow for michael0x2a-website-temp",
+  "description": "Yeoman workflow for tedxuofw-website",
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-autoprefixer": "~2.2.0",

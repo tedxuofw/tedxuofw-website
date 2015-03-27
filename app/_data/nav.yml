@@ -1,15 +1,15 @@
--   title: "Attend"
+-   title: "ATTEND"
     id: attend
-    url: /attend.html
--   title: "Event"
+    url: /attend
+-   title: "TEDxUofW 2015"
     id: event
-    url: /event.html
--   title: "Past events"
+    url: /event
+-   title: "PAST EVENTS"
     id: past-events
-    url: /past-events.html
--   title: "About"
+    url: /past-events
+-   title: "ABOUT"
     id: about
-    url: /about.html
--   title: "Contact"
+    url: /about
+-   title: "CONTACT"
     id: contact
-    url: /contact.html
+    url: /contact

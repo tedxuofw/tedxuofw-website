@@ -19,9 +19,11 @@
     <!-- endbuild -->
   </head>
   <body>
-    {% include header.html %}
-    {{ content }}
-    {% include footer.html %}
+    <div class="wrapper">
+      {% include header.html %}
+      {{ content }}
+      {% include footer.html %}
+    </div>
 
     {% include scripts.html %}
   </body>

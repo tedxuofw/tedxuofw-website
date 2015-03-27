@@ -4,14 +4,15 @@
  * Config values
  */
 
-$background-color: #000;
+$background-color: #222;
 $text-color: #eee;  // Deliberately not perfect white
+$faded-color: #999;
 
-// TODO: Replace with Helvetica-bold
-$header-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+$header-font: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  
+  
 // TODO: Replace with Helvetica-light
-$body-font: "HelveticaNeue-Light", "Helvetica Neue Light", $header-font;
+$body-font: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 
 //font-weight for helvetica
 $bold: 600;

@@ -1,26 +1,26 @@
-<nav class="navbar navbar-custom slice pull-right" role="navigation">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-
-    </div>
-    <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav">
-            {% for link in site.data.nav %}
-                {% assign current = nil %}
-                {% if (page.page_id == link.id) or (page.parent_id == link.id) %}
-                    {% assign current = ' class="active"' %}
-                {% endif %}
-                <li{{ current }}>
-                    <a href="{{ link.url | clean_url }}">
-                        {{ link.title }}
-                    </a>
-                </li>
-            {% endfor %}
-        </ul>
-    </div><!--/.nav-collapse -->
+<nav class="navbar navbar-custom pull-right" role="navigation">
+  <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand visible-xs-inline" href="#">{{ page.title }}</a>
+  </div>
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav">
+          {% for link in site.data.nav %}
+              {% assign current = nil %}
+              {% if (page.page_id == link.id) or (page.parent_id == link.id) %}
+                  {% assign current = ' class="active"' %}
+              {% endif %}
+              <li{{ current }}>
+                  <a href="{{ link.url | clean_url }}" class="glow-on-hover">
+                      {{ link.title }}
+                  </a>
+              </li>
+          {% endfor %}
+      </ul>
+  </div><!--/.nav-collapse -->
 </nav>

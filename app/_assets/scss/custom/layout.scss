@@ -14,12 +14,21 @@ html {
 
 body {
     background-color: $background-color;
+    //background-image: url("/_assets/media/website/night-sky-background-1280x853.jpg");
+    //background-position: center top;
+    
+    background: url("/_assets/media/website/night-sky-background-1280x853.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    
     color: $text-color;
-    background-image: url("/_assets/media/website/night-sky-background-1280x853.jpg");
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .translucent {
-    bakcground-color: rgba(255, 255, 255, 0.1);
+    // Nothing
 }
 
 .opaque {
@@ -30,7 +39,3 @@ header {
     padding-top: 1em;
 }
 
-footer {
-    padding-top: 1em;
-    padding-bottom: 1em;
-}

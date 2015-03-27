@@ -13,10 +13,10 @@ $icon-font-path: "/_bower_components/bootstrap-sass-official/assets/fonts/bootst
 
 // Layout
 @import "custom/layout.scss";
-
-// Components
-@import "custom/nav.scss";
+@import "custom/header.scss";
 @import "custom/footer.scss";
+
+// Specific pages
 @import "custom/home.scss";
 
 // Special effects
