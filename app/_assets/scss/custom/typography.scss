@@ -24,10 +24,27 @@ h4,
 h5,
 h6 {
     font-family: $header-font;
-    font-weight:600; 
+    font-weight: 600; 
     font-stretch:normal;
+}
+
+h2 {
+    font-size: 40px;
+    color: $faded-color;
+    border-bottom: 2px solid $faded-color;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    margin-top: 0;
 }
 
 a .glowbox{
     color: $text-color;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.large span, 
+.large time {
+    font-size: 20px;
+    display: block;
 }
