@@ -6,8 +6,12 @@
  
 @import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
 @import "variables.scss";
+@import "glow.scss";
 
+// Styles for the overall navbar.
 .navbar-custom {
+    // Adding a fixed height to make room for all submenus
+    height: 8em;
 }
 
 // We have to get this absurdly specific to override bootstrap's default
@@ -17,17 +21,66 @@
     font-weight: 600;
     color: $text-color;
     
-    &:hover, 
-    &:active {
+    &:active,
+    &:focus,
+    &:hover,
+    &:visited {
         background-color: transparent;
     }
 }
 
-
-
+// Styles for the hamburger icon for the nav
 .navbar-custom .icon-bar {
     color: #fff;
     border-color: #fff;
     background-color: #fff;
 }
 
+// Enable only for non-mobile
+@media (min-width: $screen-xs-min) {
+    // Top-level parent elements
+    .navbar-custom .nav-top-child.active > a > span {
+        border-bottom: 2px solid white;
+    }
+
+    // When hovering, also display underline
+    .navbar-custom .nav-top-child:hover > a > span {
+        border-bottom: 2px solid white;
+    }
+
+    // Submenu elements (default styles and hidden styles)
+    .navbar-custom .nav-children {
+        list-style-type: none;
+        list-style-position: outside;
+        visibility: hidden;
+        padding: 0;
+    }
+
+    // Reveal submenu elements under any active parent categories
+    .navbar-custom .nav-top-child.active .nav-children {
+        visibility: visible;
+    }
+
+    // Reveal submenu elements when hovering over the parent + 
+    // that element
+    .navbar-custom .nav-top-child:hover .nav-children {
+        visibility: visible;
+    }
+
+    // Style submenu elements
+    .navbar-custom .nav-sub-child a {
+        display: block;
+        color: $text-color;
+        padding: 0 15px;
+    }
+
+    // Style active submenu elements
+    .navbar-custom .nav-sub-child.active span {
+        @include glow-text-subtle();
+    }
+
+    // Extend padding of very last nav item to make it easier to click
+    .navbar-custom .nav-sub-child:last-of-type a {
+        padding-bottom: 15px;
+    }
+}

@@ -1,39 +1,49 @@
 <nav class="navbar navbar-custom pull-right" role="navigation">
   <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand visible-xs-inline" href="#">{{ page.title }}</a>
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand visible-xs-inline" href="#">{{ page.title }}</a>
   </div>
   <div class="collapse navbar-collapse" id="navbar-collapse">
-      <ul class="nav navbar-nav">
-          {% for link in site.data.nav %}
-              {% assign current = nil %}
-              {% if (page.page_id == link.id) or (page.parent_id == link.id) %}
-                  {% assign current = ' class="active"' %}
+    <ul class="nav navbar-nav nav-top">
+      {% for link in site.data.nav %}
+        {% assign current = nil %}
+        {% for child in link.children %}
+          {% if (page.page_id == child.id) %}
+            {% assign current = ' active' %}
+          {% endif %}
+        {% endfor %}
+        
+        {% if (page.page_id == link.id) %}
+          {% assign current = ' active' %}
+        {% endif %}
+        <li class="nav-top-child{{ current }}">
+          <a href="{{ link.url | clean_url }}" class="glow-on-hover">
+            <span>
+              {{ link.title }}
+            </span>
+          </a>
+          <ul class="nav-children">
+            {% for child in link.children %}                
+              {% assign current_child = nil %}
+              {% if (page.page_id == child.id) %}
+                {% assign current_child = ' active' %}
               {% endif %}
-              <li{{ current }}>
-                  <a href="{{ link.url | clean_url }}" class="glow-on-hover">
-                      {{ link.title }}
-                  </a>
-                  <ul class="nav-children">
-                    {% assign current_child = nil %}
-                    {% if (page.page_id == link.id) %}
-                      {% assign current_child = ' class="active"' %}
-                    {% endif %}
-                    {% for child in link.children %}
-                      <li{{ current_child }}>
-                        <a href="{{ child.url | clean_url }}" class="glow-on-hover">
-                          {{ child.title }}
-                        </a>
-                      </li>
-                    {% endfor %}
-                  </ul>
+              <li class="nav-sub-child{{ current_child }}">
+                <a href="{{ child.url | clean_url }}" class="glow-on-hover">
+                  <span>
+                    {{ child.title }}
+                  </span>
+                </a>
               </li>
-          {% endfor %}
-      </ul>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
   </div><!--/.nav-collapse -->
 </nav>
