@@ -3,8 +3,44 @@
  *
  * Any styles related to the footer
  */
+
+@import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
+@import "variables.scss";
  
 footer {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 3em;
+}
+
+footer a {
+    color: $faded-color;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    
+    &:active, 
+    &:hover,
+    &:focus,
+    &:visited {
+        color: $text-color;
+        text-decoration: none;
+    }
+}
+
+footer .contact {
+    font-size: 16px;
+    font-family: $header-font;
+    font-weight: 600; 
+    font-stretch:normal;
+    display: block;
+}
+
+footer .social {
+    text-align: right;
+    
+    @media (max-width: $screen-xs-max) {
+        text-align: left;
+        margin-top: 1em;
+    }
+}
+
+footer .social a {
+    margin-right: 2em;
 }
