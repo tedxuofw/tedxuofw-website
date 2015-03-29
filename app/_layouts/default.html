@@ -20,8 +20,10 @@
   </head>
   <body>
     <div class="wrapper">
-      {% include header.html %}
-      {{ content }}
+      <div class="page-wrap">
+        {% include header.html %}
+        {{ content }}
+      </div>
       {% include footer.html %}
     </div>
 

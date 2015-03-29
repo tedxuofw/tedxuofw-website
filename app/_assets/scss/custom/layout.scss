@@ -10,9 +10,12 @@
  
 html {
     overflow-y: scroll;
+    height: 100%;
 }
 
 body {
+    height: 100%;
+
     background-color: $background-color;
     //background-image: url("/_assets/media/website/night-sky-background-1280x853.jpg");
     //background-position: center top;
@@ -24,11 +27,12 @@ body {
 }
 
 .wrapper {
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
 .translucent {
-    // Nothing
+    background-color: rgba(180, 180, 180, 0.05);
 }
 
 .opaque {
@@ -41,4 +45,29 @@ body {
 
 header {
     padding-top: 1em;
+}
+
+/* Sticky footer: from https://css-tricks.com/snippets/css/sticky-footer/ */
+$footer-fixed-height: 7em;
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -$footer-fixed-height;
+    
+    &:after {
+        content: "";
+        display: block;
+    }
+    
+    display: flex;
+    flex-direction: column;
+}
+
+footer, .page-wrap:after {
+    height: $footer-fixed-height;
+}
+
+.full {
+    min-height: 100%;
+    flex: 1;
 }
