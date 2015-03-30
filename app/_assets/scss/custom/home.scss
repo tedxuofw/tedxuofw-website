@@ -4,6 +4,7 @@
  * Contains CSS that appears specifically only on the homepage.
  */
  
+@import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
 @import "variables.scss";
  
 .centerpiece {
@@ -18,7 +19,8 @@
 
 .centerpiece .glowbox-large span {
     font-family: $button-font;
-    font-size: 24pt;
+    font-size: 24px;
+    color: $text-color;
 }
 
 .centerpiece .glowbox-large {
@@ -29,6 +31,37 @@
     padding-top: 2em;
     padding-bottom: 2em;
     text-align: justify;
+}
+
+.description h2 {
+    color: $text-color;
+    border-bottom: none;
+}
+
+.description {
+    padding: 3em;
+}
+
+.description .glowbox {
+    font-family: $button-font;
+    font-size: 18px;
+    color: $text-color;
+    padding: 0.3em 1em;
+    margin: 1em 0;
+    display: inline-block;
+    
+    &:active,
+    &:hover,
+    &:focus,
+    &:visited {
+        text-decoration: none;
+    }
+}
+
+@media (max-width: $screen-sm-max) {
+    .summary {
+        text-align: center;
+    }
 }
 
 a .glowbox{

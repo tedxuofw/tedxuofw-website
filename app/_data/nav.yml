@@ -2,28 +2,28 @@
     id: 2015
     url: /2015
     children:
-    -   title: "ATTEND"
-        id: 2015_attend
-        url: /2015/attend
     -   title: "SPEAKERS"
         id: 2015_speakers
         url: /2015/speakers
     -   title: "SPONSORS"
         id: 2015_sponsors
         url: /2015/sponsors
+    -   title: "VOLUNTEERS"
+        id: 2015_volunteers
+        url: /2015/volunteers
 -   title: "PAST EVENTS"
     id: past-events
     url: /past-events
     children:
     -   title: "2014"
         id: 2014
-        url: /2014
+        url: /past-events/2014
     -   title: "2013"
         id: 2013
-        url: /2013
+        url: /past-events/2013
     -   title: "2012"
-        id: 2014
-        url: /2014
+        id: 2012
+        url: /past-events/2012
 -   title: "ABOUT"
     id: about
     url: /about

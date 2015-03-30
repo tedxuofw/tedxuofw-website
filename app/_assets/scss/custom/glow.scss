@@ -4,9 +4,7 @@
  * Contains any CSS related to glow effects and such
  */ 
  
-.glowbox-large {
-    padding: 2em;
-}
+@import "variables.scss";
 
 @mixin glow-text-subtle() {
     text-shadow:
@@ -33,36 +31,68 @@
 @mixin glow-transition() {
     transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 }
- 
-.glowbox {
-    border: 2px solid #fff;
+
+@mixin glowbox-general() {
+    border: 3px solid #fff;
     text-align: center;
+    color: $text-color;
+    
     box-shadow: 
         0 0 10px 10px #444,
         inset 0 0 10px 10px #444;
         
     @include glow-transition();
     
-    &:hover {
+    &:active,
+    &:hover,
+    &:focus,
+    &:visited {
+        color: $text-color;
+        text-decoration: none;
         box-shadow:
             0 0 10px 5px #999,
             inset 0 0 10px 5px #999;
     }
+}
+ 
+.glowbox-large {
+    padding: 2em;
+    font-family: $button-font;
+    
+    @include glowbox-general();
+}
+
+.glowbox {
+    font-family: $button-font;
+    font-size: 18px;
+    padding: 0.3em 1em;
+    margin: 1em 0;
+    display: inline-block;
+    
+    @include glowbox-general();
 }
 
 .glow {
     @include glow-text-subtle();
     @include glow-transition();
     
-    &:hover {
+    &:active,
+    &:hover,
+    &:focus,
+    &:visited {
         @include glow-text-bold();
     }
 }
 
+
+
 .glow-on-hover {
     @include glow-transition();
     
-    &:hover {
+    &:active,
+    &:hover,
+    &:focus,
+    &:visited {
         @include glow-text-subtle();
     }
 }

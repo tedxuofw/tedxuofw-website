@@ -63,6 +63,7 @@ module.exports = function (grunt) {
       compass: {
         files: [
             '<%= yeoman.app %>/_assets/scss/**/*.{scss,sass}',
+            '<%= yeoman.app %>/_bower_components/fontawesome/scss/*.{scss,sass}',
             '<%= yeoman.app %>/_bower_components/bootstrap-sass-official/assets/stylesheets/*.{scss,sass}'],
         tasks: ['compass:server', 'autoprefixer:server']
       },
@@ -350,6 +351,16 @@ module.exports = function (grunt) {
               '_bower_components/bootstrap-sass-official/assets/fonts/**/*'
             ],
             dest: '<%= yeoman.dist %>/_assets/css/bootstrap'
+          },
+          {
+            expand: true,
+            flatten: true,
+            dot: true,
+            cwd: '<%= yeoman.app %>',
+            src: [
+              '_bower_components/fontawesome/fonts/*'
+            ],
+            dest: '<%= yeoman.dist %>/_assets/css/fontawesome'
           }
         ]
       },
@@ -383,6 +394,16 @@ module.exports = function (grunt) {
               '_bower_components/bootstrap-sass-official/assets/fonts/**/*'
             ],
             dest: '.tmp/_assets/css/bootstrap'
+          },
+          {
+            expand: true,
+            flatten: true,
+            dot: true,
+            cwd: '<%= yeoman.app %>',
+            src: [
+              '_bower_components/fontawesome/fonts/*',
+            ],
+            dest: '.tmp/_assets/css/fontawesome'
           }
         ]
       },
@@ -465,6 +486,10 @@ module.exports = function (grunt) {
           {
             from: '/_bower_components/bootstrap-sass-official/assets/fonts/bootstrap/',
             to: '/_assets/css/bootstrap/'
+          },
+          {
+            from: '/_bower_components/fonts/',
+            to: '/_assets/css/fontawesome/'
           }
         ]
       }
