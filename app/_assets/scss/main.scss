@@ -22,8 +22,9 @@ $icon-font-path: "/_bower_components/bootstrap-sass-official/assets/fonts/bootst
 @import "custom/home.scss";
 @import "custom/contact-form.scss";
 
-// Special effects
+// Components
 @import "custom/glow.scss";
+@import "custom/map.scss";
 
 // Final tweaks
 @import "custom/shame.scss";

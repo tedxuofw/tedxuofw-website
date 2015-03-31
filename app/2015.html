@@ -7,17 +7,23 @@ page_id: 2015
 <div class="opaque opaque-content">
   <div class="container">
     <div class="row">
+      <div class="col-xs-12 col-md-4">
         <div class="segment">        
+          <h3>date</h3>
           <p class="large">
             <time datetime="2015-05-03 10:00">Sunday, May 3, 2015</time>
             <span>11:00am - 4:00pm</span>
-            <br>
-            <!-- 
-              Note: we are explicitly not using the address HTML tag. See
-              http://html5doctor.com/the-address-element/
-              I'm also too lazy to do the whole vcards/microformat thing 
-              that the article suggests.
-            -->            
+          </p>
+        </div>
+        <div class="segment">
+          <h3>address</h3>
+          <!-- 
+            Note: we are explicitly not using the address HTML tag. See
+            http://html5doctor.com/the-address-element/
+            I'm also too lazy to do the whole vcards/microformat thing 
+            that the article suggests.
+          -->
+          <p class="large">            
             <span>Kane Hall <a href="https://goo.gl/maps/3O9N2">(map)</a></span>
             <span>Room 120</span>
             <span>4069 Spokane Lane</span>
@@ -27,7 +33,6 @@ page_id: 2015
           
         <div class="segment">  
           <h3>ticket prices</h3>
-          <hr>
           
           <p class="large">
             <span>UW Alumni, Students, Faculty, and Staff / <strong>$20</strong></span>
@@ -37,6 +42,12 @@ page_id: 2015
         </div>
         
         <a href="#" class="action-button">Register</a>
+      </div>
+      <div class="col-xs-12 col-md-8">
+        <div class="segment map">
+          {% include map.html %}
+        </div/,
+      </div>
     </div>
   </div>
 </div>

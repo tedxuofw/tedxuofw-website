@@ -62,8 +62,8 @@ h3 {
     color: $faded-color;
 }
 
-.large span, 
-.large time {
+.default .large, 
+.home .large {
     font-size: 20px;
     display: block;
     color: gray;
