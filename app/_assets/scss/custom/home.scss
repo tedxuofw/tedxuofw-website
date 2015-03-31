@@ -17,6 +17,19 @@
     margin-right: auto;
 }
 
+//glowbox mobile css
+@media (max-width: $screen-xs-min) {
+    .centerpiece{
+        width: 90%;
+    }
+}
+ 
+.youtube{
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .centerpiece .glowbox-large span {
     font-family: $button-font;
     font-size: 24px;
