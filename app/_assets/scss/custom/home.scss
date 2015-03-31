@@ -27,10 +27,8 @@
     margin-bottom: 2em;
 }
 
-.summary {
-    padding-top: 2em;
-    padding-bottom: 2em;
-    text-align: justify;
+.youtube iframe {
+    display: block;
 }
 
 .description h2 {
@@ -39,7 +37,7 @@
 }
 
 .description {
-    padding: 3em;
+    padding: 2em 3em;
 }
 
 .description .glowbox {
@@ -55,12 +53,6 @@
     &:focus,
     &:visited {
         text-decoration: none;
-    }
-}
-
-@media (max-width: $screen-sm-max) {
-    .summary {
-        text-align: center;
     }
 }
 

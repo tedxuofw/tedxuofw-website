@@ -13,8 +13,13 @@ body {
     font-stretch:normal;
 }
 
-p {
+.home p {
     line-height: 2.3em;
+}
+
+.default p {
+    font-size: 14px;
+    line-height: auto;
 }
 
 h1,
@@ -39,16 +44,22 @@ h2 {
 
 h3 {
     font-size: 24px;
-    color: $faded-color;
+    color: $dark-text-color;
     padding-bottom: 12px;
     margin-bottom: 0;
     margin-top: 0;
 }
 
-a .glowbox{
-    color: $text-color;
-    font-size: 14px;
-    font-weight: 400;
+.header-group {
+    padding-bottom: 1em;
+}
+
+.header-group > h3 {
+    padding-bottom: 0;
+}
+
+.subtle {
+    color: $faded-color;
 }
 
 .large span, 

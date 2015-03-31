@@ -96,3 +96,24 @@
         @include glow-text-subtle();
     }
 }
+
+.action-button {
+    font-family: $button-font;
+    font-size: 18px;
+    padding: 0.3em 1em;
+    margin: 0.5em 0;
+    display: inline-block;
+    
+    border: 3px solid $tedx-red;
+    text-align: center;
+    color: $tedx-red;
+    
+    &:active,
+    &:hover,
+    &:focus,
+    &:visited {
+        color: $tedx-red;
+        text-decoration: none;
+        // TODO
+    }
+}

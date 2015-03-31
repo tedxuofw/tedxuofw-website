@@ -57,7 +57,23 @@ body {
 }
 
 .opaque {
-    background-color: $background-color;
+    background-color: $light-background-color;
+    color: $dark-text-color;
+    
+    padding: 0;
+    
+    text-align: justify;
+    
+    @media (max-width: $screen-sm-max) {
+        text-align: center;
+        padding: 1em auto;
+    }
+}
+
+.opaque-content {
+    text-align: left;
+    padding-top: 3em;
+    padding-bottom: 2em;
 }
 
 .segment {
