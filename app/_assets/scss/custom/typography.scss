@@ -30,10 +30,18 @@ h6 {
 
 h2 {
     font-size: 40px;
-    color: $faded-color;
+    color: $text-color;
     border-bottom: 2px solid $faded-color;
     padding-bottom: 12px;
     margin-bottom: 12px;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 24px;
+    color: $faded-color;
+    padding-bottom: 12px;
+    margin-bottom: 0;
     margin-top: 0;
 }
 
@@ -45,6 +53,6 @@ a .glowbox{
 
 .large span, 
 .large time {
-    font-size: 20px;
+    font-size: 15px;
     display: block;
 }

@@ -11,6 +11,16 @@
     -   title: "VOLUNTEERS"
         id: 2015_volunteers
         url: /2015/volunteers
+-   title: "ABOUT"
+    id: about
+    url: /about
+    children:
+    -   title: "THE TEAM"
+        id: team
+        url: /about/team
+    -   title: "TEDx"
+        id: tedx
+        url: /about/tedx
 -   title: "PAST EVENTS"
     id: past-events
     url: /past-events
@@ -24,16 +34,6 @@
     -   title: "2012"
         id: 2012
         url: /past-events/2012
--   title: "ABOUT"
-    id: about
-    url: /about
-    children:
-    -   title: "THE TEAM"
-        id: team
-        url: /about/team
-    -   title: "TEDx"
-        id: tedx
-        url: /about/tedx
 -   title: "CONTACT"
     id: contact
     url: /contact
