@@ -4,44 +4,52 @@ title: "TEDxUofW 2015"
 page_id: 2015
 ---
 
-<div class="container translucent full">
-  <h2>event details</h2>
-  
-  <div class="segment">
-    <h3>date</h3>
-    
-    <p class="large">
-      <strong><time datetime="2015-05-03 10:00">SUNDAY, MAY 3RD</time></strong>
-      <span>11:00am - 4:00pm</span>
-    </p>
+{% include secondary-nav.html parent_id="2015" page=page %}
+<div class="opaque opaque-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="segment">
+          <h3>date</h3>
+          
+          <p class="large">
+            <strong><time datetime="2015-05-03 10:00">SUNDAY, MAY 3RD</time></strong>
+            <span>11:00am - 4:00pm</span>
+          </p>
+        </div>
+          
+        <div class="segment">
+          <h3>location</h3>
+          
+          <!-- 
+            Note: we are explicitly not using the address HTML tag. See
+            http://html5doctor.com/the-address-element/
+            I'm also too lazy to do the whole vcards/microformat thing 
+            that the article suggests.
+          -->
+          <p class="address large">
+            <span><strong>Kane Hall</strong></span>
+            <span>Room 120</span>
+            <span>4069 Spokane Lane</span>
+            <span>Seattle, WA 98105</span>
+          </p>
+        </div>
+          
+        <div class="segment">  
+          <h3>ticket prices</h3>
+          
+          <p class="large">
+            <span>UW Alumni, Students, Faculty, and Staff / <strong>$20</strong></span>
+            <span>General Admission / <strong>$30</strong></span>
+            <span>Note: Tickets are on a first-come first-serve basis, limited to the first 700 applicants</span>
+          </p>
+        </div>
+        
+        <a href="#" class="action-button">Register now</a>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <h3>Embed maps here</h3>
+      </div>
+    </div>
   </div>
-    
-  <div class="segment">
-    <h3>location</h3>
-    
-    <!-- 
-      Note: we are explicitly not using the address HTML tag. See
-      http://html5doctor.com/the-address-element/
-      I'm also too lazy to do the whole vcards/microformat thing 
-      that the article suggests.
-    -->
-    <p class="address large">
-      <span><strong>Kane Hall</strong></span>
-      <span>Room 120</span>
-      <span>4069 Spokane Lane</span>
-      <span>Seattle, WA 98105</span>
-    </p>
-  </div>
-    
-  <div class="segment">  
-    <h3>ticket prices</h3>
-    
-    <p class="large">
-      <span>UW Alumni, Students, Faculty, and Staff / <strong>$20</strong></span>
-      <span>General Admission / <strong>$30</strong></span>
-      <span>Note: Tickets are on a first-come first-serve basis, limited to the first 700 applicants</span>
-    </p>
-  </div>
-  
-  <a href="#" class="glowbox">Register now</a>
 </div>

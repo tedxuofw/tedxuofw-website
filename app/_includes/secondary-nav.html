@@ -1,0 +1,22 @@
+<div class="secondary-nav translucent container">
+  {% assign links = site.data.nav[include.parent_id].children %}
+  {% if links == empty %}
+    <h2 class="active">
+      <a href="{{ page.url }}">
+        {{ site.data.nav[include.parent_id].title }}
+      </a>
+    </h2>
+  {% else %}
+    {% for child in link.children %}
+      {% assign current = nil %}
+      {% if child.page_id == include.page.page_id %}
+        {% assign current = "active" %}
+      {% endif %}
+      <h2 class="{{ current }}">
+        <a href="{{ child.url }}">
+          {{ child.title }}
+        </a>
+      </h2>
+    {% endfor %}
+  {% endif %}
+</div>
