@@ -26,8 +26,14 @@
  
 .youtube{
     padding: 0;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.youtube iframe {
+    display: block;
+    @media (max-width: $screen-xs-min) {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .centerpiece .glowbox-large span {
@@ -38,10 +44,6 @@
 
 .centerpiece .glowbox-large {
     margin-bottom: 2em;
-}
-
-.youtube iframe {
-    display: block;
 }
 
 .description h2 {

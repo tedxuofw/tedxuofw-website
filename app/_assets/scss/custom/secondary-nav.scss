@@ -1,0 +1,39 @@
+/**
+ * secondary-nav.scss
+ *
+ * Styles for the secondary nav (large tabs)
+ */
+ 
+@import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
+@import "variables.scss";
+
+.secondary-nav {
+    list-style-type: none;
+}
+
+.secondary-nav li {
+    font-size: 40px;
+    color: $faded-color;
+    margin-bottom: -20px;
+    margin-top: 0;
+    margin-right: 1em;
+    
+    display: inline-block;
+    position: relative;
+}
+
+.secondary-nav .active {
+    border-bottom: 10px solid $tedx-red;
+}
+
+.secondary-nav a {
+    color: $faded-color;
+    
+    &:active,
+    &:hover,
+    &:visited,
+    &:focus {
+        text-decoration:none;
+        color: $tedx-red;
+    }
+}

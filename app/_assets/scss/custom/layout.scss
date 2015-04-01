@@ -45,7 +45,7 @@ body {
     flex-direction: column;
 }
 
-.wrapper .main-content > * {
+.wrapper .main-content > .opaque {
     flex: 1;
     @media (max-width: $screen-xs-max) {
         width: 100%;

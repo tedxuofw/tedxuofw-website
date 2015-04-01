@@ -1,0 +1,25 @@
+<ul class="secondary-nav translucent">
+  {% if include.index == 0 %}
+    <li class="active">
+  {% else %}
+    <li>
+  {% endif %}
+    <a href="/2015">attend</a>
+  </li>
+  
+  {% if include.index == 1 %}
+    <li class="active">
+  {% else %}
+    <li>
+  {% endif %}
+    <a href="/2015/speakers">speakers</a>
+  </li>
+  
+  {% if include.index == 2 %}
+    <li class="active">
+  {% else %}
+    <li>
+  {% endif %}
+    <a href="/2015/sponsors">sponsors</a>
+  </li>
+</ul>
