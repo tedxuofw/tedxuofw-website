@@ -8,6 +8,7 @@
 <!-- build:js(app) /_assets/javascript/vendor.js -->
 <!-- bower:js -->
 <script src="/_bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/_assets/javascript/responsive-nav.js"></script>
 <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
 <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
 <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
@@ -20,6 +21,10 @@
 <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
 <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
 <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+<script>
+  var nav = responsiveNav(".nav-collapse",
+  	{customToggle: "nav-toggle"});
+</script>
 <!-- endbower -->
 <!-- endbuild -->
 
