@@ -20,6 +20,11 @@
     
     display: inline-block;
     position: relative;
+    
+    @media (max-width: $screen-xs-max) {
+        font-size: 20px;
+        margin-bottom:-15px;
+    }
 }
 
 .secondary-nav .active {
