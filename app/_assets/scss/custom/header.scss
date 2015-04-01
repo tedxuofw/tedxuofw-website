@@ -20,6 +20,8 @@
     font-family: $header-font;
     font-weight: 600;
     color: $text-color;
+    padding-left: 25px;
+    padding-right: 25px;
     
     &:active,
     &:focus,
@@ -71,7 +73,7 @@
     .navbar-custom .nav-sub-child a {
         display: block;
         color: $text-color;
-        padding: 0 15px;
+        padding: 0 25px;
     }
 
     // Style active submenu elements

@@ -1,0 +1,47 @@
+/**
+ * volunteers.scss
+ *
+ * Styles for this year's volunteers.
+ */
+ 
+@import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
+@import "variables.scss";
+
+.volunteer {
+    position: relative;
+}
+
+.volunteer-content {
+    position: relative;
+}
+
+.volunteer .description {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: $text-color;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    
+}
+
+.volunteer .description p {
+    line-height: 1.2em;
+}
+
+.volunteer .snippit {
+    font-weight: bold;
+}
+
+.volunteer .position {
+    color: $tedx-red;
+}
+
+.volunteer-content:hover .bio {
+    min-height: 5em;
+}
+
+.volunteer-content .bio {
+    min-height: 0;
+    transition: min-height 0.2s ease-out;
+}
+

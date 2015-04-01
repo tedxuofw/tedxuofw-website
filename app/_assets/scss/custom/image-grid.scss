@@ -23,19 +23,16 @@ Code for any grid-like arrangement
         h2 {
             font-weight:400;
             color: $dark-text-color;
-            -webkit-transition: color 0.2s ease-out;
-                    transition: color 0.2s ease-out;
+            transition: color 0.2s ease-out;
         }
            
         .glyphicon {
-            -webkit-transition: -webkit-transform 0.2s ease-out;
-                    transition: transform 0.2s ease-out;
+            transition: transform 0.2s ease-out;
         }
         
         &:hover, &:active {
             .glyphicon {
-                -webkit-transform: rotate(90deg);
-                        transform: rotate(90deg);
+                transform: rotate(90deg);
             }
             
             h2 {
@@ -72,7 +69,7 @@ Code for any grid-like arrangement
     .target {
         position:relative;
         overflow:hidden;
-        cursor: pointer;
+        //cursor: pointer;
         
         &:hover, &:active {
             .description {
@@ -90,8 +87,7 @@ Code for any grid-like arrangement
         width:100%;
         bottom:0;
         
-        -webkit-transform: min-height 0.2s ease-out;
-               transition: min-height 0.2s ease-out;
+        transition: min-height 0.2s ease-out;
         
         h3 {
             font-size:1.2em;
