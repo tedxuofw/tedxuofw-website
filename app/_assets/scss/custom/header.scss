@@ -32,7 +32,8 @@
 }
 
 // Styles for the hamburger icon for the nav
-.navbar-custom .icon-bar {
+.navbar-custom .icon-bar,
+.nav-responsive .icon-bar {
     color: #fff;
     border-color: #fff;
     background-color: #fff;
@@ -92,9 +93,12 @@
 }
 
 //mobile css
-@media (max-width: $screen-xs-min) {
+@media (max-width: $screen-xs-max) {
     .navbar-static-top{
         display: none;
     }    
 
+    .nav-collapse {
+        display: block;
+    }
 }

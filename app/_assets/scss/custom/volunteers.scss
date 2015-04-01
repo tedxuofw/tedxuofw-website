@@ -22,6 +22,8 @@
     height: 100%;
     padding: 1em;
     
+    position: absolute;
+    bottom: 0;
 }
 
 .volunteer .description p {
@@ -36,12 +38,11 @@
     color: $tedx-red;
 }
 
-.volunteer-content:hover .bio {
-    min-height: 5em;
-}
-
 .volunteer-content .bio {
     min-height: 0;
     transition: min-height 0.2s ease-out;
 }
 
+.volunteer-content:hover .bio {
+    min-height: 5em;
+}
