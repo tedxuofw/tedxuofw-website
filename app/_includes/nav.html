@@ -27,7 +27,7 @@
               {{ link.title }}
             </span>
           </a>
-          <ul class="nav-children">
+          <ul class="nonmobile nav-children">
             {% for child in link.children %}                
               {% assign current_child = nil %}
               {% if (page.page_id == child.id) %}

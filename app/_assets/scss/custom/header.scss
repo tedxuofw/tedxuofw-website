@@ -86,5 +86,18 @@
 }
 
 //navbar css for mobile
-@media (min-width: $screen-xs-min) {
+@media (max-width: $screen-xs-min) {
+    .nonmobile{
+        display: none;
+    }
+
+    .navbar-collapse.in{
+        width: 100vw;
+        left: calc(-50vw + 50%);
+        text-align: center;
+        background-color: DarkGray;
+        height: 100vh;
+        padding-right: 0;
+
+    }
 }
