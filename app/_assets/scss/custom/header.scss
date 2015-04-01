@@ -95,9 +95,15 @@
         width: 100vw;
         left: calc(-50vw + 50%);
         text-align: center;
-        background-color: DarkGray;
+        background-color: black;
         height: 100vh;
         padding-right: 0;
+        font-size: 20px;           
+    }
 
+    .navbar-collapse.in .nav-top-child{
+        margin-top: 20%;
+        margin-bottom: 20%;
+        /*border-bottom: 1px solid white;*/
     }
 }
