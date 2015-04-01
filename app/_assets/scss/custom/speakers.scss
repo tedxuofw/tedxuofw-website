@@ -1,0 +1,54 @@
+/*
+speaker.scss
+
+CSS specifically for speakers
+*/
+
+@import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
+@import "variables.scss";
+
+.speakers{
+    margin-bottom:5em;
+    
+    .video {
+        margin: 1em 0;
+    }
+}
+
+.speaker {
+    margin-bottom:1em;
+    
+    h2 {
+        border-bottom:2px solid $tedx-red;
+        width:100%;
+        margin-bottom:0.5em;
+    }
+    
+    img {
+        display:block;
+        margin:0 auto;
+        max-width:20em;
+    }
+    
+    .video {
+        margin-top: 0;
+    }
+    
+    .bio {
+        padding-left:1em;
+        
+        h2,h3{
+            margin-top:0;
+        }
+        
+        h3 {
+            font-size: 1.5em;
+        }
+    }
+    
+    @media all and (max-width: $screen-xs-max) {
+        img{
+            margin-bottom:1em;
+        }
+    }
+}

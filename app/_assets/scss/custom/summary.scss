@@ -1,0 +1,20 @@
+/*
+summary.scss
+
+Contains CSS for the yearly summary pages (past events)
+*/
+
+@import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
+@import "variables.scss";
+
+.nav-summary {
+    a {
+        color: $dark-text-color;
+        font-size: 1.2em;
+    }
+    
+    li.active > a {
+        color: $tedx-red;
+        font-weight: 700;
+    }
+}

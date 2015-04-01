@@ -12,6 +12,19 @@ hr {
     color: $faded-color;
 }
 
+.thumbnail-image {
+    width: 100%;
+}
+
+.speaker h3,
+.sponsors h3 {
+    border-bottom: 1px solid #faded-color;
+}
+
+.sponsors h3 {
+    margin: 1em;
+}
+
 body {
     /*
     // Small devices (default)

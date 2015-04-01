@@ -16,8 +16,8 @@
     url: /about
     children:
     -   title: "ABOUT TEDx"
-        id: tedx
-        url: /about/tedx
+        id: about
+        url: /about
     -   title: "MEET THE TEAM"
         id: team
         url: /about/team

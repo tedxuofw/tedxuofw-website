@@ -1,0 +1,365 @@
+- group: Curators
+  unique_id: curators
+  image: "/_assets/media/2014/volunteers/team-slide.png"
+  larger: true
+  volunteers:
+    - name: Austin Vu
+      unique_id: austin_vu
+      position: Marketing and Production
+      year: Senior
+      major: Aerospace Engineering
+      ted: |
+        "TED has verbalized ideas that I often contemplate on my own. It has brought clarity to my thoughts and has also inspired me to continue in lifelong learning."
+      about: |
+        Austin is involved in the engineering departments here at UW and works at Boeing. In his free time, he practices tricking and martial arts. He volunteers actively for the Seattle Vietnamese Community, loves playing sports, and traveling. In fact, Austin has traveled across Europe on his own before!
+      image: "/_assets/media/2014/volunteers/curators/austin.jpg"
+    - name: Jamie Tan
+      unique_id: jamie_tan
+      position: Registration and Speaker Selection
+      year: Junior
+      major: Accounting
+      ted: |
+        "I love TED because it can make an impact and I can be a part of such a globally admired brand!"
+      about: |
+        In her spare time, Jamie enjoys teaching Zumba at the IMA, playing piano, and is a total foodie! Jamie is an Accounting Intern at the University of Washington and she is a part of the Marketing committee for the business fraternity Alpha Kappa Psi. A fun fact about her is that growing up, she danced with people from the popular television shows "So You Think You Can Dance" and "Dancing with the Stars".
+      image: "/_assets/media/2014/volunteers/curators/jamie.jpg"
+    - name: Yifan Xiao
+      unique_id: yifan_xiao
+      position: Swag, Sponsorship, and Finance
+      year: Senior
+      major: Finance
+      ted: |
+        "I became involved with TEDxUofW last year as a Finance Manager for the event. I've been a big fan of TED talks since high school, but it wasn't until a good friend (one of last year's curators) recruited me that I really became immersed in the TED brand. Despite my busy schedule, I knew I had to get involved again this year, and was thrilled when I became one of the curators. I love TED's mission of "ideas worth spreading" and the inspiration that stems from a variety of topics, from technology to human behavior to many other things.
+        My favorite TED talk is called "The Power of Vulnerability", presented by Brene Brown. She discusses human connection and interaction, which I find fascinating and extremely relevant in my own life. This is what I think is so great about TED- the ability to inspire and motivate people to take what they've learned, and apply it to their own lives to transcend in the way that people think, feel and act."
+      about: |
+        Yifan works as a Peer Advisor in the UW Career Center, is a part of the business fraternity Alpha Kappa Psi, and joined the student run consulting firm called Rho Consulting. During her free time, Yifan loves to cook as a stress reliever. Her life motto can be summed up by the quote "Love people. Cook them tasty food." Interestingly, Yifan's elbows are double-jointed!
+      image: "/_assets/media/2014/volunteers/curators/yifan.jpg"
+- group: Volunteer Managers
+  unique_id: volunteer_managers
+  larger: true
+  image: "/_assets/media/2014/volunteers/team-slide.png"
+  volunteers:
+    - name: Emmeline Vu
+      unique_id: emmeline_vu
+      position: Marketing
+      year: Sophomore
+      major: Business (Marketing & Information Systems)
+      ted: |
+        "My favorite TED talk would have to be "If I should have a daughter" by Sarah Kay. It was the very first TED talk I ever watched and it was definitely what got me hooked on TED in general! My experience with TEDxUofW so far has been nothing short of amazing. I was an Event Day Manager last year for the swag committee and had the time of my life working with my friends to plan for the event. I think what I love most about TEDxUofW is seeing such a diverse group of like-minded students come together to work towards a common goal - putting on the best TEDxUofW conference we can! TED represents innovation and a love and desire for learning, so it's inspiring to me to see so many students want to be apart of something bigger like that."
+      about: |
+        Emmeline is a business community Resident Advisor and campus tour guide at UW. She also interns at Concur Technologies, is a founding father and executive officer of Delta Sigma Pi, a YEOC mentor in training, and the Lavin Entrepreneurship Program Marketing chair.  In her free time, Emmeline enjoys zumba and is a foodie who loves trying new restaurants. She has recently been trying to pick up photography, guitar, and coding. Fun fact, Emmeline is the 28th Husky in her family!
+      image: "/_assets/media/2014/volunteers/managers/emmeline.jpg"
+    - name: Nicole Mattson
+      unique_id: nicole_mattson
+      position: Registration and Speaker Selection
+      year: Junior
+      major: "Neurobiology Major & Global Health Minor"
+      ted: |
+        "The most amazing thing about TED is that it brings people together and encourages critical reflection and creative problem solving across diverse disciplines. There are so many incredible people with an inspiring story to tell or an "idea worth spreading" and it has been so rewarding to help give these voices a stage at our UW campus."
+      about: |
+        Nicole enjoys napping, baking kale chips, and doing yoga in her spare time. She is also attempting to learn conversational Portuguese outside of her two majors! With any spare funds, Nicole likes going to concerts and buying floral print everything. Fun fact, she was an eyeball for Halloween! 
+      image: "/_assets/media/2014/volunteers/managers/nicole.jpg"
+    - name: Sam Hamilton
+      unique_id: sam_hamilton
+      position: Sponsorship, Finance, and Swag
+      year: Senior
+      major: "Business (Finance and Entrepreneurship)"
+      ted: |
+        "I believe that TED has the power to inspire individuals and communities to make real, positive change in their own lives and in the world! TED's tagline "Ideas Worth Spending" encapsulates the organization's novel capability of contributing to the development of human consciousness. My personal favorite TEDTalk is Dan Pallota's talk: "The Way We Think About Charity is Dead Wrong". Pallota asserts that in order to empower the non-profit world to have a more significant impact on global problems, we must shift the way we think about charities and the way they operate. I think this talk also fits in well with this year's TEDxUofW theme "Transcend with TED".
+        I am extremely excited to help bring an awesome TEDx conference to UW this year!”
+      about: |
+        Sam currently interns at UBS for a Wealth Management Group and teaches a 24 student Freshman Business course on campus. He is in the process of founding the UW Real Estate Club and is a member of Startup UW. This is Sam’s first winter quarter at UW since his Freshman year! Previously, he has backpacked in Thailand and volunteered in Cambodia and studied abroad in Granada, Spain during his winter quarters. In his spare time, Sam enjoys traveling (he’s been to six continents), hiking, playing basketball, coding, and learning. 
+      image: "/_assets/media/2014/volunteers/managers/sam.jpg"
+    - name: Jessica Cheng
+      unique_id: jessica_cheng
+      position: Production
+      year: Sophomore
+      major: "Business (Operations Management & Information Systems)"
+      ted: |
+        "I love TED's ability to inspire. I've walked away from so many talks with a new outlook on people, places and life in general. I also love the community that is TED. So many inspiring, passionate and bight networks have been created because of TED."
+      about: |
+        Jessica is a UW Marketing events team intern and plans events on behalf of the University's president and donors. She is also a part of the team that runs the UW Student Life Facebook page and is very involved in Asian-American Intervarsity, a college fellowship on campus. In her spare time, she likes eating and catching up with friends in cafes. Once, Jessica lost a tooth while performing on stage in PNB's Nutcracker!
+      image: "/_assets/media/2014/volunteers/managers/jessica.jpg"
+- group: Marketing
+  unique_id: marketing
+  image: "/_assets/media/2014/volunteers/marketing/marketing-group.jpg"
+  volunteers:
+    - name: Madison Wright
+      unique_id: madison_wright
+      position: Graphics Designer
+      year: Freshman
+      major: Political Science
+      ted: |
+        "I love TED talks because they appeal to everyone. Whether you are curious about how to revolutionize the educational system in the U.S. or see how David Blaine broke a world record, it's all there! My favorite TED talk was by Birke Baehr, "What's wrong with our food system". He is so young and passionate about changing the world. It was very inspiring."
+      about: |
+        Madison is a Marketing/Social Media intern for Dianne's Delights Bakery and an ASUW Senator. She loves to travel and her most recent trip was to Greece. As a junior in high school, she studied abroad for two weeks in Costa Rica. She likes to play tennis at the IMA, stargazing, and her favorite animal is the red panda.
+      image: "/_assets/media/2014/volunteers/marketing/madison.jpg"
+    - name: Natalie Lew
+      unique_id: natalie_lew
+      position: Graphics Designer
+      year: Freshman
+      major: Political Science and Visual Communication
+      ted: |
+        "TED is wonderful and beautiful because it allows people to feel great excitement in learning. I love knowledge and being around those who love to listen and inherit as much as they can. I love how TED embraces the art of passionate storytelling and how every time I listen to a TED talk, I come away wanting to share the learned information with all of my peers and friends. I love TED."
+      about: |
+        Natalie is a graphic design and marketing intern at the Downtown Seattle Association. She was previously a graphic designer for the UW Obama Campaign. She enjoys reading, writing, going to concerts and the symphony, baking blueberry muffins, and listening to Washed Out in the sun. One of her unique talents is that she can recite nearly 100 digits of pi!
+      image: "/_assets/media/2014/volunteers/marketing/natalie.jpg"
+    - name: Grace Xia
+      unique_id: grace_xia
+      position: Social Media
+      year: Sophomore
+      major: "Business (HR Management & Supply Chain and Operations Management)"
+      ted: |
+        "TED is an incredible culmination of talent, inspiration, and education. TED has the ability to change the way we think and act during our time on Earth. For as many adversities that we may experience throughout our lives, TED is a resource that helps us get back on our feet, learn, and grow."
+      about: |
+        Grace is an IT consultant for the University of Washington Learning Technologies department. She is also a founding father and executive officer of the business fraternity, Delta Sigma Pi. In her spare time, she enjoys traveling, DIY crafts, cooking, and has recently started enjoying pilates. An interesting fact about Grace is that she has swam with dolphins and has even brushed a dolphin's teeth!
+      image: "/_assets/media/2014/volunteers/marketing/grace.jpg"
+    - name: Michael Lee
+      unique_id: michael_lee
+      position: Web Developer
+      year: Freshman
+      major: Computer Science
+      ted: |
+        "I find TED fascinating because it's one of the more effective venues for communicating and fostering interesting ideas. Nearly everybody I know has at least some idea of what TED is, or has watched a TED talk -- TED's mission of promoting "ideas worth spreading" seems to be very effective."
+      about: |
+        Michael is a TA for a CSE course at UW and enjoys reading and folding origami. He is involved in the DUBotics club and the Historical Fencing club. Michael has held previous positions as a private tutor and an intern at Microsoft Research.
+      image: "/_assets/media/2014/volunteers/marketing/michael.jpg"
+    - name: Daniel Huie
+      unique_id: daniel_huie
+      position: Videographer
+      year: Sophomore
+      major: Informatics
+      ted: |
+        "I love TED because it educates individuals from a perspective that they would never have thought of before. It fosters the relationship between open-mindedness and enlightenment."
+      about: |
+        Daniel is a volunteer photographer for UW Student Life and a videographer for The Driver Training Group. For two summers, Daniel toured the country with Allstate Insurance Group to bring awareness of the dangers of texting while driving to young drivers. Aside from filmmaking and photography, Daniel also likes playing the piano, running, and biking.
+      image: "/_assets/media/2014/volunteers/marketing/daniel.jpg"
+    - name: Stephanie Zabala
+      unique_id: stephanie_zabala
+      position: Photographer
+      year: Sophomore
+      major: Design
+      ted: |
+        "I love stories, especially stories that inspire me or teach me something new or allow me to think about something in a different way. TED talks always seem to do almost all of those things."
+      about: |
+        Stephanie enjoys reading good books, listening to music and going to concerts, eating good food, and enjoying the outdoors by hiking and camping. Not surprisingly, Stephanie loves photography. She also knows a lot about astrology!
+      image: "/_assets/media/2014/volunteers/marketing/stephanie.jpg"
+- group: Production
+  unique_id: production
+  image: "/_assets/media/2014/volunteers/team-slide.png"
+  volunteers:
+    - name: William Voit
+      unique_id: william_volt
+      position: Technical
+      year: ???
+      major: ???
+      ted: ???
+      about: ???
+      image: "/_assets/media/2014/volunteers/full-placeholder.png"
+      hidden: true
+    - name: Jennifer Cheng
+      unique_id: jennifer_cheng
+      position: Graphic Designer
+      year: Junior
+      major: Interaction Design
+      ted: |
+        "I love TED because it keeps people on their toes and constantly excited about learning."
+      about: |
+        Jennifer enjoys rock climbing and dancing to Beyonce.
+      image: "/_assets/media/2014/volunteers/production/jennifer.jpg"
+    - name: Malie Fuji
+      unique_id: malie_fuji
+      position: Technical
+      year: ???
+      major: ???
+      ted: ???
+      about: ???
+      image: "/_assets/media/2014/volunteers/production/malie.jpg"
+    - name: Connie Lim
+      unique_id: connie_lim
+      position: Creative
+      year: Senior
+      major: Business (Accounting & Marketing)
+      ted: |
+        "I loved serving with TED last year and the community it builds. I had to do it again this year!"
+      about: |
+        Connie enjoys traveling, trying new food, and going to concerts. She is also a huge fan of TV and her favorite show is "Mad Men". Her favorite food is tofu!
+      image: "/_assets/media/2014/volunteers/production/connie.jpg"
+    - name: Heather Chan
+      unique_id: heather_chan
+      position: Creative
+      year: Sophomore
+      major: Business
+      ted: |
+        "Ted talks inspire me to become the best version of myself in all aspects. One of my favorite speakers is Meg Jay who is well-known for her "Why 30 is not the new 20" speech. In short, Meg describes how the time in your twenties have a big impact on the rest of your life. TED talks are relatable, motivational, and life-changing and that is why I love them."
+      about: |
+        Heather is a part of the UW Relay for Life committee and a few business clubs on campus. In the summer, she plans on interning in Hong Kong and wishes to study abroad in Italy in the future. In her spare time, she enjoys hiking, skiing, camping, fashion, and watching rom-coms. An interesting fact about Heather is that she woke up during her wisdom teeth extraction!
+      image: "/_assets/media/2014/volunteers/production/heather.jpg"
+    - name: Stephanie Chan
+      unique_id: stephanie_chan
+      position: Creative
+      year: Freshman
+      major: Psychology and Communication
+      ted: |
+        "I am an enthusiast of stories. TED inspires a new way of thinking through shared experiences. It reminds us that we are all facing the same struggles and that we are not alone. TED is an outlet to express individuality. My all time favorite TED talk is Sarah Kay: If I should have a daughter. I love the rawness of spoken word poetry!"
+      about: |
+        Stephanie is a corps member of Scholarship Junkies, a barista at Tully's Coffee, and a volunteer at the Seattle Art Museum. She likes to sing, play tennis, and go on adventures around the Seattle area. Stephanie has a unique talent - she can lick her elbow!
+      image: "/_assets/media/2014/volunteers/production/stephanie.jpg"
+- group: Registration
+  unique_id: registration
+  image: "/_assets/media/2014/volunteers/team-slide.png"
+  volunteers:
+    - name: Gaku Murakami
+      unique_id: gaku_murakami
+      position: Registration
+      year: Junior
+      major: Sociology
+      ted: |
+        "I love TED talks because they are inspiring and diverse. The atmosphere at TEDx events is also super inspiring."
+      about: |
+        Gaku organized a TEDx event in his home country, Japan, so he is no stranger to TEDx conferences! He enjoys traveling and playing soccer in his free time.
+      image: "/_assets/media/2014/volunteers/registration/gaku.jpg"
+    - name: Wendy An-Jo Wang
+      unique_id: wendy_an-jo_wang
+      position: Registration
+      year: ???
+      major: ???
+      ted: ???
+      about: ???
+      image: "/_assets/media/2014/volunteers/registration/wendy.jpg"
+- group: Speaker Selection
+  unique_id: speaker_Selection
+  image: "/_assets/media/2014/volunteers/team-slide.png"
+  volunteers:
+    - name: Michelle Auster
+      unique_id: michelle_auster
+      position: Speaker Selection
+      year: Senior
+      major: International Studies and Global Health
+      ted: |
+        "TED is an amazing wealth of knowledge which is available to all people around the world. TED is the epitome of an invaluable global commons resource, and the kind of inspiration it brings to people everywhere is unmatched. There is nothing else which continues to demonstrate, time and time again, the extraordinary capacity of humankind."
+      about: |
+        Michelle is an intern with NARAL Pro-Choice Washington because of her passion for women's health and rights. She is also a part of GlobeMed, a campus-wide and national student run non-profit group that is committed to promoting health as an essential human right. She studied abroad in Bristol, England last year. An interesting fact about Michelle is she is the only vegetarian to have ever appeared on "United States of Bacon". In her spare time, Michelle enjoys hiking, singing, and staying up to date on her favorite television shows.
+      image: "/_assets/media/2014/volunteers/speaker-selection/michelle.jpg"
+    - name: Kyle Nelson
+      unique_id: kyle_nelson
+      position: Speaker Selection
+      year: Freshman
+      major: Neurobiology
+      ted: |
+        "I was introduced to TED my junior year of high school by a teacher, and since then it's changed the way I look at a lot of things. From how to attain happiness and more productive work (Shawn Achor, "The Happy Secret To Better Work"), to how to properly and efficiently use a paper towel (Joe Smith, "How To Use A Paper Towel"). The reason I love TED is simply because it gives people a platform to share what they're passionate about and why they believe it's so important."
+      about: |
+        Kyle was on the UW football team last season as a walk-on! He enjoys hiking, climbing, watching movies, and trying new things. One unique thing about Kyle is he has an extra bone in his left foot!
+      image: "/_assets/media/2014/volunteers/speaker-selection/kyle-nelson.jpg"
+    - name: Kyle Morasse
+      unique_id: kyle_morasse
+      position: Speaker Selection
+      year: Freshman
+      major: Psychology
+      ted: |
+        "I always enjoy watching TED Talks due to the innovative, positive, and transformative messages they share with the public. Their "Ideas Worth Spreading" have influenced my life in several ways and I am amazed at their ability to spread powerful ideas that change people's lives, communities, and the world as a whole. My favorite TED talk is by Sociologist Brené Brown, in which she discusses the importance of vulnerability in living a whole-hearted life. Her TED Talk as well as her book, Daring Greatly, have both deeply inspired me to take risks and be vulnerable in my everyday life. I am truly grateful for her powerfully life-changing message."
+      about: |
+        Kyle enjoys reading books about psychology and Buddhism. When he isn’t reading, he also likes to go running and hiking in the outdoors. Fun fact about Kyle, he sleepwalks or talks in his sleep almost every single night!
+      image: "/_assets/media/2014/volunteers/speaker-selection/kyle-morasse.jpg"
+    - name: Ellie Taagen
+      unique_id: ellie_taagen
+      position: Speaker Selection
+      year: Sophomore
+      major: Biochemistry and Nutrition
+      ted: |
+        "TED talks are exceptional because they expose the audience to amazing individuals who may be known only in their field. The courageous, the funny, the artistic, the practical, the persuasive, the focused, and the ingenious are the voices of TED. I'm excited to be a part of the speaker selection committee and continue the tradition of bringing and highlighting the inspiring voices of technology, education and design on our campus.
+        A talk that that I recently watched that changed my perspective on human/environment relationships is titled My Mushroom Burial Suit, given by Jae Rhim Lee. I think that it is remarkably inventive!"
+      about: |
+        Ellie grew up on Capitol Hill in Seattle and enjoys keeping up with the city's diverse food, music, and art scene. She enjoys the outdoors through running and hiking. Ellie is also an avid podcast listener, enjoys drawing animals, and listening to hip hop. When she is not enjoying nature, Ellie works at Seattle Biomed in a lab that studies Tuberculosis. She has traveled to 18 foreign countries as well!
+      image: "/_assets/media/2014/volunteers/speaker-selection/ellie.jpg"
+- group: Finance
+  unique_id: finance
+  image: "/_assets/media/2014/volunteers/finance/finance-group.jpg"
+  volunteers:
+    - name: Austin Miller
+      unique_id: austin_miller
+      position: Finance
+      year: Junior
+      major: "Business: Finance and Marketing"
+      ted: |
+        "I love TED because it inspires me to inspire others and take action in my life."
+      about: |
+        Austin is very involved with many UW organizations. He is the Lavin Entrepreneurship Program Vice President, Business Plan Competition Undergraduate Rep., Delta Sigma Phi Vice President and Founding Father, and AMA member. His hobbies include traveling (he'll be studying abroad in Rome this summer!), skiing, and spending time outdoors with family and friends.
+      image: "/_assets/media/2014/volunteers/finance/sam.jpg"
+    - name: Sarah Lin
+      unique_id: sarah_lin
+      position: Finance
+      year: Senior
+      major: Accounting
+      ted: |
+        "I am passionate about TED because it inspires me to be open-minded and to always have a positive attitude. One of my favorite TED talks is by the model Cameron Russell, who defines beauty as more than just physical attractiveness--I highly encourage everyone to watch it!"
+      about: |
+        Sarah is a member of the business fraternity, Alpha Kappa Psi. In a past summer, she studied abroad in Brazil on a business exploration seminar. During her free time, Sarah enjoys hiking, cheering for Seattle sports teams, and learning new languages. Once, Sarah swam with beluga whales at SeaWorld!
+      image: "/_assets/media/2014/volunteers/finance/sarah.jpg"
+- group: Swag
+  unique_id: swag
+  image: "/_assets/media/2014/volunteers/swag/swag-group.jpg"
+  volunteers:
+    - name: Emily Su
+      unique_id: emily_su
+      position: Swag
+      year: Freshman
+      major: Business
+      ted: |
+        "I love TED because of the impact the talks have on me. Sometimes after I watch a talk I get so inspired and motivated to improve my life and try new things."
+      about: |
+        Emily is a member of the sorority 'Sigma Psi Zeta', a GBCC Ambassador, ASC rep, and UWIB member. She enjoys dancing, playing badminton, and watching movies. Something interesting about Emily is she is allergic to apples!
+      image: "/_assets/media/2014/volunteers/swag/emily.jpg"
+    - name: Brandon Granaada
+      unique_id: brandon_granaada
+      position: Swag
+      year: Freshman
+      major: "Business: Information Systems and International Studies"
+      ted: |
+        "My favorite TED talk is Hans Rosling's '200 Countries, 200 Years, 4 Minutes'. A close second is Shane Koyczan's 'To This Day'.
+      about: ""
+      image: "/_assets/media/2014/volunteers/swag/brandon.jpg"
+- group: Sponsorship
+  unique_id: sponsorship
+  image: "/_assets/media/2014/volunteers/sponsorship/sponsorship-group.jpg"
+  volunteers:
+    - name: Emily Chen
+      unique_id: emily_chen
+      position: Sponsorship
+      year: Senior
+      major: "Business: Human Resources Management & Psychology"
+      ted: |
+        "I love TED because it is a way to genuinely inspire, enlighten and connect with people - all in a time frame as little as 10 minutes, which I think is pretty amazing. One of my favorite TED talks is Amy Cuddy's "Power Posing," since a lot of it speaks to me on a personal level and gave some insight on where I want to go in life."
+      about: |
+        Emily enjoys outdoor activities such as hiking, biking, and camping. She also enjoys photography, crafts, cooking, and discovering new cafes/restaurants. At school, Emily is involved in the business fraternity Alpha Kappa Psi. Emily also danced in the Nutcracker when she performed with the Pacific Northwest Ballet.
+      image: "/_assets/media/2014/volunteers/sponsorship/emily.jpg"
+    - name: Tsz Ling Pinky Li
+      unique_id: tsz_ling_pinky_li
+      position: Sponsorship
+      year: Junior
+      major: Economics and Statistics
+      ted: |
+        "I just love the fact that it's another place that I can learn new things and connect with everyone. TED talks have the potential to awaken me in some ways that I've never realized and motivate me in ways that I've never been before. TED talks are the best for study breaks!"
+      about: |
+        Pinky is an active member of the business fraternity, Alpha Kappa Psi, and an Economic Undergraduate Board member. In her spare time outside of school, Pinky likes dancing, sleeping, and munching. A fun fact about her is that she has a birthmark on her stomach!
+      image: "/_assets/media/2014/volunteers/sponsorship/tsz-ling.jpg"
+    - name: Xin Xin
+      unique_id: xin_xin
+      position: Sponsorship
+      year: Senior
+      major: Communication and Sales
+      ted: |
+        "My favorite TED talk is about the power pose. It makes me feel really confident about myself and what I can achieve."
+      about: |
+        Xin has interned at two different companies in China as a marketing intern as well as at a non-profit organization as an event intern. She is on the Professional Development Committee in Alpha Kappa Psi, is the COO of Market Driven Investors, and is the activities manager for the Global Business Case Competition. She enjoys art, photography, baking and cooking in her spare time.
+      image: "/_assets/media/2014/volunteers/sponsorship/xin.jpg"
+    - name: Johnson Nguyen
+      unique_id: johnson_nguyen
+      position: Sponsorship
+      year: Junior
+      major: Early Childhood and Family Studies
+      ted: |
+        "I'm able to get a lot out of TED talks and apply their ideas to other realms of my life."
+      about: |
+        Johnson is a part of the Vietnamese Student Association and volunteers at the Denise Louie Preschool in the International District. He enjoys watching mixed martial arts, exercising, volunteering, and eating. Once, Johnson accidentally ate hamster food!
+      image: "/_assets/media/2014/volunteers/sponsorship/johnson.jpg"

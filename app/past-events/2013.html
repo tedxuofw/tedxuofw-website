@@ -8,7 +8,56 @@ page_id: 2013
 <div class="main-content">
   <div class="opaque opaque-content">
     <div class="container">
-      <p>Past events: 2013</p>
+      <div class="container">
+      <div class="row">
+          <div class="col-xs-12 col-sm-9">
+              <h3>The Elements of Transition</h3>
+              
+              <p>The journey to finding yourself, finding your fit, and finding that collective uniqueness that makes an impact</p>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+              <h2>Synopsis</h2>
+              <dl>
+                  <dt>Location:</dt>
+                  <dd>
+                      <address>
+                          Alder Commons<br />
+                          Alder Hall, University of Washington<br />
+                          Seattle, Wa, 98105
+                      </address>
+                  </dd>
+                  <dt>Date:</dt>
+                  <dd>
+                      April 20th, 2013<br />
+                      1:00 pm to 6:00 pm 
+                  </dd>
+              </dl>
+          </div>
+      </div>
+      
+      <div class="row">
+          <!-- Nav tabs -->
+          <ul class="nav-summary nav nav-tabs">
+              <li class="active"><a href="#speakers" data-toggle="tab">Speakers</a></li>
+              <!--<li><a href="#sponsors" data-toggle="tab">Sponsors</a></li>
+              <li><a href="#volunteers" data-toggle="tab">Volunteers</a></li>-->
+          </ul>
+      </div>
+      
+      <!-- Tab panes -->
+      <div class="row">
+          <div class="tab-content">
+              <div class="tab-pane fade in active" id="speakers">
+                  {% include summary-speakers.html speakers=site.data.2013-speakers %}
+              </div>
+              <!--<div class="tab-pane fade" id="sponsors">
+                  {% include summary-sponsors.html sponsors=site.data.2013-sponsors %}
+              </div>
+              <div class="tab-pane fade" id="volunteers">
+                  {% include summary-volunteers.html volunteers=site.data.2013-volunteers %}
+              </div>-->
+          </div>
+      </div>
     </div>
   </div>
 </div>

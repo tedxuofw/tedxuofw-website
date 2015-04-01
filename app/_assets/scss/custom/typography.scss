@@ -17,7 +17,9 @@ body {
     line-height: 2.3em;
 }
 
-.default p {
+.default p,
+.default dl,
+.default dt {
     font-size: 14px;
     line-height: auto;
 }
@@ -35,7 +37,7 @@ h6 {
 
 h2 {
     font-size: 40px;
-    color: $text-color;
+    color: $dark-text-color;
     border-bottom: 2px solid $faded-color;
     padding-bottom: 12px;
     margin-bottom: 12px;

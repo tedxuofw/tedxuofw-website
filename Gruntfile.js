@@ -89,7 +89,9 @@ module.exports = function (grunt) {
           '.jekyll/**/*.html',
           '.tmp/_assets/css/**/*.css',
           '{.tmp,<%= yeoman.app %>}/<%= js %>/**/*.js',
-          '<%= yeoman.app %>/_assets/media/**/*.{gif,jpg,jpeg,png,svg,webp}'
+          '<%= yeoman.app %>/_assets/media/**/*.{gif,jpg,jpeg,png,svg,webp}',
+          '<%= yeoman.app %>/_assets/media/**/**/*.{gif,jpg,jpeg,png,svg,webp}',
+          '<%= yeoman.app %>/_assets/media/**/**/**/*.{gif,jpg,jpeg,png,svg,webp}'
         ]
       }
     },
@@ -332,6 +334,8 @@ module.exports = function (grunt) {
               // Usemin moves CSS and javascript inside of Usemin blocks.
               // Copy moves asset files and directories.
               '_assets/media/**/*',
+              '_assets/media/**/**/*',
+              '_assets/media/**/**/**/*',
               '_assets/fonts/**/*',
               // Like Jekyll, exclude files & folders prefixed with an underscore.
               //'!**/_*{,/**}',
@@ -375,6 +379,8 @@ module.exports = function (grunt) {
               // Usemin moves CSS and javascript inside of Usemin blocks.
               // Copy moves asset files and directories.
               '_assets/media/**/*',
+              '_assets/media/**/**/*',
+              '_assets/media/**/**/**/*',
               '_assets/fonts/**/*',
               // Like Jekyll, exclude files & folders prefixed with an underscore.
               //'!**/_*{,/**}',
@@ -430,6 +436,8 @@ module.exports = function (grunt) {
             '<%= yeoman.dist %>/_assets/javascript/**/*.js',
             '<%= yeoman.dist %>/_assets/css/**/*.css',
             '<%= yeoman.dist %>/_assets/media/**/*.{gif,jpg,jpeg,png,svg,webp}',
+            '<%= yeoman.dist %>/_assets/media/**/**/*.{gif,jpg,jpeg,png,svg,webp}',
+            '<%= yeoman.dist %>/_assets/media/**/**/**/*.{gif,jpg,jpeg,png,svg,webp}',
             '<%= yeoman.dist %>/_assets/fonts/**/*.{eot*,otf,svg,ttf,woff}'
           ]
         }]
