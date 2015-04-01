@@ -98,7 +98,7 @@
 }
 
 .action-button {
-    font-family: $button-font;
+    font-family: $body-font;
     font-size: 18px;
     padding: 0.3em 1em;
     margin: 0.5em 0;
@@ -112,7 +112,8 @@
     &:hover,
     &:focus,
     &:visited {
-        color: $tedx-red;
+        color: lighten($tedx-red, 20%);
+        border-color: lighten($tedx-red, 20%);
         text-decoration: none;
         // TODO
     }

@@ -18,12 +18,12 @@
     -   title: "ABOUT TEDx"
         id: about
         url: /about
-    -   title: "MEET THE TEAM"
+    -   title: "VOLUNTEERS"
         id: team
         url: /about/team
 -   title: "PAST EVENTS"
-    id: past-events
-    url: /past-events
+    id: 2014
+    url: /past-events/2014
     children:
     -   title: "2014"
         id: 2014
