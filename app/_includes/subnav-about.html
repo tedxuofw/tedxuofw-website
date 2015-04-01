@@ -1,0 +1,17 @@
+<ul class="secondary-nav translucent container">
+  {% if include.index == 0 %}
+    <li class="active">
+  {% else %}
+    <li>
+  {% endif %}
+    <a href="/about">about tedx</a>
+  </li>
+  
+  {% if include.index == 1 %}
+    <li class="active">
+  {% else %}
+    <li>
+  {% endif %}
+    <a href="/about/team">meet the team</a>
+  </li>
+</ul>
