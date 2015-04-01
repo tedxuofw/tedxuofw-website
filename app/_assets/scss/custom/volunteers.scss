@@ -7,12 +7,19 @@
 @import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
 @import "variables.scss";
 
+.volunteer-group {
+    margin-bottom: 3em;
+}
+
 .volunteer {
     position: relative;
+    padding: 0;
+    cursor: pointer;
 }
 
 .volunteer-content {
     position: relative;
+    overflow: hidden;
 }
 
 .volunteer .description {
@@ -22,8 +29,26 @@
     height: 100%;
     padding: 1em;
     
+    max-height: 70px;
+    transition: max-height 0.2s ease-out;
+    
     position: absolute;
     bottom: 0;
+}
+
+.volunteer:hover .description,
+.volunteer:active .description,
+.volunteer:focus description {
+    max-height: 1000px;
+}
+
+.volunteer .bio {
+    display: none;
+}
+
+.volunteer:hover .bio,
+.volunteer:active .bio {
+    display:block;
 }
 
 .volunteer .description p {
@@ -38,11 +63,5 @@
     color: $tedx-red;
 }
 
-.volunteer-content .bio {
-    min-height: 0;
-    transition: min-height 0.2s ease-out;
-}
-
-.volunteer-content:hover .bio {
-    min-height: 5em;
+.volunteer .bio {
 }
