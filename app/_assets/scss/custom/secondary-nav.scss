@@ -14,7 +14,6 @@
 
 .secondary-nav li {
     font-size: 40px;
-    color: $faded-color;
     padding-bottom: 5px;
     margin-bottom: -10px;
     margin-top: 0;
@@ -28,6 +27,18 @@
         margin-bottom: -5px;
     }
 }
+.secondary-nav a {
+    color: $faded-color; // fallback for older browsers
+    color: rgba(255, 255, 255, 0.7); // transparency
+    
+    &:active,
+    &:hover,
+    &:visited,
+    &:focus {
+        text-decoration:none;
+        color: #fff;
+    }
+}
 
 .secondary-nav .active {
     border-bottom: 10px solid $tedx-red;
@@ -37,14 +48,6 @@
     }
 }
 
-.secondary-nav a {
-    color: $faded-color;
-    
-    &:active,
-    &:hover,
-    &:visited,
-    &:focus {
-        text-decoration:none;
-        color: $tedx-red;
-    }
+.secondary-nav .active a {
+    color: #fff;
 }

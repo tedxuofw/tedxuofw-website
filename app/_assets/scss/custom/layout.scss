@@ -61,6 +61,7 @@ body {
     color: $dark-text-color;
     
     padding: 0;
+    padding-top: 1.5em;
     
     text-align: justify;
     
@@ -72,13 +73,16 @@ body {
 
 .opaque-content {
     text-align: left;
-    padding-top: 3em;
+    padding-top: 4em;
     padding-bottom: 2em;
 }
 
 .segment {
-    margin-top: 1.5em;
-    margin-bottom: 2.5em;
+    margin-bottom: 4em;
+    
+    &:last-of-type {
+        margin-bottom: 2.5em;
+    }
 }
 
 header {

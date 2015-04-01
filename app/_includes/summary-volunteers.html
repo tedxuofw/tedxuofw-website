@@ -33,7 +33,10 @@
                         {% endif %}
                         
                         <div class="col-sm-6{{ sizing }} unit">
+                            {% comment %}
                             <div class="target" data-toggle="modal" data-target="#{{ person.unique_id }}">
+                            {% endcomment %}
+                            <div class="target">
                                 <img class="thumbnail-image" src="{{person.image }}" alt="{{ person.name }}" />
                                 <div class="description">
                                     <h3>{{ person.name }}</h3>
@@ -41,7 +44,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+                        {% comment %}
                         <div class="modal fade" id="{{ person.unique_id }}" role="dialog" aria-labelledby="{{ person.unique_id }}-title" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
@@ -68,6 +71,7 @@
                                 </div>
                             </div>
                         </div>
+                        {% endcomment %}
                         
                         {% if person.bump == true %}
                             </div>

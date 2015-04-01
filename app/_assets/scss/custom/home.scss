@@ -31,31 +31,22 @@
 }
 
 .centerpiece .glowbox-large {
-    margin-bottom: 2em;
-}
-
-.description h2 {
-    color: $text-color;
-    border-bottom: none;
+    margin-bottom: 2.5em;
 }
 
 .description {
-    padding: 2em 3em;
+    padding: 2.5em 3em 2em;
 }
 
-.description .glowbox {
-    font-family: $button-font;
-    font-size: 18px;
-    color: $text-color;
-    padding: 0.3em 1em;
-    margin: 1em 0;
-    display: inline-block;
+.description h3 {
+    padding: 3px 0;
+}
+
+.description p {
+    line-height: 2em;
     
-    &:active,
-    &:hover,
-    &:focus,
-    &:visited {
-        text-decoration: none;
+    @media (min-width: $screen-md-min) {
+        width: 90%;
     }
 }
 
