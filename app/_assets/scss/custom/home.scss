@@ -30,7 +30,7 @@
 
 .youtube iframe {
     display: block;
-    @media (max-width: $screen-sm-min) {
+    @media (max-width: $screen-sm-max) {
         margin-left: auto;
         margin-right: auto;
     }
