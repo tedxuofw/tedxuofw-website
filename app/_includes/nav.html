@@ -39,29 +39,27 @@
     
   </div><!--/.nav-collapse -->
 </nav>
-<nav class="nav-collapse nav-responsive" role="navigation">
-  <div class="navbar-header">
-    <button type="button" class="nav-toggle navbar-toggle" id="nav-toggle">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <!--a class="navbar-brand visible-xs-inline" href="#">{{ page.title }}</a-->
-  </div>
+<nav class="nav-collapse nav-responsive" role="navigation">  
   <ul>
-      {% for link in site.data.nav %}
-        {% assign current = nil %}
-        {% if (page.page_id == link.id) %}
-          {% assign current = ' active' %}
-        {% endif %}
-        <li>
-          <a href="{{ link.url | clean_url }}">
-            <span>
-              {{ link.title }}
-            </span>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
+    {% for link in site.data.nav %}
+      {% assign current = nil %}
+      {% if (page.page_id == link.id) %}
+        {% assign current = ' active' %}
+      {% endif %}
+      <li>
+        <a href="{{ link.url | clean_url }}">
+          <span>
+            {{ link.title }}
+          </span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  <button type="button" class="navbar-toggle" id="nav-toggle">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+    <!--a class="navbar-brand visible-xs-inline" href="#">{{ page.title }}</a-->
 </nav>
