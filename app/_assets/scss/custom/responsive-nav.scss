@@ -1,5 +1,8 @@
 /*! responsive-nav.js 1.0.34 by @viljamis */
 
+@import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
+@import "variables.scss";
+/*
 .nav-collapse ul {
   margin: 0;
   padding: 0;
@@ -26,25 +29,15 @@
   max-height: 9999px;
 }
 
-/*
-.nav-toggle {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  //user-select: none;
-}*/
-
-@media screen and (min-width: 40em) {
-  .js .nav-collapse {
-    position: relative;
-  }
-  .js .nav-collapse.closed {
-    max-height: none;
-  }
-  .nav-toggle {
-    display: none;
-  }
+@media screen and (max-width: $screen-xs-max) {
+    .js .nav-collapse {
+        position: relative;
+    }
+    .js .nav-collapse.closed {
+        max-height: none;
+    }
+    .nav-toggle {
+        display: none;
+    }
 }
+*/

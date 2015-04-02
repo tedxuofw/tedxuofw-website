@@ -94,11 +94,21 @@
 
 //mobile css
 @media (max-width: $screen-xs-max) {
-    .navbar-static-top{
-        display: none;
-    }    
+    .navbar-nav > li > a {
+        line-height: 10px;
+        font-size: 14px;
+    }
+
+    .nav-custom {
+        height:auto;
+    }
 
     .nav-collapse {
         display: block;
+        display: visible;
+    }
+    
+    .nonmobile {
+        display: none;
     }
 }
