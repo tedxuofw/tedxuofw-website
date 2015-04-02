@@ -7,10 +7,10 @@
         url: /attend
     -   title: "SPEAKERS"
         id: 2015_speakers
-        url: /2015/speakers
+        url: /attend/speakers
     -   title: "SPONSORS"
         id: 2015_sponsors
-        url: /2015/sponsors
+        url: /attend/sponsors
 -   title: "ABOUT US"
     id: about
     url: /about
