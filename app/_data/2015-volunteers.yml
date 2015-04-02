@@ -6,279 +6,279 @@
       position: "Curator"
       image: "/_assets/media/2015/volunteers/executives/emmeline.jpg"
       bio: |
-        BIO HERE
+        TEDxUofW represents what I appreciate most: innovation, collaboration, and discussion. I love being surrounded by people who crave knowledge and learning, and that is exactly what I feel when I'm around the TEDxUofW team. The passion in this team is unreal - to know I am surrounded by people who care just as much (if not more!) about what TEDxUofW means and stands for, and are willing and ready to put as much work in as needed to make the event bigger and better than ever, inspires me in ways I can't explain.
     - name: Jessica Cheng
       unique_id: jessica_cheng
       committee: ""
       position: "Curator"
       image: "/_assets/media/2015/volunteers/executives/jessica.jpg"
       bio: |
-        BIO HERE
+        I think the most important thing I want to accomplish at UW is to know that I didn't pass on the opportunity to build friendships and somehow positively impact another person's life. College is such a unique time in our lives, when else will we be surrounded by so many of our peers and in somewhat of the same stage of life. I obviously think my education is going to be a huge part of my future career, but I can't help but think my career path will work itself out. There's going to be no better time to build meaningful friendships and relationship. 
     - name: Emily Su
       unique_id: emily_su
-      committee: "Finance and Sponsorship"
-      position: "Volunteer Manager"
+      committee: "Volunteer Manager - Finance and Sponsorship"
+      position: ""
       image: "/_assets/media/2015/volunteers/executives/emily.jpg"
       bio: |
-        BIO HERE
+        TED is such a powerful brand. When I think of TED, I think of reflection, learning, community, and change. Who wouldn't want to be a part of this movement of self-discovery and inspiration? I hope TEDxUofW becomes well-known across campus through genuine interest. My first experience with TED was in high school, when my teacher played a TED talk. I was immediately drawn to the rich and lively discussion the speakers presented. The topics were completely relevant to me and I noticed that I started thinking about different world issues in depth.
     - name: Kyle Nelson
       unique_id: kyle_nelson
-      committee: "Production"
-      position: "Volunteer Manager"
+      committee: "Volunteer Manager - Production"
+      position: ""
       image: "/_assets/media/2015/volunteers/executives/kyle.jpg"
       bio: |
-        BIO HERE
+        Outside of TEDxUofW I have become passionate about biology and medicine. In my classes I'm daily intrigued and captivated by the simple and complex processes that are fundamental to life, and how various changes in something as small as a molecule, can have dramatic effects.
     - name: Grace Xia
       unique_id: grace_xia
-      committee: "Marketing"
-      position: "Volunteer Manager"
+      committee: "Volunteer Manager - Marketing"
+      position: ""
       image: "/_assets/media/2015/volunteers/executives/grace.jpg"
       bio: |
-        BIO HERE
+        I am back for my second year as a TEDxUofW volunteer because I love our mission to spread ideas. As a female minority, I want to be a part of a movement that spreads ideas, whether it's about innovative technology, how to be a better leader, or highlighting the effects of bullying. Each individual has the power to do good with their voice, but if you don't want to be the one speaking, being behind the scenes is just as good. Certain parts of my own life have been touched by the TED talks that I've watched, and I hope to create the same experience for others. TEDxUofW is growing bigger each year, and it's amazing to watch and be a part of. I know I will be a supporter even as an alum! 
     - name: Madison Wright
       unique_id: madison_wright
-      committee: "Speaker Selection"
-      position: "Volunteer Manager"
+      committee: "Volunteer Manager - Speaker Selection"
+      position: ""
       image: "/_assets/media/2015/volunteers/executives/madison.jpg"
       bio: |
-        BIO HERE
+        As a newly admitted Political Science student I want to create a community within the department. I'm hoping to bridge the gap between students and faculty by organizing events and forming a group of students with a similar vision. I'm also looking forward to studying abroad at the University College Dublin in fall. My goal is to work at a non-profit organization that works to help solve human rights abuses.
 - group_name: volunteers
   volunteers:
     - name: "Anh Le"
       unique_id: anh_le
       committee: "Finance"
-      position: "Position Here"
+      position: "Co-Chair"
       image: "/_assets/media/2015/volunteers/finance/anh.jpg"
       bio: |
-        BIO HERE
+        I joined TED because I think it is a creative way to share knowledge with the rest of UW and Seattle community.
     - name: "Nisha Kajani"
       unique_id: nisha_kajani
       committee: "Finance"
-      position: "Position Here"
+      position: "Co-Chair"
       image: "/_assets/media/2015/volunteers/finance/nisha.jpg"
       bio: |
-        BIO HERE
+        "The only true wisdom is in knowing you know nothing " is one of my favorite phrases because it describes the idea of always having something left to be learned. As an organization, TED strives to offer new knowledge to anyone who is open to it and understands its value. I think that TEDx events are an incredible opportunity, especially when they are brought to a university community--a place where new ideas grow and thrive. So when I found out about TEDxUofW, there was no doubt in my mind that I wanted to get involved. I started by attending the event in 2014 and loved the way that it brought people of different backgrounds and interests together to expand their perspectives. It was an event that I took a lot away from and joining the team this year has been a way for me to give back. It is awesome to work with so many people who are passionate about giving others a great TEDx experience. 
     - name: "Brandan Tang"
       unique_id: brandan_tang
       committee: "Sponsorship"
-      position: "Position Here"
+      position: "Committee Chair"
       image: "/_assets/media/2015/volunteers/finance/brandan.jpg"
       bio: |
-        BIO HERE
+        I love to dance. A lot. Whether it's in my room with headphones or with choreography in a professional studio, dance has been a constant in my life since early middle school. As a form of expression, I see dance as an essential part of my character and how I choose to portray myself. Dance is who I am and who I want to be until I die. 
     - name: "Ty Beauchamp"
       unique_id: ty_beauchamp
       committee: "Sponsorship"
-      position: "Position Here"
+      position: "Committee Member"
       image: "/_assets/media/2015/volunteers/finance/ty.jpg"
       bio: |
-        BIO HERE
+        TED is a brand that I hope to personally embody. To me, life is all about personal enrichment, learning new things, and in the end spreading those ideas to others who are interested. We live in a time where it has never been easier to learn new things and be exposed to new concepts and beliefs, and TED provides a great format for finding these new ideas. I hope that through TEDxUofW’s efforts, we can help expose curious minds to ideas that inspire them to do something special.
     - name: "Grant Sportelli"
       unique_id: grant_sportelli
       committee: "Sponsorship"
-      position: "Position Here"
+      position: "Committee Member"
       image: "/_assets/media/2015/volunteers/finance/grant.jpg"
       bio: |
-        BIO HERE
+        I joined TED because I really like what TEDx is doing in spreading ideas and pushing the boundaries of what we think about, and I hope to be apart of that. I am passionate about problem-solving, and I believe TED can accomplish this on a global scale. 
     - name: "Josh Latimer"
       unique_id: josh_latimer
       committee: "Sponsorship"
-      position: "Position Here"
+      position: "Committee Member"
       image: "/_assets/media/2015/volunteers/finance/josh.jpg"
       bio: |
-        BIO HERE
+        To me, listening to TED talks is a truly enlightening experience. Talks like these forced me to reflect on who I am as a person and I think they have a lot of hidden value in regards to steering people to finding their passion and purpose. I volunteered so I could help spread this feeling among the University of Washington community and help my colleagues find their inspiration. I believe TEDxUofW has the potential to really make an impact and I wanted to help make it the best event on campus.
     - name: "Corinne Parkinson"
       unique_id: corinne_parkinson
       committee: "Sponsorship"
-      position: "Position Here"
+      position: "Committee Member"
       image: "/_assets/media/2015/volunteers/finance/corinne.jpg"
       bio: |
-        BIO HERE
+        It is the honesty of TEDxUofW that connects each and every viewer and allows him or her to interpret what they will from each talk, be that a new perspective on life or a new way to think. It is this honesty that makes me want to be part of TEDxUofW. By volunteering for TEDxUofW I want to help continue the tradition of people sharing their ideas of the world, in hopes that they can feel enlightened, if only for a second, by each speaker’s words.
     - name: "Jerrin Padre"
       unique_id: jerrin_padre
       committee: "Speaker Selection"
-      position: "Position Here"
+      position: "Committee Member"
       image: "/_assets/media/2015/volunteers/speaker-selection/jerrin.jpg"
       bio: |
-        BIO HERE
+        Since its very first conference, TED has created its own culture. TED talks have woven their way into the corporate, academic, artistic and political worlds, spreading new ideas and perspectives all over the planet. TED provides an outlet for individuals to motivate and be motivated by making innovation and creativity attainable. It's a culture that I, in my heart of hearts, identify with to its core, and have benefitted from both in and out of the classroom. Since watching my first TED Talk in high school, the TED brand has played an immense role in shaping my work ethic, my self-motivation, and the way that I view the world's possibilities.
     - name: "Kaitlyn Zhou"
       unique_id: kaitlyn_zhou
       committee: "Speaker Selection"
-      position: "Position Here"
+      position: "Committee Member"
       image: "/_assets/media/2015/volunteers/speaker-selection/kaitlyn.jpg"
       bio: |
-        BIO HERE
+        I have always enjoyed watching TED videos and saw TEDxUofW as an opportunity to give back to this organization. I wanted to be a part of the TEDxUofW because I want to help share great ideas to the general public. I do believe that a lot of today’s conflicts are caused due to lack of understanding and I think that hearing new perspectives will help give us insight to all becoming more open and accepting. It’s especially important for college students to acknowledge the importance of perspective and open-mindedness. I’m very excited to see how a group of college students can come together and host a conference for hundreds of community members. 
     - name: "Christina Nguyen "
       unique_id: christina_nguyen_
       committee: "Speaker Selection"
-      position: "Position Here"
+      position: "Committee Member"
       image: "/_assets/media/2015/volunteers/speaker-selection/christina.jpg"
       bio: |
-        BIO HERE
+        I hope that I will be able to find something that I love and pursue it with the help from my experiences at UW. I want make my parents proud since I'm the first generation to go to college. Whatever it is that I do in the future, I want to be able to make a positive impact, whether it's for many people or even just one. I also want to build as many healthy relationships with people as I can. I think relationships are one of the things that define my life, and I want to make and keep as many of the good ones as I can. 
     - name: "Lilian Liang"
       unique_id: lilian_liang
       committee: "Speaker Selection"
-      position: "Position Here"
+      position: "Committee Member"
       image: "/_assets/media/2015/volunteers/speaker-selection/lilian.jpg"
       bio: |
-        BIO HERE
+        I'm always amazed at the extraordinary and powerful ways people can be brought together simply through the exchange of ideas. As someone who loves multiple fields, I am really passionate about TED's interdisciplinary message. What I especially love about TEDx is that it is completely run by students; I am excited to be working with such a diverse team. 
     - name: "Lane Shigihara"
       unique_id: lane_shigihara
       committee: "Speaker Selection"
-      position: "Position Here"
+      position: "Committee Member"
       image: "/_assets/media/2015/volunteers/speaker-selection/lane.jpg"
       bio: |
-        BIO HERE
+        TED's powerful messages with their accessible format have become a mainstay resource in my education and goals.  My volunteerism aligns with TED’s mission of 'spreading ideas to change attitudes, lives, and ultimately, the world'.  As a UW senior and a member of the Speaker Selection Committee, I’m looking forward to recruiting presenters whose stories can support and expand lives.  My intention for TEDxUofW 2015 is to inspire individuals to savor their journey.  
     - name: "Allie Jones"
       unique_id: allie_jones
       committee: "Marketing"
-      position: "Position Here"
+      position: "Social Media"
       image: "/_assets/media/2015/volunteers/marketing/allie.jpg"
       bio: |
-        BIO HERE
+        For me, TED is a source of hope. It clarifies and validates dreams. Around the time I was deciding on my major, I stumbled upon a Talk by a book cover designer, Chip Kidd. As he humorously described the many facets of his job, I was mesmerized. He weaved the business aspect of publishing with storytelling in art. After this talk, my personal conflict of choosing design or business wasn’t so black and white. I realized that my major doesn’t define my entire future; creativity and business can coexist. Whenever I get stressed out about what my future will look like, I remember what Kidd said: 'Great art can be great business.' That gets me excited for the future. The TED brand makes me excited for the future. 
     - name: "Grace Chai"
       unique_id: grace_chai
       committee: "Marketing"
-      position: "Position Here"
+      position: "Public Relations"
       image: "/_assets/media/2015/volunteers/marketing/grace-c.jpg"
       bio: |
-        BIO HERE
+        TED's brand represents a mindset that I hope to personally embody: one that is openminded, curious, that constantly seeks exposure to new ideas. I love that TEDxUofW seeks to make the TED conference experience more accessible by bringing it to our own community. 
     - name: "Daniel Huie"
       unique_id: daniel_huie
       committee: "Marketing"
-      position: "Position Here"
+      position: "Videographer"
       image: "/_assets/media/2015/volunteers/marketing/daniel.jpg"
       bio: |
-        BIO HERE
+        Outside of TEDx, I am passionate about the outdoors and have loved it since my childhood years. My favorite things to do are running, biking, and hiking. What I enjoy most about the outdoors is that I can connect with nature and feel at ease from the bustling life in the city. It brings upon a calming and relaxing feeling that doesn't exist elsewhere. Running on a nearby trail at Cougar Mountain or biking around Lake Washington brings me a sense of accomplishment and satisfaction. I find happiness when I live an active lifestyle, which in turn leads to a healthy mind. 
     - name: "Kevin Culala"
       unique_id: kevin_culala
       committee: "Marketing"
-      position: "Position Here"
+      position: "Photographer"
       image: "/_assets/media/2015/volunteers/marketing/kevin-c.jpg"
       bio: |
-        BIO HERE
+        Outside of TEDx, I am an aspiring photographer seeking to expand and grow. I like to stay active through playing basketball, soccer and other outdoor actives. I have found a new love for exploring and going on hikes in the Pacific Northwest. I also enjoy discovering new foods and restaurants around town. 
     - name: "Michael Lee"
       unique_id: michael_lee
       committee: "Marketing"
-      position: "Position Here"
+      position: "Web Developer"
       image: "/_assets/media/2015/volunteers/marketing/michael.jpg"
       bio: |
-        BIO HERE
+        In the short term, my goals are to learn as much as possible, graduate with a degree, get a job, and so on and so forth. In the long term, I really have only one goal: I want to build interesting things, and share them with other people. My long-long term goal is to build interesting things that are permanent -- people actually use what I build, and the things I build make a non-trivial impact in many different people's lives.
     - name: "Luke Chang"
       unique_id: luke_chang
       committee: "Marketing"
-      position: "Position Here"
+      position: "Web Developer"
       image: "/_assets/media/2015/volunteers/marketing/luke.jpg"
       bio: |
-        BIO HERE
+        I am passionate about computer science and user-facing design. There are awesome breakthroughs happening in the field all the time; I want to be part of this industry as it blooms. This is a huge industry with lots of cool things happening every single day, and I want to work on something impactful.
     - name: "Natalie Lew"
       unique_id: natalie_lew
       committee: "Marketing"
-      position: "Position Here"
+      position: "Creative Lead"
       image: "/_assets/media/2015/volunteers/marketing/natalie.jpg"
       bio: |
-        BIO HERE
+        I joined TEDxUofW my freshman year in hopes of helping create an experience that fostered creativity and learning among all ages. I came back for my second year because I want to see that vision continue. TED is a brand that seeks to inspire, and I believe that mission is one to adhere to. I love to see my peers and friends excited about TEDxUofW. It's a passion of mine to help ignite peoples' passions for learning and curiosity and create community events that allow exactly that. 
     - name: "Charity Seid"
       unique_id: charity_seid
       committee: "Marketing"
-      position: "Position Here"
+      position: "Print Designer"
       image: "/_assets/media/2015/volunteers/marketing/charity.jpg"
       bio: |
-        BIO HERE
+        I am a designer who is inspired by the ideas, creativity, and curiosity of others - which is what TED embodies. I hope to continue creating for TED and that TEDx on campus will continue to grow as a community that fosters an environment of aspiration. My first experience with TED has been exciting, and I hope that the energy will be a positive effect on others. To me, this is an opportunity to spark a curiosity within the University of Washington campus.
     - name: "Jessica Perrin"
       unique_id: jessica_perrin
       committee: "Marketing"
-      position: "Position Here"
+      position: "Promotional Designer"
       image: "/_assets/media/2015/volunteers/marketing/jessica-p.jpg"
       bio: |
-        BIO HERE
+        My relationship with TED began when my mom showed me the video "Rives on 4am." In this comedic talk, Rives pulls together dozens of events, people and objects that all coincidentally have to do with the magical time of 4am. I loved it because it was so different than normal speeches - it wasn't dramatic or emotional like most, but simply the sharing of something he found interesting. That's what I love most about TED. It doesn't have an end goal other than sharing knowledge, and the only thing that qualifies you to be a speaker is that you have a deep passion for something, anything. I hope that TEDxUofW will help our attendees realize that every passion and spark of interest is worth pursuing, and to go for it because, like most speakers say, you never know where it'll take you. I've learned so many things from TED talks, and I hope to create a community at UW to share our TED experiences.
     - name: "Allison Chan"
       unique_id: allison_chan
       committee: "Marketing"
-      position: "Position Here"
+      position: "Digital Designer"
       image: "/_assets/media/2015/volunteers/marketing/allison.jpg"
       bio: |
-        BIO HERE
+        I am passionate about exploring the intersections between design and social impact: how can paradisciplinary, critically-informed design transform how we experience the our built environment and help to create alternative, sustainable, human-centered futures? The emerging challenges of the 21st century—of sustainability, inequality, urbanization, big data, etc. have warranted a new generation of research-based creators, innovators, and designers to critically engage the visual, material, spatial, technological, social, and environmental dimensions of design. As a designer, it is my sincerest hope that I may be able to contribute to this effort in any capacity. I want to work with brilliant people to create brilliant things for the world in pursuit of globally-informed innovation.
     - name: "Sonia Xu"
       unique_id: sonia_xu
       committee: "Marketing"
-      position: "Position Here"
+      position: "Set Designer"
       image: "/_assets/media/2015/volunteers/marketing/sonia.jpg"
       bio: |
-        BIO HERE
+        I am working towards the day I will be able to run a business that provides a service and/or product that is focused on social impact. I believe that we are all connected through our consumption— materials, labor, production, and that all of this is intertwined with our environment and the way we choose to live our lives. I want to be able to bridge the gap between the people and the way we are choosing to consume our products in a way that is more transparent and environmentally sustainable.
     - name: "Dalena Nguyen"
       unique_id: dalena_nguyen
       committee: "Marketing"
-      position: "Position Here"
+      position: "Set Designer"
       image: "/_assets/media/2015/volunteers/marketing/dalena.jpg"
       bio: |
-        BIO HERE
+        Something I'm really passionate about is art. Although I only do photography and paint, I enjoy all mediums of art from comics to cinematography. I think it's really interesting to see the different ways people can express themselves, their thoughts, and their beliefs through different mediums. Everyone interprets the world differently and sometimes it's difficult to explain how you feel or experience things. I think art can be used to communicate and breach emotions that words fail to convey. 
     - name: "Risa Ochiai"
       unique_id: risa_ochiai
       committee: "Production"
-      position: "Position Here"
+      position: "Technical Lead"
       image: "/_assets/media/2015/volunteers/production/risa.jpg"
       bio: |
-        BIO HERE
+        I love tennis! I try to go play tennis as much as possible whenever I have some free time. I am more a fan of watching people playing tennis, rather than playing tennis myself though. Watching people playing sports is similar to listening to TEDtalks to me --- it is another way for me to get to know people as I believe each playing style reflects their personality. I am hoping to be a part of the sports business industry in the future, like becoming a sports agent!
     - name: "Frankie Godoy"
       unique_id: frankie_godoy
       committee: "Production"
-      position: "Position Here"
+      position: "Technical Lead"
       image: "/_assets/media/2015/volunteers/production/francisco.jpg"
       bio: |
-        BIO HERE
+        I've always been fascinated with the idea of being a Renaissance man, someone capable of doing and knowing everything under the sun. I usually use my spare time to research random things or pursuing multiple hobbies... Considering we only have one life to live, learning and being able to do anything is just my way of getting the most out of it. Carpe Diem.
     - name: "Jam Suba"
       unique_id: jam_suba
       committee: "Production"
-      position: "Position Here"
+      position: "Swag Manager"
       image: "/_assets/media/2015/volunteers/production/jam.jpg"
       bio: |
-        BIO HERE
+        Growing up in the lifestyle I did really shaped the way I am today. Instead of letting my diverse background and experience empower the way I see myself, I was more conflicted with not being able to identify myself with any culture. Being of filipino decent but growing up in a Japanese-American fusion environment made it hard for me feel like I belonged in the cultures I was surrounded by my whole life and made me feel very lost. Eventually, I realized that my experience growing up in different cultures actually contributed greatly to the person I am today and that I should embrace it rather than reject it. So now, my experiences that once made me feel lost has turn into a source of strength and actually motivates me to seek out more opportunities to learn about more cultures and its people, which will, in turn, teach me a lot about myself. 
     - name: "Erica Benedicto"
       unique_id: erica_benedicto
       committee: "Production"
-      position: "Position Here"
+      position: "Swag Manager"
       image: "/_assets/media/2015/volunteers/production/erica.jpg"
       bio: |
-        BIO HERE
+        The TED brand is unique in the way it brings people from all walks of life to one place for the sake of knowledge. It is amazing how much clarity can take place for millions of people in the time span of 18 minutes or less. TED makes ideas accessible and sparks conversations around the world. I hope TEDxUofW is able to bring that same intimate exploration and experience on the campus-scale. TED embodies a passion for awareness.
     - name: "Amy Tran"
       unique_id: amy_tran
       committee: "Production"
-      position: "Position Here"
+      position: "Registration Manager"
       image: "/_assets/media/2015/volunteers/production/amy.jpg"
       bio: |
-        BIO HERE
+        Everyone can relate to TED, due to its diverse topics ranging from how to wash your hands to how to mathematically calculate your love compatibility. Everyone always has the opportunity to learn more, and TED provides that for people. TED allows you to think in ways you've never thought or imagined of. With TEDxUofW, I believe students from all different areas of campus, who would never have crossed paths otherwise, will be able to relate to each other on this platform of collective captivation. I hope and believe that TEDxUofW will unite tudents and make them feel like they are a part of a greater whole. 
     - name: "Linh Nguyen"
       unique_id: linh_nguyen
       committee: "Production"
-      position: "Position Here"
+      position: "Registration Manager"
       image: "/_assets/media/2015/volunteers/production/linh.jpg"
       bio: |
-        BIO HERE
+        Everyone has that day where they feel as if the world is a bit too big for them. I think TED really helps people sift through their thoughts and obtain a tighter grip on their goals by offering new perspectives. For me personally, TED helps me become more inspired, nothing gets me going like watching a good TED talk. I think that's what brought together TEDxUofW; everyone on the team has a different reason for joining but we all applaud innovation and are seeking to put on an event that inspires  others as well as ourselves.
     - name: "Vivian Yu"
       unique_id: vivian_yu
       committee: "Production"
-      position: "Position Here"
+      position: "Guest Experience"
       image: "/_assets/media/2015/volunteers/production/vivian.jpg"
       bio: |
-        BIO HERE
+        I love hearing new insights and being inspired, and that's how I feel almost every time I watch a TED talk. I joined TEDxUofW because I want to be a part of the team that opens the minds of members of my community to new ideas and inspires them to change their life with them.
     - name: "Hayley Pak"
       unique_id: hayley_pak
       committee: "Production"
-      position: "Position Here"
+      position: "Guest Experience"
       image: "/_assets/media/2015/volunteers/production/hayley.jpg"
       bio: |
-        BIO HERE
+        All of us are here to receive the coveted piece of paper that attests to our completion of some chosen degree. But I hope to accomplish something more than a series of credits. I think the classes we take are only one part of our education during our time at college. I believe and hope I will utilize the remainder of my college experience to truly discover who I am, what I want to do, how to be a better person, how to help others, how to cook, how to be an adult, how to write a check, the list goes on. Both at UW and beyond I hope to accomplish living meaningfully and purposefully. I think that is the best way to summarize the ongoing and evolving list of dreams and accomplishments that compose my goals and hopes. 
     - name: "Kevin Bi"
       unique_id: kevin_bi
       committee: "Production"
-      position: "Position Here"
+      position: "Guest Experience"
       image: "/_assets/media/2015/volunteers/production/kevin-b.jpg"
       bio: |
-        BIO HERE
+        Computer Science as topic is really intriguing for me. In an age so prevalent with technology, computers and programmers are at the root of many innovations and inventions that are eventually made commercially viable. Computers and the advances they have gone through since their conception have changed many aspects of day to day living, like our pace of life, width of communication, and access to knowledge. Many branches of Computer Science such as Artificial Intelligence are also burgeoning fields with lots of potential. Helping in such a field would be a really rewarding experience. So I firmly can say that I hold Computer Science as a passion and hope to find a career in it. 
     - name: "Saige Hawthorne"
       unique_id: saige_hawthorne
       committee: "Production"
-      position: "Position Here"
+      position: "Guest Experience"
       image: "/_assets/media/2015/volunteers/production/saige.jpg"
       bio: |
-        BIO HERE
+        There is no greater feeling than getting your mind blown from a TED video. I can literally feel my brain stretching and growing when a speaker privileges me with the opportunity to think about something in a completely different way. I joined TEDxUofW because I wanted to be apart of something that encourages people to leave the monotony of everyday thinking and learn something exciting, something that puts a new filter on the way they go about their lives. Through TEDxUofW, I hope to provide the opportunity for inspiration and growth, and of course, blow a few minds in the process. 
