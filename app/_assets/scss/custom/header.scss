@@ -39,6 +39,10 @@
     background-color: #fff;
 }
 
+.navbar-header .navbar-brand {
+    color: #fff;
+}
+
 // Enable only for non-mobile
 @media (min-width: $screen-xs-min) {
     // Top-level parent elements

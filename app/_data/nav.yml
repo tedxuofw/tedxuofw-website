@@ -1,10 +1,10 @@
 -   title: "TEDxUofW 2015"
-    id: 2015
-    url: /2015
+    id: attend
+    url: /attend
     children:
     -   title: "ATTEND"
-        id: 2015
-        url: /2015
+        id: attend
+        url: /attend
     -   title: "SPEAKERS"
         id: 2015_speakers
         url: /2015/speakers
