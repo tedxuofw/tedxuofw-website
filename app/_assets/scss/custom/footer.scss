@@ -41,6 +41,38 @@ footer .social {
     }
 }
 
-footer .social a {
+footer .social div{   
+    display: inline-block; 
     margin-right: 2em;
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+}
+
+footer .social #twittericon{
+    background-image: url('/_assets/media/website/greytwitter.png');
+}
+footer .social #twittericon:hover{
+    background-image: url('/_assets/media/website/whitetwitter.png');
+}
+
+footer .social #yticon{
+    background-image: url('/_assets/media/website/greyyt.png');
+}
+footer .social #yticon:hover{
+    background-image: url('/_assets/media/website/whiteyt.png');
+}
+
+footer .social #fbicon{
+    background-image: url('/_assets/media/website/greyfb.png');
+}
+footer .social #fbicon:hover{
+    background-image: url('/_assets/media/website/whitefb.png');
+}
+
+footer .social #igicon{
+    background-image: url('/_assets/media/website/greyig.png');
+}
+footer .social #igicon:hover{
+    background-image: url('/_assets/media/website/white.png');
 }

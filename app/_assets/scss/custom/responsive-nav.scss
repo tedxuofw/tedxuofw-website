@@ -28,16 +28,4 @@
 .nav-collapse.opened {
   max-height: 9999px;
 }
-
-@media screen and (max-width: $screen-xs-max) {
-    .js .nav-collapse {
-        position: relative;
-    }
-    .js .nav-collapse.closed {
-        max-height: none;
-    }
-    .nav-toggle {
-        display: none;
-    }
-}
 */
