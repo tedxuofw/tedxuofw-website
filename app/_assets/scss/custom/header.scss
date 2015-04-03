@@ -90,10 +90,6 @@
     .navbar-custom .nav-sub-child:last-of-type a {
         padding-bottom: 15px;
     }
-
-    .nav-collapse{
-        display:none;
-    }
 }
 
 //mobile css
@@ -114,5 +110,34 @@
     
     .nonmobile {
         display: none;
+    }
+}
+
+//mobile header fixes
+@media (max-width: $screen-xs-max) {
+    .logo img{
+        //auto resize logo
+        max-width: 100%;
+        height: auto;    
+    }
+    #homelogo{
+        padding-right: 1px;
+        margin-right: 0px;
+    }
+    header .navbar-header a{
+        //make link smaller
+        padding-right: 1px;
+        margin-right: 1px;
+        padding-left: 1px;
+        margin-left: 1px;
+        font-size: 4vw;
+        float: right;
+    }
+
+    header .navbar-header button{
+        float:right;
+        margin-right: 2px;
+        padding-left: 1px;
+        margin-left: 1px;
     }
 }
