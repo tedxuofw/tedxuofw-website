@@ -204,7 +204,10 @@ module.exports = function (grunt) {
     uncss: {
       dist: {
         options: {
-          ignore: ['.collapse', '.collapsing', '.collapse.in'],
+          ignore: [
+            '.collapse', '.collapsing', '.collapse.in', 
+            '.fullBio .description', '.fullBio .description .bio'
+          ],
           csspath: '../.tmp',
           stylesheets: ['../.tmp/_assets/css/main.css']
         },
