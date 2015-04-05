@@ -36,10 +36,14 @@
     bottom: 0;
 }
 
-.fullBio .description{
+.fullBio .description {
     max-height: 1000px;
     //enables scrolling if content is too long. not ideal solution
     overflow-y: auto;
+}
+
+.fullBio .description .bio {
+    display: block;
 }
 
 .volunteer .bio {

@@ -4,7 +4,7 @@ speakers:
   unique_id: mike_eisenberg
   talk_name: "Information Alchemy"
   category: "" 
-  image: general/full-placeholder.png
+  image: /_assets/media/2012/speakers/mike-eisenberg.jpg
   video: "http://www.youtube.com/embed/dTpYbvmpm2o?autoplay=1"
   bio: |
     Mike focuses on the use of information and information technology by individuals and organizations to meet their information needs and manage their information more effectively and efficiently. He is nationally known for his innovative approach to information problem-solving and technology in learning and teaching: the Big6.
@@ -12,7 +12,7 @@ speakers:
   unique_id: daniel_wageman 
   talk_name: "Beneath the Tread"
   category: ""
-  image: general/full-placeholder.png
+  image: /_assets/media/2012/speakers/daniel-wageman.jpg
   video: "http://www.youtube.com/embed/Q5CloZ0Ju4I?autoplay=1"
   bio: |
     Daniel is a senior at the University of Washington studying Mechanical Engineering and Electrical Engineering. Currently, he is the Technical Director of the University of Washington Formula SAE team that builds a single seater open wheel race car that takes part in annual, international collegiate competitions. 
@@ -20,7 +20,7 @@ speakers:
   unique_id: monica_guzman 
   talk_name: "Speak or Be Spoken For &emdash; Working Your \"Me\" Muscle"
   category: ""
-  image: general/full-placeholder.png
+  image: /_assets/media/2012/speakers/monica-guzman.jpg
   video: "http://www.youtube.com/embed/ujs1QcrhAbA?autoplay=1"
   bio: |
     M&oacute;nica Guzm&aacute;n is a digital life columnist at GeekWire and a community strategist in media and startups.
@@ -28,7 +28,7 @@ speakers:
   unique_id: daniela_witten 
   talk_name: "Cancer by Numbers"
   category: ""
-  image: general/full-placeholder.png
+  image: /_assets/media/2012/speakers/daniela-witten.jpg
   video: "http://www.youtube.com/embed/N8O-hBFjh7g?autoplay=1" 
   bio: |
     Daniela is an Assistant Professor of Biostatistics and Adjunct Assistant Professor of Statistics at the University of Washington, and is an Affiliate Investigator at Fred Hutchinson Cancer Research Center. She earned a BS in Math and Biology and a PhD in Statistics from Stanford University. She develops machine learning algorithms that can be used in order to better understand massive data sets coming out of genomics and other fields. She is the winner of a NIH Director's Early Independence Award, and earlier this year was featured in Forbes Magazine's "30 under 30".
@@ -36,7 +36,7 @@ speakers:
   unique_id: daniel_nguyen 
   talk_name: "Operation Compassion"
   category: ""
-  image: general/full-placeholder.png
+  image: /_assets/media/2012/speakers/daniel-nguyen.jpg
   video: "http://www.youtube.com/embed/AM72TzuuTmY?autoplay=1" 
   bio: |
     Daniel Nguyen is sophomore at the University of Washington majoring in law, societies, and justice in addition to minoring in diversity. He aspires to work with local Seattle politics in order to represent and work alongside economically disadvantaged minority communities and is currently interning at the Seattle Mayor’s office. 
@@ -44,7 +44,7 @@ speakers:
   unique_id: hans_zeiger 
   talk_name: "Local Community in the Next Generation" 
   category: ""
-  image: general/full-placeholder.png 
+  image: /_assets/media/2012/speakers/hans-zeiger.jpg
   video: "http://www.youtube.com/embed/Gs1loOO4YqA?autoplay=1"
   bio: |
      Hans is serving in his first term as State Representative for the 25th District (Puyallup, South Hill, Summit, Midland, Fife, Edgewood, and Milton). Outside of the legislature, Hans is a professional writer and he has authored two books about young Americans. His articles have appeared in publications like the Seattle Times, San Francisco Chronicle, Philadelphia Inquirer, Baltimore Sun, and American Legion magazine. 
@@ -52,7 +52,7 @@ speakers:
   unique_id: josh_archibalkd_seiffer 
   talk_name: "The New Expressivity"
   category: "" 
-  image: general/full-placeholder.png 
+  image: /_assets/media/2012/speakers/josh-archibald-seiffer.jpg
   video: "http://www.youtube.com/embed/xF-dXdxgwoc?autoplay=1"
   bio: |
      Josh Archibald-Seiffer is an American pianist and composer. On the Grammy award-winning album Monsters, Inc. Scream Factory Favorites he co-wrote (with Woody Paul) the song “A Perfect Roar". 
@@ -60,7 +60,7 @@ speakers:
   unique_id: kevin_birrell
   talk_name: "The Digital Athelete"
   category: ""
-  image: general/full-placeholder.png 
+  image: /_assets/media/2012/speakers/ 
   video: "http://www.youtube.com/embed/Jp9yz3Wsrak?autoplay=1"
   bio: |
      Kevin Birrell is a student at the University of Washington studying Computer Science and Percussion Performance in the Class of 2015. He is only one of four Tetris Grandmasters outside Japan in the world, and has a passion for e-Sports and competitive gaming. 
@@ -68,7 +68,7 @@ speakers:
   unique_id: andrew_mak 
   talk_name: "Philosophy of a Wanderer"
   category: ""
-  image: general/full-placeholder.png 
+  image: /_assets/media/2012/speakers/kevin-birrell.jpg
   video: "http://www.youtube.com/embed/vvulZRu4y08?autoplay=1"
   bio: |
      Andrew takes an interdisciplinary approach to learning, working, and life. While studying Comparative History of Ideas at the University of Washington, he has worked for Blue Box Group, the web host for MTV.com and VH1.com, WePay, an online payments startup in Silicon Valley, and UW’s International Genetic Engineered Machines team, winner of the iGEM World Championship for bioengineering. 
@@ -76,7 +76,7 @@ speakers:
   unique_id: eugene_cho 
   talk_name: "The Story of One Day's Wages"
   category: "" 
-  image: general/full-placeholder.png 
+  image: /_assets/media/2012/speakers/eugene-cho.jpg
   video: "http://www.youtube.com/embed/_2pMgtEb3lg?autoplay=1"
   bio: |
    Eugene is the co-founder and executive director of One Day’s Wages &emdash; “a movement of People, Stories, and Actions to alleviate extreme global poverty.” He is also the founding & lead pastor of Quest Church and the founder & executive director of Q Cafe &emdash; a non-profit community cafe and music venue in Seattle. Eugene blogs regularly on Faith, Leadership, Justice, Ministry, and utilizing social media for good. 
@@ -84,7 +84,7 @@ speakers:
   unique_id: fred_holt 
   talk_name: "If You Build a Better Mousetrap"
   category: "" 
-  image: general/full-placeholder.png 
+  image: /_assets/media/2012/speakers/fred-holt.jpg
   video: "http://www.youtube.com/embed/zHLNO07mdws?autoplay=1"
   bio: |
      Fred Holt is the Director for Strategic Initiatives at the University of Washington Center for Commercialization. He previously consulted for Myoonet, directed Digital Ventures at UW, founded Panthesis, and conducted IT Research at The Boeing Company. 
@@ -92,7 +92,7 @@ speakers:
   unique_id: franck_nouyrigat
   talk_name: "What We don't Know About Entrepreneurs"
   category: "" 
-  image: general/full-placeholder.png 
+  image: /_assets/media/2012/speakers/franck-nouyrigat.jpg
   video: "http://www.youtube.com/embed/552vbaS4no8?autoplay=1"
   bio: |
      Transforming people's lives one by one, city by city with @startupweekend. By teaching entrepreneurship the only way it can be taught : By Doing. Franck is one of the co-founders of Startup Weekend. 

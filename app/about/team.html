@@ -7,10 +7,14 @@ page_id: team
 {% include subnav-about.html index=1 %}
 <div class="main-content">
   <div class="opaque opaque-content">
-    <div class="container-fluid volunteers-list">
-      {% for group in site.data.2015-volunteers %}
-        <h3>{{ group.group_name }}</h3>
-        
+    {% for group in site.data.2015-volunteers %}
+      <div class="container">
+        <div class="row">
+          <h3>{{ group.group_name }}</h3>
+        </div>
+      </div>
+          
+      <div class="container-fluid volunteers-list">
         <div class="row volunteer-group">
           {% for person in group.volunteers %}
             <div class="volunteer col-xs-12 col-sm-6 col-md-4 col-lg-3" id="{{ person.unique_id }}">
@@ -33,7 +37,7 @@ page_id: team
             </div>
           {% endfor %}
         </div>
-      {% endfor %}
-    </div>
+      </div>
+    {% endfor %}
   </div>
 </div>
