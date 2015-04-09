@@ -15,7 +15,7 @@ speakers:
   image: "/_assets/media/2015/speakers/candace-faber.jpg"
   video: ""
   bio: |
-    Candace Faber is a civic entrepreneur based at Impact Hub Seattle. She is the organizer of Hack to End Homelessness, Hack the Commute, and other projects that leverage cross-sector collaboration to advance solutions to seemingly intractable problems. Before moving to Seattle and starting her venture in 2013, Candace was a diplomat in the U.S. Foreign Service and served at U.S. embassies in Russia, Poland, Belarus, and Afghanistan. Candace holds a Master of Science in Foreign Service from Georgetown University & bachelor's degrees from University of Washington. She serves on the board of Realize Impact and Women's Funding Alliance Young Professionals. She was recently named one of the city's 51 most influential people by Seattle magazine. //<a href="http://www.candacefaber.com/">candacefaber.com</a>// <a href=https://twitter.com/candacefaber">@candacefaber</a>
+    Candace Faber is a civic entrepreneur based at Impact Hub Seattle. She is the organizer of Hack to End Homelessness, Hack the Commute, and other projects that leverage cross-sector collaboration to advance solutions to seemingly intractable problems. Before moving to Seattle and starting her venture in 2013, Candace was a diplomat in the U.S. Foreign Service and served at U.S. embassies in Russia, Poland, Belarus, and Afghanistan. Candace holds a Master of Science in Foreign Service from Georgetown University & bachelor's degrees from University of Washington. She serves on the board of Realize Impact and Women's Funding Alliance Young Professionals. She was recently named one of the city's 51 most influential people by Seattle magazine. //<a href="http://www.candacefaber.com/">candacefaber.com</a>// <a href="https://twitter.com/candacefaber">@candacefaber</a>
 - name: Hollis Wong-Wear
   unique_id: hollis_wong-wear
   talk_name: ""
@@ -31,6 +31,7 @@ speakers:
   image: "/_assets/media/2015/speakers/james-sun.jpg"
   video: ""
   bio: |
+    Bio coming soon!
 - name: Megan Roake
   unique_id: megan_roake
   talk_name: ""
@@ -54,3 +55,4 @@ speakers:
   image: "/_assets/media/2015/speakers/rita-zawaideh.jpg"
   video: ""
   bio: |
+    Bio coming soon!
