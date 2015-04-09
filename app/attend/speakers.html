@@ -6,10 +6,7 @@ page_id: 2015_speakers
 
 {% include subnav-2015.html index=1 %}
 <div class="main-content">
-  <div class="opaque opaque-content">
-    <div class="container">
-      <p class="large">Speaker lineup will be announced April 8.</p>
-      <p class="large">Keep your eyes on the lookout!</p>
-    </div>
-  </div>
+	<div class="opaque opaque-content">
+		{% include summary-speakers.html speakers=site.data.2015-speakers %}
+	</div>
 </div>
