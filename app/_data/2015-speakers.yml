@@ -40,6 +40,14 @@ speakers:
   video: ""
   bio: |
     Born and raised in the Chicagoland (Glen Ellyn), Megan Roake is a second-year undergraduate at the University of Washington, double majoring in Law, Societies, and Justice, and Psychology, and is a triplet with two brothers. Megan is not afraid to confront the difficult, controversial, and “awkward” topic of sexual assault and relationship violence. In fact, she concentrates extensively on crisis, trauma, and recovery in regards to sexual assault and mental illness; she even plans to focus her academic degrees in these matters, where she intends to merge her personal experiences and professional interests. In response to her own rape, she partakes in and challenges informal and formal legal processes, prevention and advocacy organizations, and personal recovery. Her activism is grounded in her firm belief in the importance of challenging society’s ideas about consent and sexual assault itself as well as the extreme importance of creating strong and sustainable communities of survivors and allies. These ideas on trauma and healing were recently emphasized in her opinion piece featured in the University of Washington school newspaper: “To my supporters, I couldn’t do it without you” (UW Daily 02/27/2015).
+- name: "Mayank Goel"
+  unique_id: mayank_goel
+  talk_name: ""
+  category: ""
+  image: "/_assets/media/2015/speakers/mayank-goel.jpg"
+  video: ""
+  bio: |
+    Mayank Goel is a PhD candidate in the Ubiquitous Computing (Ubicomp) Lab at the University of Washington. His research involves using the mobile phone sensors for ubiquitous computing applications. In particular, he is focused on enabling new sensing solutions for the health and creating novel human-computer interaction techniques. He was awarded the Microsoft Research PhD Fellowship in 2014. He received his M.S. degree in Computer Science from the Georgia Institute of Technology in 2009, where he specialized in ubiquitous computing and human-computer interaction. He is currently pursuing his Ph.D. in Computer Science and Engineering at the University of Washington in Seattle and is advised by Dr. Shwetak Patel. More info at <a href="http://www.mayankgoel.com">www.mayankgoel.com</a>.  
 - name: Nikkita Oliver
   unique_id: nikkita_oliver
   talk_name: ""
