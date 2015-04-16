@@ -18,6 +18,7 @@
     margin-bottom: -10px;
     margin-top: 0;
     margin-right: 1em;
+    font-weight: 600;
     
     display: inline-block;
     position: relative;
@@ -27,6 +28,8 @@
         margin-bottom: -5px;
     }
 }
+
+//justify
 .secondary-nav a {
     color: $faded-color; // fallback for older browsers
     color: rgba(255, 255, 255, 0.7); // transparency
