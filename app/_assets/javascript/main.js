@@ -11,4 +11,3 @@ $(document).ready(function(){
 		//POST this string and date/time combination somewhere
 	}
 });
-

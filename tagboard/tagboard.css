@@ -1,0 +1,21 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+.row {
+	width: 100vw;
+	height: 33vh;
+}
+
+.textContainer {
+	display: inline-block;
+	width: 33vw;
+	height: auto;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	text-align: center;
+	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-size: 5em;
+}
