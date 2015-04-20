@@ -1,4 +1,4 @@
-- group_name: executives
+- group_name: Executives
   volunteers:
     - name: Emmeline Vu
       unique_id: emmeline_vu
@@ -17,32 +17,32 @@
     - name: Emily Su
       unique_id: emily_su
       committee: ""
-      position: "Volunteer Manager - Finance &amp; Sponsorship"
+      position: "Volunteer Manager: Finance &amp; Sponsorship"
       image: "/_assets/media/2015/volunteers/executives/emily.jpg"
       bio: |
         TED is such a powerful brand. When I think of TED, I think of reflection, learning, community, and change. Who wouldn't want to be a part of this movement of self-discovery and inspiration? I hope TEDxUofW becomes well-known across campus through genuine interest. My first experience with TED was in high school, when my teacher played a TED talk. I was immediately drawn to the rich and lively discussion the speakers presented. The topics were completely relevant to me and I noticed that I started thinking about different world issues in depth.
     - name: Kyle Nelson
       unique_id: kyle_nelson
       committee: ""
-      position: "Volunteer Manager - Production"
+      position: "Volunteer Manager: Production"
       image: "/_assets/media/2015/volunteers/executives/kyle.jpg"
       bio: |
         Outside of TEDxUofW I have become passionate about biology and medicine. In my classes I'm daily intrigued and captivated by the simple and complex processes that are fundamental to life, and how various changes in something as small as a molecule, can have dramatic effects.
     - name: Grace Xia
       unique_id: grace_xia
       committee: ""
-      position: "Volunteer Manager - Marketing"
+      position: "Volunteer Manager: Marketing"
       image: "/_assets/media/2015/volunteers/executives/grace.jpg"
       bio: |
         I am back for my second year as a TEDxUofW volunteer because I love our mission to spread ideas. As a female minority, I want to be a part of a movement that spreads ideas, whether it's about innovative technology, how to be a better leader, or highlighting the effects of bullying. Each individual has the power to do good with their voice, but if you don't want to be the one speaking, being behind the scenes is just as good. Certain parts of my own life have been touched by the TED talks that I've watched, and I hope to create the same experience for others. TEDxUofW is growing bigger each year, and it's amazing to watch and be a part of. I know I will be a supporter even as an alum! 
     - name: Madison Wright
       unique_id: madison_wright
       committee: ""
-      position: "Volunteer Manager - Speaker Selection"
+      position: "Volunteer Manager: Speaker Selection"
       image: "/_assets/media/2015/volunteers/executives/madison.jpg"
       bio: |
         As a newly admitted Political Science student I want to create a community within the department. I'm hoping to bridge the gap between students and faculty by organizing events and forming a group of students with a similar vision. I'm also looking forward to studying abroad at the University College Dublin in fall. My goal is to work at a non-profit organization that works to help solve human rights abuses.
-- group_name: volunteers
+- group_name: Volunteers
   volunteers:
     - name: "Anh Le"
       unique_id: anh_le

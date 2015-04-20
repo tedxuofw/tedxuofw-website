@@ -18,7 +18,7 @@
 .navbar-custom .navbar-nav > li > a,
 .navbar-custom .navbar-nav > li > a {
     font-family: $header-font;
-    font-weight: 600;
+    font-weight: 300;
     color: $text-color;
     padding-left: 25px;
     padding-right: 25px;
@@ -50,9 +50,15 @@
         border-bottom: 2px solid white;
     }
 
+    //increase letter spacing for all menu elements
+    .navbar-custom a span{
+        letter-spacing: 0.1em;
+    }
+
     // When hovering, also display underline
     .navbar-custom .nav-top-child:hover > a > span {
         border-bottom: 2px solid white;
+        padding-bottom: 0.3em;
     }
 
     // Submenu elements (default styles and hidden styles)
@@ -61,6 +67,7 @@
         list-style-position: outside;
         visibility: hidden;
         padding: 0;
+        font-size: 10px;
     }
 
     // Reveal submenu elements under any active parent categories
