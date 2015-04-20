@@ -1,0 +1,29 @@
+/**
+ * about.scss
+ *
+ * This file contains CSS specifically for the about pages.
+ */
+
+@import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
+@import "variables.scss";
+
+// Enable only for non-mobile
+@media (min-width: $screen-xs-min) {
+
+	//background images for each page
+	#aboutus{
+		background-image: url('/_assets/media/about/about_us.jpg');		
+	}
+	#abouttedx{
+		background-image: url('/_assets/media/about/about_tedx.jpg');
+	}
+	#aboutted{
+		background-image: url('/_assets/media/about/about_ted.png');
+	}
+
+	//background image styling for each page
+	.aboutsub{
+   		background-repeat:no-repeat;
+   		background-size:contain;
+	}
+}

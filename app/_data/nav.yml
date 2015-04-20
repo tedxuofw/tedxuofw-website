@@ -15,9 +15,15 @@
     id: about
     url: /about
     children:
-    -   title: "ABOUT TEDx"
+    -   title: "ABOUT US"
         id: about
         url: /about
+    -   title: "ABOUT TEDx"
+        id: tedx
+        url: /about/tedx
+    -   title: "ABOUT TED"
+        id: ted
+        url: /about/ted
     -   title: "VOLUNTEERS"
         id: team
         url: /about/team

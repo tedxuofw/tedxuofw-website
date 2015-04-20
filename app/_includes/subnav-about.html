@@ -4,10 +4,26 @@
   {% else %}
     <li>
   {% endif %}
-    <a href="/about">about tedx</a>
+    <a href="/about">about us</a>
+  </li>
+
+  {% if include.index == 1 %}
+    <li class="active">
+  {% else %}
+    <li>
+  {% endif %}
+    <a href="/about/tedx">about TEDx</a>
+  </li>
+
+  {% if include.index == 2 %}
+    <li class="active">
+  {% else %}
+    <li>
+  {% endif %}
+    <a href="/about/ted">about TED</a>
   </li>
   
-  {% if include.index == 1 %}
+  {% if include.index == 3 %}
     <li class="active">
   {% else %}
     <li>

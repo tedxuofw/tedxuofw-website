@@ -100,11 +100,12 @@
 .action-button {
     font-family: $body-font;
     font-size: 18px;
-    padding: 0.3em 1em;
+    font-weight: 200;
+    padding: 0.5em 1.3em;
     margin: 0.5em 0;
     display: inline-block;
     
-    border: 3px solid $tedx-red;
+    border: 5px solid $tedx-red;
     text-align: center;
     color: $tedx-red;
     
