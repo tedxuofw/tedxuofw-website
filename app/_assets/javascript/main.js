@@ -5,9 +5,9 @@ $(document).ready(function(){
 		$(this).toggleClass("fullBio");
 	});
 
-	$( "#livesubmit" ).click(function){
+	$( "#livesubmit" ).click(function(){
 		var inputStr = $( "inputBox" ).val();
 		var d = new Date();
 		//POST this string and date/time combination somewhere
-	}
+	});
 });
