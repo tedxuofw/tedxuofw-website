@@ -7,7 +7,7 @@
 @import "../../_bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss";
 @import "variables.scss";
 
-// Enable only for non-mobile
+//Enable only for non-mobile
 @media (min-width: $screen-xs-min) {
 
 	//background images for each page
@@ -19,11 +19,13 @@
 	}
 	#aboutted{
 		background-image: url('/_assets/media/about/about_ted.png');
+		overflow: scroll;
 	}
 
 	//background image styling for each page
 	.aboutsub{
    		background-repeat:no-repeat;
-   		background-size:contain;
+    	background-position: center top;
+    	background-size: 100% auto;
 	}
 }
