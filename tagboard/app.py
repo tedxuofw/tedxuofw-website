@@ -10,7 +10,7 @@ from flask.ext.cors import CORS
 DATABASE_PATH = './database.sqlite.db'
 
 app = Flask(__name__)
-app = app(CORS)
+CORS(app)
 
 def get_db():
     db = getattr(g, '_database', None)
