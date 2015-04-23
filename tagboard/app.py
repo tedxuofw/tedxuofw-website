@@ -81,21 +81,6 @@ def get_message(message_id):
             return respond("message", parse_message(message))
     else:
         data = request.json
-        if data is None:
-            return respond('success', None, "no json provided (make sure headers are set)")
-        else:
-            message = data['message']
-            insert_db("INSERT INTO Messages(Text, Status) VALUES (?,)", 
-                      (message, "unapproved"))
-            return jsonify({"error": None})
-
-@app.route("/messages/<message_id>/set_status", methods=['POST'])
-def set_status_message(message_id):
-    data = request.json
-    if data is None:
-        return respond('success', '', "no json provided (make sure headers are set)")
-    else:
-        data = request.json
         if data['status'] not in ('unset', 'approved', 'disapproved'):
             return respond('success', '', 'status must be one of unset, approved, disapproved')
         update_db("UPDATE Messages SET Status=?, ApprovedTimestamp=? WHERE id = ?", 
