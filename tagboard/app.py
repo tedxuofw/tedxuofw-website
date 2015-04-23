@@ -5,10 +5,12 @@ from __future__ import print_function
 import sqlite3
 from datetime import datetime
 from flask import Flask, request, g, jsonify
+from flask.ext.cors import CORS
 
 DATABASE_PATH = './database.sqlite.db'
 
 app = Flask(__name__)
+app = app(CORS)
 
 def get_db():
     db = getattr(g, '_database', None)
