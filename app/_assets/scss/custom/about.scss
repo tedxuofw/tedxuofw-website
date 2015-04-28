@@ -19,7 +19,6 @@
 	}
 	#aboutted{
 		background-image: url('/_assets/media/about/about_ted.png');
-		overflow: scroll;
 	}
 
 	//background image styling for each page
@@ -27,5 +26,8 @@
    		background-repeat:no-repeat;
     	background-position: center top;
     	background-size: 100% auto;
+	}
+	#abouttedx .row{
+		margin-top: 20% !important;
 	}
 }
