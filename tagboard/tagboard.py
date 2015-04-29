@@ -42,12 +42,18 @@ def update_db(query, args=()):
 
 def parse_message(message):
     return {
-            'id': message[0],
-            'text': message[1],
-            'status': message[2],
-            'added_timestamp': message[3],
-            'approved_timestamp': message[4]
+        'id': message[0],
+        'text': message[1],
+        'status': message[2],
+        'added_timestamp': pass_if_none(reformat_to_iso, message[3]),
+        'approved_timestamp': pass_if_none(reformat_to_iso, message[4])
     }
+
+def pass_if_none(func, item):
+    if item is None:
+        return None
+    else:
+        return func(item)
 
 def get_messages(query, args=()):
     return list(map(parse_message, query_db(query, args)))
@@ -55,11 +61,20 @@ def get_messages(query, args=()):
 def get_message(query, args=()):
     return parse_message(query_db(query, args, one=True))
 
+def get_now():
+    return datetime.utcnow().replace(microsecond=0)
+
 def get_now_iso():
-    return datetime.utcnow().isoformat()
+    return to_iso(get_now())
+
+def reformat_to_iso(timestamp):
+    return to_iso(datetime.strptime(timestamp, "%Y-%m-%d %H:%M:%S"))
 
 def parse_iso(timestamp):
-    return datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S.%f")
+    return datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S")
+
+def to_iso(date):
+    return date.isoformat().split('.')[0]
 
 def respond(key, data, success=True, error=None):
     error = [] if error is None else error
@@ -132,16 +147,27 @@ def get_message_route(message_id):
         if status not in ('unset', 'approved', 'disapproved'):
             return error('status must be one of unset, approved, disapproved')
         update_db("UPDATE Messages SET Status=?, ApprovedTimestamp=? WHERE id = ?", 
-                (status, datetime.utcnow(), message_id))
+                (status, get_now(), message_id))
         return success()
 
-@app.route("/unseen", methods=['POST'])
+@app.route("/messages/<message_type>/unseen/<timestamp>", methods=['GET'])
 @catch_failures
-def get_unseen_messages():
-    timestamp = parse_iso(get_data(request.json, 'timestamp'))
-    messages = get_messages(
-            "SELECT * FROM Messages WHERE Status='approved' AND ApprovedTimestamp > ?",
-            (timestamp,))
+def get_unseen_messages(message_type, timestamp):
+    timestamp = parse_iso(timestamp)
+    if message_type not in ('unset', 'approved', 'disapproved', 'all'):
+        return error('status must be one of unset, approved, disapproved, all')
+    if message_type == 'all':
+        messages = get_messages(
+                'SELECT * FROM Messages WHERE AddedTimestamp > ?',
+                (timestamp,))
+    elif message_type == 'approved':
+        messages = get_messages(
+                "SELECT * FROM Messages WHERE Status=? AND ApprovedTimestamp > ?",
+                (message_type, timestamp))
+    else:
+        messages = get_messages(
+                "SELECT * FROM Messages WHERE Status=? AND AddedTimestamp > ?",
+                (message_type, timestamp))
     return respond('messages', messages)
     
 

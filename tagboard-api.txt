@@ -5,53 +5,62 @@ GET /messages
     Response:
 
         {
-            "error": null,
+            "errors": [],
             "messages": [
                 {
-                    "added_timestamp": "2015-04-23 00:01:24",
-                    "approved_timestamp": "2015-04-22 17:11:00.500518",
+                    "added_timestamp": "2015-04-29T07:10:54",
+                    "approved_timestamp": "2015-04-29T07:15:32",
                     "id": 1,
                     "status": "approved",
-                    "text": "HEllo world!"
+                    "text": "So excited!"
                 },
                 {
-                    "added_timestamp": "2015-04-23 00:15:47",
-                    "approved_timestamp": "2015-04-22 17:18:34.963861",
+                    "added_timestamp": "2015-04-29T07:15:20",
+                    "approved_timestamp": null,
                     "id": 2,
-                    "status": "approved",
-                    "text": "Testing"
+                    "status": "undecided",
+                    "text": "Can't wait to meet the speakers!"
                 }
-            ]
-        }
-    
+            ],
+            "success": true,
+            "timestamp": "2015-04-29T07:15:54"
+        }  
+ 
 POST /message
 
     Request:
 
         {
-          "text": "some message"
+            "text": "some message"
         }
         
     Response:
     
         {
-            "error": null,
-            "success": ":)"
+            "errors": [],
+            "success": true,
+            "timestamp": "2015-04-29T06:52:56",
         }
         
-GET /messages/3
+GET /messages/<id>
 
-    {
-        "error": null,
-        "message": {
-            "added_timestamp": "2015-04-23 00:43:08",
-            "approved_timestamp": null,
-            "id": 3,
-            "status": "undecided",
-            "text": "some message"
+    Note: the id should be some integer
+
+    Response:
+
+        {
+            "errors": [],
+            "message": {
+                "added_timestamp": "2015-04-29T07:15:20",
+                "approved_timestamp": null,
+                "id": 2,
+                "status": "undecided",
+                "text": "Can't wait to meet the speakers!"
+            },
+            "success": true,
+            "timestamp": "2015-04-29T07:16:50"
         }
-    }
-    
+ 
 POST /messages/3
 
     Request:
@@ -60,33 +69,61 @@ POST /messages/3
             "status": "approved"
         }
     
-GET /messages/approved
+GET /messages/<status>
+
+    Note: the status is should be one of 'approved', 'disapproved', or 'unset'
 
     Response:
-    
-        {
-            "error": null,
+
+         {
+            "errors": [],
             "messages": [
                 {
-                    "added_timestamp": "2015-04-23 00:01:24",
-                    "approved_timestamp": "2015-04-22 17:11:00.500518",
+                    "added_timestamp": "2015-04-29T07:10:54",
+                    "approved_timestamp": "2015-04-29T07:15:32",
                     "id": 1,
                     "status": "approved",
-                    "text": "HEllo world!"
+                    "text": "So excited!"
                 },
                 {
-                    "added_timestamp": "2015-04-23 00:15:47",
-                    "approved_timestamp": "2015-04-22 17:18:34.963861",
-                    "id": 2,
-                    "status": "approved",
-                    "text": "Testing"
-                },
-                {
-                    "added_timestamp": "2015-04-23 00:43:08",
-                    "approved_timestamp": "2015-04-22 17:45:56.641599",
+                    "added_timestamp": "2015-04-29T07:15:54",
+                    "approved_timestamp": "2015-04-29T07:16:32",
                     "id": 3,
                     "status": "approved",
-                    "text": "some message"
+                    "text": "Hooray!"
                 }
-            ]
+            ],
+            "success": true,
+            "timestamp": "2015-04-29T07:17:49"
+        }   
+
+GET /messages/<status>/unseen/<timestamp>
+
+    Note: the status should be one of 'approved', 'disapproved', 'unset', or
+    'all', and the timestamp should be formatted like all returned timestamps
+    (for example, '2015-04-29T06:52:56')
+
+    Response:
+
+        {
+            "errors": [],
+            "messages": [
+                {
+                    "added_timestamp": "2015-04-29T07:10:54",
+                    "approved_timestamp": "2015-04-29T07:15:32",
+                    "id": 1,
+                    "status": "approved",
+                    "text": "So excited!"
+                },
+                {
+                    "added_timestamp": "2015-04-29T07:15:20",
+                    "approved_timestamp": null,
+                    "id": 2,
+                    "status": "undecided",
+                    "text": "Can't wait to meet the speakers!"
+                }
+            ],
+            "success": true,
+            "timestamp": "2015-04-29T07:21:15"
         }
+
