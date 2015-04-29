@@ -127,7 +127,7 @@ def messages():
     else:
         message = get_data(request.json, 'text')
         insert_db("INSERT INTO Messages(Text, Status) VALUES (?, ?)", 
-                  (message, "undecided"))
+                  (message, "unset"))
         return success()
 
 @app.route("/messages/<message_id>", methods=['GET', 'POST'])

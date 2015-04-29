@@ -7,7 +7,6 @@ $(document).ready(function(){
 		var text = $( "#inputBox" ).val();
 		var response = {"text": text};
 
-
 		$.ajax({
 		    type: 'POST',
 		    url: posturl,
@@ -15,12 +14,12 @@ $(document).ready(function(){
 		    dataType: 'json',
 		    contentType: 'application/json; charset=utf-8'
 		}).done(function(msg) {			
-			if(msg.success === ":)"){
+			if(msg.success){
 				//clear textarea and display success message
 				$( "#inputBox ").val('');
 		    	console.log("submitted");	
 			}else{
-				console.log("failed: " + msg.error);
+				console.log("failed: " + msg.errors);
 			}
 			
 		});
