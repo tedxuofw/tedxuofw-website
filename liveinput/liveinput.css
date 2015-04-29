@@ -1,0 +1,19 @@
+body{
+	font-size: 1.3em;	
+	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	text-align: center;
+}
+
+#inputBox{
+	width: 35em;
+	height: 10em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+@media (max-width: 480px) {
+	#inputBox{
+		width: 95%;
+		height: 8em;
+	}
+}

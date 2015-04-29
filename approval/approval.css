@@ -1,0 +1,20 @@
+body{
+	font-size: 1.5em;	
+	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+.message{
+	margin: .5em .1em .1em 1em;
+}
+
+.message button{
+	margin-left: .5em;
+}
+
+.message .approve{
+	color: green;
+}
+
+.message .deny{
+	color: red;
+}
