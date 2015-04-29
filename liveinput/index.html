@@ -8,13 +8,13 @@
 		<title>Submit to our tagboard!</title>
 	</head>
 
-	<div class="main-content">
-	  <div class="opaque opaque-content">
-	    <div class="container">
-	    	<span>What did you learn from TEDx?</span> <br />
-			<textarea type="text" name="string" id="inputBox" maxlength="140" placeholder="Spread an idea (140 characters or less please!)"></textarea> <br />
-			<button type="button" id="livesubmit">Submit</button>
-	    </div>
-	  </div>
+	<div id="submission">
+    	<span>What did you learn from TEDx?</span> <br />
+		<textarea type="text" name="string" id="inputBox" maxlength="140" placeholder="Spread an idea (140 characters or less please!)"></textarea> <br />
+		<button type="button" id="livesubmit">Submit</button>
+	</div>
+	<div id="success">
+		<span>Thank you! Submission successful. </span> <br />
+		<span onclick="reset()">Submit another</span>
 	</div>
 </html>

@@ -17,3 +17,7 @@ body{
 		height: 8em;
 	}
 }
+
+#success{
+	display: none;
+}
