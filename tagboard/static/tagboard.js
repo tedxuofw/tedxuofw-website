@@ -9,7 +9,7 @@ $(document).ready(function() {
     var tile_objs = [];
 
     function random_delay() {
-        return Math.random() * 2000;
+        return Math.random() * 4500;
     }
 
     function remove_random(arr) {
@@ -31,7 +31,7 @@ $(document).ready(function() {
         var self = this;
         function load() {
             self.message = remove_random(messages_tank);
-            var wait = random_delay() * 2 + 1000;
+            var wait = random_delay() * 2 + self.message.text.length * 70;
             $(self.id + " span").fadeIn(1000).text(self.message.text).delay(wait);
             window.setTimeout(close, 1000 + wait);
         }

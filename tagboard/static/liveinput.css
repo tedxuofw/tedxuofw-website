@@ -1,23 +1,36 @@
 body{
-	font-size: 1.3em;	
+	font-size: 1.6em;	
 	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 	text-align: center;
 }
 
 #inputBox{
-	width: 35em;
-	height: 10em;
+	width: 50em;
+	height: 15em;
 	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 
 @media (max-width: 480px) {
 	#inputBox{
-		width: 95%;
-		height: 8em;
+		width: 100%;
 	}
 }
 
-#success{
+#submitgif, #success{
 	display: none;
+}
+
+#success{
+	font-size: 1.2em;
+	margin-top: 1em;
+}
+
+.charlimit{
+	color:red;
+}
+
+#charcount{
+	font-size: 0.5em;
+	margin-bottom: .8em;
 }
