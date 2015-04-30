@@ -14,7 +14,7 @@
 		<textarea type="text" name="string" id="inputBox" placeholder="Spread an idea (140 characters or less please!)"></textarea> <br />
 		<div id="charcount"><span id="livechar">0</span> <span> / 140 characters</span></div>
 		<button type="button" id="livesubmit">Submit</button> <br />
-		<img id="submitgif" src="submitting.gif" alt="submitting..."> <br />
+        <img id="submitgif" src="{{ url_for('static', filename='submitting.gif') }}" alt="submitting..."> <br />
 		<span id="success">Thank you! Submission successful. </span>
 	</div>
 </html>
