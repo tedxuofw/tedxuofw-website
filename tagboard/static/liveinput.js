@@ -15,9 +15,8 @@ $(document).ready(function(){
 		    contentType: 'application/json; charset=utf-8'
 		}).done(function(msg) {			
 			if(msg.success){
-				//clear textarea and display success message
-				$( "#inputBox ").val('');
-		    	console.log("submitted");	
+				$("#submission").hide();
+				$("#success").show();
 			}else{
 				console.log("failed: " + msg.errors);
 			}
@@ -25,3 +24,9 @@ $(document).ready(function(){
 		});
 	});
 });
+
+function reset(){
+	$("#inputBox").val('');
+	$("#submission").show();
+	$("#success").hide();
+}
