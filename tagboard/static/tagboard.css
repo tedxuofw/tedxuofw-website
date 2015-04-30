@@ -9,7 +9,7 @@ body {
 }
 
 .textContainer {
-	display: inline-block;
+	display: block;
 	width: 33vw;
 	height: auto;
 	position: relative;
@@ -17,5 +17,5 @@ body {
   	transform: translateY(-50%);
 	text-align: center;
 	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-	font-size: 5em;
+	font-size: 2em;
 }

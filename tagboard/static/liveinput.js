@@ -1,7 +1,7 @@
 'use strict';
 
 $(document).ready(function(){
-	var posturl = 'http://localhost:5000/messages';
+	var posturl = '/messages';
 
 	$( "#livesubmit" ).click(function(){
 		var text = $( "#inputBox" ).val();

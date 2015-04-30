@@ -1,11 +1,11 @@
 'use strict';
 
-var posturl = "http://localhost:5000/messages/";
+var posturl = "/messages/";
 
 $(document).ready(function(){
 
 	//url of the service to get messages from
-	var url = "http://localhost:5000/messages/unset/unseen/";
+	var url = "/messages/unset/unseen/";
 
 	var body = $("#messages");
 

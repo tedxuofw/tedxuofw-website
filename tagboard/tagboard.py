@@ -5,7 +5,7 @@ from __future__ import print_function
 import sqlite3
 from functools import wraps
 from datetime import datetime
-from flask import Flask, request, g, jsonify
+from flask import Flask, request, g, jsonify, render_template
 from flask.ext.cors import CORS
 from werkzeug.exceptions import BadRequest
 
@@ -116,7 +116,15 @@ def get_data(data, expected_field):
 
 @app.route("/")
 def index():
-    return "Hello"
+    return render_template("liveinput.html")
+
+@app.route("/approval")
+def approval():
+    return render_template("approval.html")
+
+@app.route("/display")
+def display():
+    return render_template("tagboard.html")
 
 @app.route("/messages", methods=['GET', 'POST'])
 @catch_failures
