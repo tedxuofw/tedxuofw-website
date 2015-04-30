@@ -1,0 +1,29 @@
+Tagboard TODOs
+
+	Michael
+
+	Approval console
+		Do a full refresh of everything per minute
+		Radio buttons to toggle visibility (on the left so they're not jagged)
+		Have second pane that shows all messages (not just unset) 
+			Make the status of approved and disapproved messages obvious (green/red row background?)		
+
+
+	Luke
+
+	Display
+		Longer display time per message
+
+	User submission
+		Display live character counter (0/140)
+			Turn red when limit reached
+			Disable submit button when past 140
+				Can keep typing - take out form limit
+		Bigger submit button, text, etc.
+		On submit
+			Replace button with spinner
+		On success
+			Replace spinner with button
+			Display success message under submit button 
+		On typing
+			Clear success message
