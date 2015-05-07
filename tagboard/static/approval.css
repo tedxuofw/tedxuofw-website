@@ -8,13 +8,29 @@ body{
 }
 
 .message button{
-	margin-left: .5em;
+	margin-right: .25em;
+    font-size: 1em;
 }
 
 .message .approve{
 	color: green;
 }
 
-.message .deny{
+.message .disapprove{
 	color: red;
+}
+
+.approve.approved-status{
+    color: white;
+    background-color: green;
+}
+
+.unset.unset-status {
+    color: white;
+    background-color: gray;
+}
+
+.disapprove.disapproved-status {
+    color: white;
+    background-color: red;
 }

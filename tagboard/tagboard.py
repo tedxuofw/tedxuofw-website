@@ -134,8 +134,13 @@ def messages():
         return respond('messages', messages)
     else:
         message = get_data(request.json, 'text')
+        if len(query_db("SELECT * FROM Messages WHERE Text=? AND Status=?", 
+                        (message, "disapproved"))) > 0:
+            status = "disapproved"
+        else:
+            status = "unset"
         insert_db("INSERT INTO Messages(Text, Status) VALUES (?, ?)", 
-                  (message, "unset"))
+                  (message, status))
         return success()
 
 @app.route("/messages/<message_id>", methods=['GET', 'POST'])

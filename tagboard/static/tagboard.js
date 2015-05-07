@@ -47,9 +47,9 @@ $(document).ready(function() {
     };
 
     function update_tank() {
-        $.get(UPDATE_URL + last_timestamp, function(data) {
+        $.get(SEED_URL, function(data) {
             console.log(data.messages);
-            messages_tank = messages_tank.concat(data.messages);
+            messages_tank = data.messages;
             last_timestamp = data.timestamp;
 
             window.setTimeout(update_tank, 2000);

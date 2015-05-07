@@ -1,65 +1,13 @@
 playlist: ""
 speakers: 
-- name: "Ben Wiggins"
-  unique_id: ben_wiggins
+- name: "Alex Diaz &ndash; Emcee"
+  unique_id: alex_diaz
   talk_name: ""
   category: ""
-  image: "/_assets/media/2015/speakers/ben-wiggins.jpg"
+  image: "/_assets/media/2015/speakers/alex-diaz.jpg"
   video: ""
   bio: |
-    Ben is a lecturer in Biology, where he focuses on large undergraduate courses in molecular and cellular biology. He also works as the Instructional Coordinator, where he ties together the largest teaching department on campus and hires, evaluates and mentors teams of instructors and teaching assistants. His research ties together Biology and Education, and focuses on active learning in STEM classrooms, especially on those techniques that can be used to activate the largest classes to provide practice opportunities for scientific practices. The interworkings of the cell have been a longtime passion for Ben, but it is teaching that gets him up in the morning and keeps him up at night.
-- name: Candace Faber
-  unique_id: candace_faber
-  talk_name: ""
-  category: ""
-  image: "/_assets/media/2015/speakers/candace-faber.jpg"
-  video: ""
-  bio: |
-    Candace Faber is a civic entrepreneur based at Impact Hub Seattle. She is the organizer of Hack to End Homelessness, Hack the Commute, and other projects that leverage cross-sector collaboration to advance solutions to seemingly intractable problems. Before moving to Seattle and starting her venture in 2013, Candace was a diplomat in the U.S. Foreign Service and served at U.S. embassies in Russia, Poland, Belarus, and Afghanistan. Candace holds a Master of Science in Foreign Service from Georgetown University & bachelor's degrees from University of Washington. She serves on the board of Realize Impact and Women's Funding Alliance Young Professionals. She was recently named one of the city's 51 most influential people by Seattle magazine. //<a href="http://www.candacefaber.com/">candacefaber.com</a>// <a href="https://twitter.com/candacefaber">@candacefaber</a>
-- name: Hollis Wong-Wear
-  unique_id: hollis_wong-wear
-  talk_name: ""
-  category: ""
-  image: "/_assets/media/2015/speakers/hollis-wong-wear.jpg"
-  video: ""
-  bio: |
-    Hollis Wong-Wear is a writer, performer and creative producer in Seattle, WA. She is the lead vocalist of the The Flavr Blue and was GRAMMY nominated for Album of the Year for her vocal performance of "White Walls" on The Heist by Macklemore and Ryan Lewis. As a producer, she has produced an array of live events from concerts to fundraisers to all-ages open mics, and has produced thirteen music videos including "Thrift Shop" by Macklemore and Ryan Lewis. With her roots in spoken word and slam poetry through the nationally recognized Youth Speaks program, Hollis has facilitated youth creative writing workshops and mentored teenage spoken word poets, while continuing to write and perform poetry in her community and beyond. She serves on the Seattle Music Commission as well as the Seattle Center Advisory Commission and on the board of directors of 4Culture.
-- name: James Sun
-  unique_id: james_sun
-  talk_name: ""
-  category: ""
-  image: "/_assets/media/2015/speakers/james-sun.jpg"
-  video: ""
-  bio: |
-    James Sun is a proven technology entrepreneur with international media experience – hosting his own television show, frequent Tedx speaker, radio show analyst in over 100 cities, and magazine publisher. He had his own hit program called “Sun Tzu War on Business” and was also a finalist on Donald Trump’s “The Apprentice” aired on NBC with 12 million viewers. 
-
-    He is the founder & CEO of Pirq, a loyalty application for small and medium sized businesses which was successfully acquired by one of the largest companies in the payment space. He was also the co-publisher of Koream and Audrey magazine - the longest running ethnic magazine for Asian-Americans. His newest project is as the co-founder and creator of Anomo, the newest social networking experience for college students where physical looks are hidden to encourage more authentic social interactions without prejudging a photo.
-
-    James graduated Cum Laude from the University of Washington, and he was recently selected in the “Wonderous 100 Alumni Award” (top 100 alumni), which included prominent individuals like Bill Gates Sr. and Kenny G.  
-- name: Megan Roake
-  unique_id: megan_roake
-  talk_name: ""
-  category: ""
-  image: "/_assets/media/2015/speakers/megan-roake.jpg"
-  video: ""
-  bio: |
-    Born and raised in the Chicagoland (Glen Ellyn), Megan Roake is a second-year undergraduate at the University of Washington, double majoring in Law, Societies, and Justice, and Psychology, and is a triplet with two brothers. Megan is not afraid to confront the difficult, controversial, and “awkward” topic of sexual assault and relationship violence. In fact, she concentrates extensively on crisis, trauma, and recovery in regards to sexual assault and mental illness; she even plans to focus her academic degrees in these matters, where she intends to merge her personal experiences and professional interests. In response to her own rape, she partakes in and challenges informal and formal legal processes, prevention and advocacy organizations, and personal recovery. Her activism is grounded in her firm belief in the importance of challenging society’s ideas about consent and sexual assault itself as well as the extreme importance of creating strong and sustainable communities of survivors and allies. These ideas on trauma and healing were recently emphasized in her opinion piece featured in the University of Washington school newspaper: “To my supporters, I couldn’t do it without you” (UW Daily 02/27/2015).
-- name: "Mayank Goel"
-  unique_id: mayank_goel
-  talk_name: ""
-  category: ""
-  image: "/_assets/media/2015/speakers/mayank-goel.jpg"
-  video: ""
-  bio: |
-    Mayank Goel is a PhD candidate in the Ubiquitous Computing (Ubicomp) Lab at the University of Washington. His research involves using the mobile phone sensors for ubiquitous computing applications. In particular, he is focused on enabling new sensing solutions for the health and creating novel human-computer interaction techniques. He was awarded the Microsoft Research PhD Fellowship in 2014. He received his M.S. degree in Computer Science from the Georgia Institute of Technology in 2009, where he specialized in ubiquitous computing and human-computer interaction. He is currently pursuing his Ph.D. in Computer Science and Engineering at the University of Washington in Seattle and is advised by Dr. Shwetak Patel and Dr. Gaetano Borriello. More info at <a href="http://www.mayankgoel.com">www.mayankgoel.com</a>.  
-- name: Nikkita Oliver
-  unique_id: nikkita_oliver
-  talk_name: ""
-  category: ""
-  image: "/_assets/media/2015/speakers/nikkita-oliver.jpg"
-  video: ""
-  bio: |
-    Nikkita Oliver is poet, teaching artists, community organizer, and activist working towards finishing a Juris Doctorate (June 2015) and a Masters of Education (March 2016). She has competed in multiple National Poetry Slam Competitions and just recently coached the Seattle Poetry Slam team to 7th of 72 teams at the 2015 National Poetry Slam in Oakland, CA. She has performed in venues in New York City, Seattle, Boston, Oakland, Olympia, WA and Everett, WA where she opened for Dr. Cornell West. Nikkita's idea worth spreading brings to light the power of art to make change! It has been said, "In any war the first thing you do is kill off the poets and the philosophers..." Why? Because these are the inspirers, the preservers of culture and record, the communal conscious, the deep thinkers and movement starters, the light barrers and whistleblowers, etc. Many artists are philosophers, many philosophers are poets and most poets are artists. When we investigate the history of social change movements we often find artists, poets and philosophers at the forefront. Art has the power to open hearts and minds in unsuspecting and powerful ways to create the necessary internal and external climate needed for individual and systemic social change. 
+    Alumnus and UW COMM Department Board Member, Alexander Diaz, isn’t new to the TEDx scene or making an impact within the community — having organized three TEDx events, Alex was the M.C. of the first ever TEDxUofW, and has even organized/facilitated several Startup Weekend events within the Seattle community. Alex was also one of 150 Graduating Seniors at the University of Washington who was selected by the Purple and Gold Forever Fund committee as an individual who represents the diversity & excellence of the Class of 2012 at the UW. By day, Alex is an account representative with Twitter Inc – leveraging Promoted Products toward advertising campaigns for tech industry giants. By night, Alex works as the Co-Founder for HR tech startup, MyUnfold – a passion project focused on eliminating the search and apply process for candidates while providing measured skilled talent for employers, on-demand.
 - name: Rita Zawaideh
   unique_id: rita_zawaideh
   talk_name: ""
@@ -67,4 +15,73 @@ speakers:
   image: "/_assets/media/2015/speakers/rita-zawaideh.jpg"
   video: ""
   bio: |
-    Rita is an Arab-American who has lived in Seattle since emigrating here at an early age with her family. She graduated from the University of Washington and has lived and worked in Syria and several other Middle Eastern/North African countries and Europe. She founded Travel Express, Inc. in 1984 as a full service travel agency after having been in travel agency outside sales for several years. Rita built her clientele from throughout the United States on travel to the Middle East and North Africa, and thus Travel Express became known as the United States' travel experts to these region. 80% of the business is to overseas destinations. Rita participates in activities that educate the public about the Middle East and North Africa, particularly their cultures.  She founded Arab Film Distribution and Salaam Cultural Museum.  Is a member of the Arab-American Institute, which works to educate the Arab communities about politics and candidates. Rita founded medical missions through the Salaam Cultural Museum and worked in Iraq, Libya, Egypt, Lebanon and Syria. Recently, Rita has taken doctors and other volunteers to lead medical missions in Jordan and Syria. She brings medical supplies and tries to meet the basic needs of Syrian refugees. 
+    Rita Zawaideh is an Arab-American who has lived in Seattle since emigrating here at an early age with her family. She graduated from the University of Washington and has lived and worked in Syria, Europe, and several other Middle Eastern/North African countries. She founded Travel Express, Inc. in 1984 as a full service travel agency after having been in travel agency outside sales for several years. Rita built her clientele Middle East, and North Africa, establishing Travel Express as experts in these regions. 80% of the business is to overseas destinations. Rita participates in activities that educate the public about the Middle East and North Africa, particularly their cultures.  She founded Arab Film Distribution and Salaam Cultural Museum and is a member of the Arab-American Institute, which works to educate the Arab communities about politics and candidates. Rita founded medical missions through the Salaam Cultural Museum and worked in Iraq, Libya, Egypt, Lebanon and Syria. Recently, Rita has taken doctors and other volunteers to lead medical missions in Jordan and Syria. She brings medical supplies and tries to meet the basic needs of Syrian refugees.
+- name: Nathan White
+  unique_id:
+  talk_name: ""
+  category: ""
+  image: "/_assets/media/2015/speakers/nathan-white.jpg"
+  video: ""
+  bio: |
+    Nathan White is a UW faculty member and an emergency physician at Harborview Medical Center. Stopping bleeding has been his passion since he first set foot in the trauma bay and had blood spilled on his fancy new shoes during his first day of medical rotations in a busy Emergency Department in inner city Detroit. Borrowing from the strategies set forth the in the "Art of War" by Sun Tzu: know yourself, know your enemy, exploit weaknesses, keep humble, and victory without fighting, Dr. White has developed his own strategy for the battle against bleeding. As a result, he is creating a new portable microfluidic monitor to quickly identify clotting defects after injury, and an injectable synthetic polymer that bolsters clot formation to stop bleeding in its tracks.  Dr. White will highlight his experiences in the battle against bleeding to convey to the TEDx audience that no problem is insurmountable if you take the time to understand it, remain humble, and yet be bold when the opportunity arises.
+- name: "Mayank Goel"
+  unique_id: mayank_goel
+  talk_name: ""
+  category: ""
+  image: "/_assets/media/2015/speakers/mayank-goel.jpg"
+  video: ""
+  bio: |
+    Mayank Goel is a Ph.D. candidate in the Ubiquitous Computing (Ubicomp) Lab at the University of Washington. His research involves using mobile phone sensors for ubiquitous computing applications. In particular, he focuses on leveraging new sensing solutions for health and creating novel human-computer interaction techniques.He was awarded the Microsoft Research PhD Fellowship in 2014. He received his M.S. degree in computer science from the Georgia Institute of Technology in 2009, where he specialized in ubiquitous computing and human-computer interaction. He is currently pursuing his Ph.D. in Computer Science and Engineering at the University of Washington in Seattle and is advised by Dr. Shwetak Patel and Dr. Gaetano Borriello. More info at <a href="http://www.mayankgoel.com">www.mayankgoel.com</a>. 
+- name: Candace Faber
+  unique_id: candace_faber
+  talk_name: ""
+  category: ""
+  image: "/_assets/media/2015/speakers/candace-faber.jpg"
+  video: ""
+  bio: |
+    Candace Faber is a civic entrepreneur based at Impact Hub Seattle. She is the organizer of Hack to End Homelessness, Hack the Commute, and other projects that leverage cross-sector collaboration to advance solutions to seemingly intractable problems. Before moving back to Seattle and starting her venture in 2013, Candace was a diplomat in the U.S. Foreign Service and served at U.S. embassies in Russia, Poland, Belarus, and Afghanistan. Candace holds master's in international affairs from Georgetown University and two bachelor's degrees from the University of Washington. She serves on the boards of Realize Impact and Women's Funding Alliance Young Professionals. She was recently named one of the city's 51 most influential people by Seattle magazine. //<a href="http://www.candacefaber.com/">candacefaber.com</a>// <a href="https://twitter.com/candacefaber">@candacefaber</a>
+- name: "Ben Wiggins"
+  unique_id: ben_wiggins
+  talk_name: ""
+  category: ""
+  image: "/_assets/media/2015/speakers/ben-wiggins.jpg"
+  video: ""
+  bio: |
+    A lecturer in the biology department, Ben Wiggins leads large undergraduate courses in molecular and cellular biology. He also works as the Coordinator of Instruction, tying together the largest teaching department on campus by hiring, evaluating, and mentoring instructors and teaching assistants. His research in biology and education  focuses on active learning in STEM classrooms. While the innerworkings of the cell  have been a longtime passion for Ben, it is teaching that gets him up in the morning and keeps him up at night.
+- name: Megan Roake
+  unique_id: megan_roake
+  talk_name: ""
+  category: ""
+  image: "/_assets/media/2015/speakers/megan-roake.jpg"
+  video: ""
+  bio: |
+    Born and raised in Chicagoland (Glen Ellyn), Megan Roake is a second-year undergraduate at the University of Washington, double majoring in psychology and law, and justice. She is a triplet with two brothers. Megan is not afraid to confront the difficult, controversial, and “awkward” topic of sexual assault and relationship violence. In fact, she concentrates extensively on crisis, trauma, and recovery in regards to sexual assault and mental illness; she even plans to focus her academic degrees in these matters, merging her personal experiences and professional interests. In response to her own rape, she partakes in and challenges informal and formal legal processes, prevention and advocacy organizations, and personal recovery. Her activism is grounded in her firm belief in the importance of challenging society’s ideas about consent and sexual assault itself as well as the extreme importance of creating strong and sustainable communities of survivors and allies. These ideas on trauma and healing were recently emphasized in her opinion piece featured in the University of Washington school newspaper: "To my supporters, I couldn’t do it without you" (UW Daily 02/27/2015).
+- name: Hollis Wong-Wear
+  unique_id: hollis_wong-wear
+  talk_name: ""
+  category: ""
+  image: "/_assets/media/2015/speakers/hollis-wong-wear.jpg"
+  video: ""
+  bio: |
+    Hollis Wong-Wear is a writer, performer and creative producer in Seattle. She is the lead vocalist of the The Flavr Blue and worked with Macklemore and Ryan Lewis on their album "The Heist," which was a Grammy nominee for Album of the Year. She has produced an array of live events from concerts to fundraisers to all-ages open mics, and has produced thirteen music videos including "Thrift Shop" by Macklemore and Ryan Lewis. With her roots in spoken word and slam poetry through the nationally-recognized Youth Speaks program, Hollis has facilitated youth creative writing workshops and mentored teenage spoken word poets, while continuing to write and perform poetry in her community and beyond. She serves on the Seattle Music Commission as well as the Seattle Center Advisory Commission and on the board of directors of 4Culture.
+- name: James Sun
+  unique_id: james_sun
+  talk_name: ""
+  category: ""
+  image: "/_assets/media/2015/speakers/james-sun.jpg"
+  video: ""
+  bio: |
+    James Sun is a proven technology entrepreneur with international media experience – hosting his own television show, frequent Tedx speaker, radio show analyst in over 100 cities, and magazine publisher. He had his own hit program called "Sun Tzu War on Business" and was also a finalist on Donald Trump’s "The Apprentice" aired on NBC with 12 million viewers. 
+
+    He is the founder & CEO of Pirq, a loyalty application for small and medium sized businesses which was successfully acquired by one of the largest companies in the payment space. He was also the co-publisher of Koream and Audrey magazine - the longest running ethnic magazine for Asian-Americans. His newest project is as the co-founder and creator of Anomo, the newest social networking experience for college students where physical looks are hidden to encourage more authentic social interactions without prejudging a photo.
+
+    James graduated Cum Laude from the University of Washington, and he was recently selected in the "Wonderous 100 Alumni Award" (top 100 alumni), which included prominent individuals like Bill Gates Sr. and Kenny G.  
+- name: Nikkita Oliver
+  unique_id: nikkita_oliver
+  talk_name: ""
+  category: ""
+  image: "/_assets/media/2015/speakers/nikkita-oliver.jpg"
+  video: ""
+  bio: |
+    Nikkita Oliver is poet, teaching artist, community organizer, and activist working toward a Juris Doctorate (June 2015) and a Masters of Education (March 2016). She has competed in multiple National Poetry Slam Competitions and recently coached the Seattle Poetry Slam team to 7th of 72 teams at the 2015 National Poetry Slam in Oakland, CA. She has performed in venues in New York City, Seattle, Boston, Oakland, Olympia and Everett where she opened for Dr. Cornell West. Nikkita's idea worth spreading brings to light the power of art to make change. It has been said, "In any war the first thing you do is kill off the poets and the philosophers..." Why?, she asks. Because these are the inspirers, the preservers of culture and record, the communal conscious, the deep thinkers and movement starters, the light bearers, and whistleblowers. When we investigate the history of social change movements, we often find artists, poets and philosophers at the forefront. Art has the power to open hearts and minds in unsuspecting and powerful ways to create the necessary internal and external climate needed for individual and systemic social change. 
+ 
