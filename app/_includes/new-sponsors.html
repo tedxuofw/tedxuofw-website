@@ -1,0 +1,32 @@
+<div>
+  <div class="speakers">
+    {% for sponsor in include.sponsors.major_sponsors %}
+      <div class="speaker" id="sponsor-{{ sponsor.unique_id }}">
+        <div class="row">
+          <div class="col-xs-12 col-sm-5 col-md-4 unit">
+              <img class="thumbnail-horizontal" 
+                   src="{{ sponsor.image | asset_path }}" 
+                   alt="{{ sponsor.name }}" />
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-8 unit bio">
+              {{ sponsor.description | markdownify }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="sponsors">
+    <div class="row all-sponsors sponsor-logos">
+      {% for sponsor in include.sponsors.minor_sponsors %}
+        <div class="sponsor col-xs-12 col-sm-6 col-lg-4 unit" 
+             id="sponsor-{{ sponsor.unique_id }}">
+          <a href="{{ sponsor.link }}">
+            <img class="thumbnail-image thumbnail-force" 
+                 src="{{ sponsor.image | asset_path }}" 
+                 alt="{{ sponsor.name }}" />
+          </a>
+        </div>
+      {% endfor %}
+    </div>  
+  </div>
+</div>

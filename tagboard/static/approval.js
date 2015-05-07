@@ -1,71 +1,82 @@
 'use strict';
 
 var posturl = "/messages/";
+var url = "/messages/unset";
+
+
+function setStatus(status, id){
+    console.log(status);
+    console.log(id);
+    var response = {
+        status: status
+    };
+    $.ajax({
+        type: 'POST',
+        url: posturl + id,
+        data: JSON.stringify(response),
+        dataType: 'json',
+        contentType: 'application/json; charset=utf-8'
+    })
+}
+
+function approve(id) {
+    setStatus("approved", id);
+}
+
+function unset(id) {
+    setStatus("unset", id);
+}
+
+function disapprove(id) {
+    setStatus("disapproved", id);
+}
 
 $(document).ready(function(){
+    
+    function addData(data){
+        body.html("");
+        var messages = data.messages;
+        for(var i = 0; i < data.messages.length; i++){
+            var message = messages[i];
+            body.append(messageDiv(message.text, message.id, message.status));
+        }
+    }
 
 	//url of the service to get messages from
-	var url = "/messages/unset/unseen/";
-
+	
 	var body = $("#messages");
 
 	//1000 ms = 1s interval for update function below
 	var interval = 2000;
 
-	//old timestamp for reference
-	var last = "2015-04-29T06:52:56";
-
 	//check for new unset messages
 	setInterval(function(){
-		$.get(url + last, function(data){
-			for(var i = 0; i < data.messages.length; i++){
-				var message = data.messages[i];
-				console.log(JSON.stringify(message));				
-				body.append(messageDiv(message.text, message.id));
-
-				//update reference timestamp
-				if (i == data.messages.length - 1)
-					last = message.added_timestamp;
-			}
-			
-		});			
+		$.get(url, addData);
 	}, interval);
 
-	function messageDiv(msg, id){
-		var start = "<div class='message' id='m"+ id +"'>";
-		var buttons = "<button type='button' class='approve' onclick='approve(" + id +")'>Yes</button> <button type='button' class='deny' onclick='deny(" + id +")'>No</button> </div>";
-		return start + msg + buttons;
-	}
+    
+	$.get(url, addData);
 
+	function messageDiv(msg, id, status){
+		var start = "<div class='message' id='m"+ id +"'>";
+        var status_class = status + "-status";
+        var approve_button = "<button type='button' class='approve " + status_class + "' onclick='approve(" + id + ")'>Approve</button>";
+        var unset_button = "<button type='button' class='unset " + status_class + "' onclick='unset(" + id + ")'>Unset</button>";
+        var disapprove_button = "<button type='button' class='disapprove " + status_class + "' onclick='disapprove(" + id + ")'>Disapprove</button>";
+        
+		return start + approve_button + unset_button + disapprove_button + msg + "</div>";
+	}
+    
+    $("input[name='toggle']").change(function() {
+        if ($(this).val() == 'all') {
+            url = "/messages";
+        } else if ($(this).val() == 'approved') {
+            url = "/messages/approved";
+        } else if ($(this).val() == 'unset') {
+            url = "/messages/unset";
+        } else if ($(this).val() == 'disapproved') {
+            url = "/messages/disapproved";
+        }
+    });
 });
 
-//update status of a given message
-function setStatus(id, status){
-	var response = {
-		status: status
-	};
-	$.ajax({
-	    type: 'POST',
-	    url: posturl + id,
-	    data: JSON.stringify(response),
-	    dataType: 'json',
-	    contentType: 'application/json; charset=utf-8'
-	}).done(function() {
-		$( "#m" + id).html(status);
-		//wait before removing div
-		setTimeout(function(){
-			$( "#m"+ id).remove();
-		}, 850);
-		
-	});
-}
-
-//approve a message with given div id
-function approve(id){
-	setStatus(id, "approved");
-}
-
-//disapprove a message with given div id
-function deny(id){
-	setStatus(id, "disapproved");
-}

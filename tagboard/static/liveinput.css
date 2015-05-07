@@ -1,7 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body{
 	font-size: 1.6em;	
 	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 	text-align: center;
+    padding: .25em;
 }
 
 #inputBox{
@@ -9,6 +17,8 @@ body{
 	height: 15em;
 	margin-top: 1em;
 	margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 @media (max-width: 480px) {
@@ -22,7 +32,7 @@ body{
 }
 
 #success{
-	font-size: 1.2em;
+	font-size: 1em;
 	margin-top: 1em;
 }
 

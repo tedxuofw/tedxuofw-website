@@ -1,0 +1,69 @@
+major_sponsors:
+- name: "UW Alumni Association"
+  unique_id: uw_alumni_association
+  link: "http://www.washington.edu/alumni/"
+  image: "/_assets/media/2015/sponsors/uw-alumni.jpg"
+  has_description: true
+  description: |
+    UW alumni are passionate. Passionate about possibility, passionate about community and passionate about purple and gold. Sharing a connection across three campuses and extending to places all over the world, UW alumni are united in the belief that together we will make a difference. The UW Alumni Association is proud to support the collective passion of so many who stand up for the University of Washington.
+- name: "Kind Snacks"
+  unique_id: kind_snacks
+  link: "http://www.kindsnacks.com/"
+  image: "/_assets/media/2015/sponsors/kind-snacks.jpg"
+  has_description: true
+  description: |
+    There's healthy. There's tasty. Then there’s healthy and tasty. At KIND, we believe you deserve both—we call it our brAND philosophy. That’s why you’ll find all of our snacks are pretty much the nirvana of healthful tastiness. What began with just 8 bar varieties in 2004 has grown to over 22 bars and 6 Healthy Grains snackable clusters, and a multitude of new recipes being perfected and refined to our standards in the KIND kitchen.
+    
+    So whether your snacking style is choosy or adventurous (or a little bit of both), here’s something to celebrate: we'll always be thinking up new ways to delight your taste buds and keep your body happy.
+- name: "Ubi"
+  unique_id: ubi
+  link: http://www.ubi-interactive.com/
+  image: /_assets/media/2015/sponsors/ubi.jpg"
+  has_descrption: true
+  description: |
+    Ubi's software works with the Kinect sensor to turn any surface into a touch screen. Interact with any Windows application using your hand, in-air gestures, or the Ubi pen.
+            
+    Ubi was originally founded and incubated at the Technical University of Munich and the Center for Digital Technology and Management in Munich, Germany. We found a new home in Seattle when we were selected by Microsoft as one of the eleven promising companies, who were chosen from all over the world to be part of its first accelerator program. During this program we developed and perfected our technology making use of the close technical and business guidance from Microsoft.
+    
+    Our unique technology has caught the world attention and has been featured in CNN, Wall Street Journal, Wired Magazine etc. Microsoft called us as the future of digital displays and featured us in the World Partner Conference 2012. Ubi Interactive is currently one of the many companies in SURF Incubator, located in Seattle, WA.
+- name: "UW Marketing and Communications"
+  unique_id: uw_marketing_and_communications
+  link: http://www.washington.edu/marketing/
+  image: "/_assets/media/2015/sponsors/uw-marketing-and-communications.jpg"
+  has_description: true
+  description: |
+    On the University Marketing & Communications team, we consider ourselves enthusiastic ambassadors of the University of Washington and our brand. Our focus is on building awareness and increasing support for the UW across the board. We achieve this by collaborating with our partners across campus to connect the University with the general public as well as targeted audience segments.
+- name: "Zoka Coffe"
+  unique_id: zoka_coffee
+  link: http://www.zokacoffee.com/
+  image: "/_assets/media/2015/sponsors/zoka.jpg"
+  has_description: false
+  description: |
+    The cornerstone concept of the Zoka Coffee Roaster & Tea Company is a focus on our local community. Our customers, the neighborhood groups we host and support are all part of the amazing community that is always created around coffee.
+
+    Where we regard our customers with warmth and respect, we consider our coworkers as close as family. Each Zoka staffer brings creativity, ideas and joy to the table, continuing what has become a grand tradition of diversity and originality at Zoka. We treasure the bonds we share with customers and fellow baristas, and we hope you’ll join us in growing our family bigger still.
+minor_sponsors:
+- name: "Ugly Mug Café"
+  unique_id: ugly_mug
+  link: "http://uglymugseattle.com/"
+  image: "/_assets/media/2015/sponsors/ugly-mug.jpg"
+  has_description: false
+- name: "Vita Coco"
+  unique_id: vita_coco
+  link: "http://vitacoco.com/"
+  image: "/_assets/media/2015/sponsors/vita-coco.jpg"
+  has_description: false
+- name: "Talking Rain"
+  unique_id: talking_rain
+  link: "http://www.talkingrain.com/"
+  image: "/_assets/media/2015/sponsors/talking-rain.jpg"
+  has_description: false
+- name: "Lucia"
+  unique_id: lucia
+  image: "/_assets/media/2015/sponsors/lucia.jpg"
+  has_description: false
+- name: "Peatix"
+  unique_id: peatix
+  link: "http://peatix.com/"
+  image: "/_assets/media/2015/sponsors/peatix.jpg"
+  has_description: false
